@@ -1,0 +1,108 @@
+    <!-- 01. HEADER -->
+    <header id="header">
+
+        <!-- MENU EFFECT  -->
+        <svg>
+          <defs>
+              <filter id="shadowed-goo">
+  
+                  <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                      result="goo" />
+                  <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+                  <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2"
+                      result="shadow" />
+                  <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+                  <feBlend in2="shadow" in="goo" result="goo" />
+                  <feBlend in2="goo" in="SourceGraphic" result="mix" />
+              </filter>
+              <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                      result="goo" />
+                  <feBlend in2="goo" in="SourceGraphic" result="mix" />
+              </filter>
+          </defs>
+          </svg>
+        <!-- END MENU -->
+        <nav>
+            <div class="arg-programa">
+                <img src="assets/Images/Logo.png" alt="logo argentina programa">
+                <span>Argentina Programa</span>
+            </div>
+
+            <div class="right-nav">
+                <ul>
+                    <li><a href="#header">Acerca de...</a></li>
+                    <li><a href="#experience-id">Experiencia</a></li>
+                    <li><a href="#education-id">Educación</a></li>
+                    <li><a href="#courses-id">Courses</a></li>
+                    <li><a href="#skills-id">Hard & Soft Skills</a></li>
+                    <li><a href="#projects-id">Proyectos</a></li>
+                </ul>
+
+                <!-- MENU -------------------------------------------------------------------------------------------- -->
+                <div class="social-media-space"></div>
+                <div class="social-media">
+                    <div class="menu">
+                        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                        <label class="menu-open-button" for="menu-open">
+                            <span class="hamburger hamburger-1"></span>
+                            <span class="hamburger hamburger-2"></span>
+                            <span class="hamburger hamburger-3"></span>
+                        </label>
+
+                        <a href="https://www.github.com/" target="_blank" class="menu-item"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://ar.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"
+                            target="_blank" class="menu-item"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/?hl=es" target="_blank" class="menu-item"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.twitch.tv/" target="_blank" class="menu-item"><i
+                                class="fa-brands fa-twitch"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="menu-item"><i
+                                class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                </div>
+
+                <!-- ----------------------------------------------------------------------------------------------------------->
+                
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-input"><label for="modal-name"></label><span>Name: </span><input
+                                        type="text" id="modal-name" required /></div>
+                                <div class="modal-input"><label for="modal-password"></label><span>Password:
+                                    </span><input type="password" id="modal-password" pattern="[a-z0-9]" minlength="8"
+                                        required /></div>
+                            </div>
+                            <div class="modal-footer login-buttons">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button id="login-btn" type="button" class="btn btn-primary"
+                                    data-bs-dismiss="modal">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="login">
+                    <button id="login-trigger-button" type="button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Login</button>
+                    <button id="logout-btn" type="button" class="hidden">Logout</button>
+                </div>
+
+                <!-- ----------------------------------------------------------------------------------------------------------->
+            </div>
+        </nav>
+
+
+    </header>

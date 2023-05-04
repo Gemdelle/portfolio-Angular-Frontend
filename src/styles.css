@@ -1,1 +1,1604 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: gray;
+    height: auto;
+}
+
+/* 01. HEADER */
+
+nav {
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    top: 0;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.arg-programa {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    color: black;
+}
+
+.arg-programa img {
+    width: 3vw;
+    padding: 1%;
+}
+
+.arg-programa span {
+    padding: 1%;
+}
+
+svg {
+    height: 0;
+}
+
+header:nth-child(1) {
+    align-items: flex-start;
+}
+
+.social-media-space {
+    width: 15%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.right-nav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1vw;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.login {
+    width: 6vw;
+    height: 1.5vw;
+    margin-right: 2vw;
+}
+
+.login button {
+    width: 100%;
+    height: 100%;
+}
+
+/*BOOSTRAP MODAL OVERRIDE*/
+.modal-backdrop {
+    z-index: 0!important; 
+}
+
+.modal-input { 
+    height: 90%;
+    width: 70%;
+    margin: 1vw auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-input span {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-input input {
+    width: 70%;
+}
+
+.login-buttons {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    color: black;
+    transition: all 300ms;
+}
+
+i:hover {
+    color: white;
+}
+
+.banner {
+    height: 32vw;
+    margin-top: 0px;
+    background-image: url(Assets/Images/Background.jfif);
+    background-size: cover;
+    position: relative;
+}
+
+.about-info .edit{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 24%;
+    right: 4%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.portrait .edit {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 0;
+    right: 8%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profession .edit {
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 0;
+    right: 8%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.experience-container .edit{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 7%;
+    right: 8%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#phases-container .edit{
+    height: 1.8vw;
+    width:1.8vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 14%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#phases-container .delete{
+    height: 1.8vw;
+    width:1.8vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 1%;
+    background-color: rgb(111, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#languages-container .edit{
+    height: 1.6vw;
+    width:1.6vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 16%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#languages-container .delete{
+    height: 1.6vw;
+    width:1.6vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 2%;
+    background-color: rgb(111, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#academy-title-01 .edit,
+#academy-title-02 .edit,
+#academy-title-03 .edit,
+#academy-title-04 .edit,
+#academy-title-05 .edit,
+#academy-title-06 .edit,
+#academy-title-07 .edit,
+#academy-title-08 .edit{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 20%;
+    right: 6%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#academy-title-01 .delete,
+#academy-title-02 .delete,
+#academy-title-03 .delete,
+#academy-title-04 .delete,
+#academy-title-05 .delete,
+#academy-title-06 .delete,
+#academy-title-07 .delete,
+#academy-title-08 .delete{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 20%;
+    right: 2%;
+    background-color: rgb(111, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.banner .edit{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2vw;
+    right: 12vw;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.a-skill-container .edit{
+    height: 1.2vw;
+    width: 1.2vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 22%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.a-skill-container .delete{
+    height: 1.2vw;
+    width: 1.2vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 4%;
+    background-color: rgb(111, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.project-01 .edit{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 6%;
+    background-color: rgb(113, 224, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.project-01 .delete{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 2%;
+    right: 2%;
+    background-color: rgb(111, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.edit i {
+    font-size: 1.2vw;
+}
+
+
+/* 02. ABOUT */
+
+.about {
+    height: 50vw;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-info {
+    background-color: rgb(95, 35, 35);
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info p {
+    font-style: italic;
+}
+
+.about-center {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translateY(-30px);
+    z-index: 1;
+}
+
+.openers {
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin: 0px 10px;
+}
+
+.portrait {
+    height: 140px;
+    width: 140px;
+    position: relative;
+}
+
+.right-portrait {
+    height: 80px;
+    width: 80px;
+}
+
+.left-portrait {
+    height: 80px;
+    width: 80px;
+}
+
+.profession {
+    position: absolute;
+    background-color: black;
+    top: 120px;
+    height: 40%;
+    width: 100%;
+}
+
+.portrait-profession {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-left {
+    height: 100%;
+    background-color: burlywood;
+    padding: 30px;
+    padding-right: 60px;
+    position: relative;
+}
+
+.about-left h2 {
+    float: left;
+    margin-right: 40px;
+}
+
+.about-right {
+    height: 100%;
+    background-color: brown;
+    padding: 30px;
+    padding-left: 80px;
+    position: relative;
+}
+
+.about-right h2 {
+    float: right;
+}
+
+/* 03. EXPERIENCE */
+
+.experience-container {
+    height: 45vw;
+    margin: 0 auto;
+    position:relative;
+}
+
+.experience-title {
+    height: 6%;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-name {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 157, 157);
+}
+
+.job-name span {
+    font-size: large;
+}
+
+.job01 {
+    height: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.studio {
+    height: 100%;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+.monkey-studio {
+    height: 20%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monkey-studio .logo {
+    background-color: bisque;
+    width: 60%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.role-list {
+    height: 80%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.role-list p {
+    text-align: center;
+}
+
+.roles {
+    background-color: black;
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.role-description {
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-indent: 20px;
+}
+
+.role-description h4 {
+    margin: 15px 0px 0px 15px;
+}
+
+.role-description p {
+    margin-left: 15px;
+}
+
+.video-container {
+    background-color: beige;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 04. EDUCATION */
+
+/* START Curtains */
+
+:root {
+    --curtain:url('https://www.linkpicture.com/q/Curtains_1.jpg') ;
+  }
+  
+  #left_side,
+  #right_side {
+    background:var(--curtain);
+    background-size:100% 100%;
+    width:50%;
+    height:100%;
+    position:absolute;
+    top:0;
+    overflow:hidden;
+    box-sizing:border-box;
+  }
+  #left_side {  
+    left:0;  
+  }
+  #right_side { 
+    right:0;  
+  }
+  #open_string {
+    position:absolute;
+    width:50px;
+    height:75px;
+    right:10%;
+    top:0;
+    animation:pull 4s linear infinite;
+    transform-origin:center -100vh;
+  }
+  #open_string:before {
+    content:'';
+    width:10px;
+    height: 70vh;
+    top: 10vh;
+    background:
+      linear-gradient(to bottom right, transparent, sienna, transparent),
+      goldenrod;
+    background-size:10px 5px;
+    position:absolute;
+    left:calc(50% - 5px);
+    transform:translateY(-100%);
+    box-shadow:0 -2px 10px rgba(0,0,0,.5);
+  }
+  #open_string:after {
+    content:'\2195';
+    position:absolute;
+    width:50px;
+    height:150px;
+    background:
+      linear-gradient(to bottom, transparent 20%, sienna 20%, saddlebrown, sienna 30%, transparent 30%),
+      linear-gradient(to right, goldenrod 50%, sienna 50%);
+    background-size:10% 100%;
+    top: 10vh;
+    left:0;
+    border-radius:25px 25px 5px 5px;
+    cursor:grab;
+    box-shadow:
+      0 5px 10px rgba(0,0,0,.5);
+    font-size:28px;
+    text-align:center;
+    line-height:150px;
+    color:white;
+    font-weight:900;
+    text-shadow:2px 1px black;
+    clip-path:polygon(0% 0%, 100% 0%, 100% 15%, 90% 20%, 90% 30%, 100% 35%, 100% 100%, 0% 100%, 0% 35%, 10% 30%, 10% 20%, 0% 15%);
+  }
+  
+  @keyframes pull {
+    25% { transform:rotate(1deg); }
+    75% { transform:rotate(-1deg); }
+  }
+  
+  .grabbing {
+    cursor:grabbing !important;
+  }
+
+  /* END Curtains */
+
+.education-container {
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.education-title {
+    height: 5vw;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#curtains-container {
+    height: 100%;
+    width: 100%;
+}
+
+#curtains {
+    background-image: url(Assets/Images/Curtains.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 85%;
+    width: 85%;
+    position: absolute;
+    filter: opacity(50%);
+}
+
+#elements-container {
+    height: 94%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#education {
+    height: 25vw;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#languages {
+    margin: 0 auto;
+    height: 30vw;
+    width: 100%;
+    background-color: rgb(161, 152, 128);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#education-title {
+    margin: 1vw;
+    background-color: gray;
+    width: 40%;
+    height: 10%;
+}
+
+#languages-title {
+    margin: 1vw;
+    background-color: gray;
+    width: 40%;
+    height: 8%;
+}
+
+#timeline {
+    width: 65%;
+    height: 5%;
+    margin-bottom: 2%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#year-01,
+#year-02,
+#year-03 {
+    width: 5%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#year-01 {
+    background-color: rgb(139, 134, 0);
+    cursor: pointer;
+}
+
+#year-02 {
+    background-color: rgb(145, 143, 89);
+}
+
+#year-03 {
+    background-color: rgb(152, 151, 127);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phases-container {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.phase-data {
+    background-color: rgb(149, 156, 140);
+    width: 100%;
+    height: 30%;
+    justify-content: space-between;
+}
+
+.phase-logo {
+    width: 25%;
+    height: 90%;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phase-info {
+    width: 70%;
+    height: 100%;
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.phase-title {
+    background-color: rgb(114, 82, 82);
+    width: 100%;
+    height: 80%;
+}
+
+.phase-year {
+    width: 100%;
+    height: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phase-certificate {
+    width: 90%;
+    height: 65%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phase-01,
+#phase-02,
+#phase-03 {
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+
+#languages-container {
+    width: 55%;
+    height: 90%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#language-01,
+#language-02,
+#language-03 {
+    width: 28%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.language-title,
+.language-logo,
+.language-certificate-title,
+.language-certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-title {
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+}
+
+.estandarte-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.language-logo {
+    height: 20%;
+    width: 40%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.language-points {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+.language-certificate-title {
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+}
+
+.language-certificate {
+    height: 20%;
+    width: 100%;
+    background-color: gray;
+}
+
+/* 05. SKILLS */
+
+.skills-container {
+    height: 45vw;
+    background-color: rgb(165, 152, 135);
+    margin: 0 auto;
+}
+
+.skills-title {
+    height: 6%;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-presentation {
+    position: absolute;
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    left: 10%;
+    background-color: rgb(165, 152, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skills-icons-container {
+    background-color: black;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.soft-skills {
+    height: 45%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hard-skills {
+    height: 45%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.skills-summary {
+    background-color: lightgray;
+    height: 100%;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+}
+
+/* Internal */
+
+.soft-click {
+    width: 15%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.hard-click {
+    width: 15%;
+    height: 100%;
+    background-color: rgb(95, 85, 70);
+}
+
+.skills-icons {
+    width: 80%;
+    height: 100%;
+    background-image: url(Assets/Images/Blood.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-position-x: -30%;
+
+    background-color: rgb(113, 113, 113);
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-skill-container {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.a-skill-container div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.a-skill {
+    background-image: url(Assets/Images/Skill.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.a-skill-02 {
+    background-image: url(Assets/Images/Skill-02.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+/*     background-color: darkmagenta; */
+
+/* 06. COURSES */
+
+.courses-container {
+    background-color: rgb(160, 160, 134);
+    margin: 0 auto;
+}
+
+.courses-title {
+    height: 6%;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#courses-logos {
+    width: 60%;
+    height: 4vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2vw auto;
+}
+
+#course-logo-01,
+#course-logo-02,
+#course-logo-03,
+#course-logo-04,
+#course-logo-05,
+#course-logo-06,
+#course-logo-07,
+#course-logo-08 {
+    background-color: black;
+    height: 80%;
+    width: 8%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.courses {
+    background-color: darkviolet;
+    height: auto;
+    width: 90%;
+}
+
+.academy-container {
+    background-color: gray;
+    width: 100%;
+    height: 35%;
+}
+
+#academy-title-01,
+#academy-title-02,
+#academy-title-03,
+#academy-title-04,
+#academy-title-05,
+#academy-title-06,
+#academy-title-07,
+#academy-title-08 {
+    width: 100%;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+#courses-logos a {
+    text-decoration: none;
+    color: white;
+}
+
+#courses-logos a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.academy-logo,
+.academy-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.academy-logo {
+    width: 3.5%;
+    height: 80%;
+    background-color: white;
+    border-radius: 50%;
+    font-size: small;
+}
+
+.academy-name {
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    margin-left: 1%;
+}
+
+.academy-content {
+    height: auto;
+    background-color: lightsteelblue;
+}
+
+#course-name-01 {
+    width: 100%;
+    height: 3vw;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.academy-arrow {
+    width: 2%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    font-size: small;
+}
+
+.course-name {
+    width: 25%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    margin-left: 1%;
+}
+
+.course-content {
+    height: 8vw;
+    background-color: rgb(165, 152, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-description {
+    width: 75%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-size: small;
+    margin: 0;
+}
+
+.course-certificate {
+    width: 15%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+
+
+
+/* 07. PROJECTS */
+
+.projects-container {
+    height: auto;
+    background-color: rgb(129, 103, 104);
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-filters {
+    width: 70%;
+    height: 3vw;
+    margin-top: 2vw;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-filter {
+    background-color: black;
+    width: 12%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: small;
+}
+
+.projects-title {
+    height: 6%;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-container {
+    display: flex;
+}
+
+.project-content {
+    width: 80%;
+    height: 27vw;
+    background-color: rgb(185, 168, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-left-arrow,
+.project-right-arrow {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.thumbnail-view-01,
+.thumbnail-view-02 {
+    width: 90%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail-view-01 {
+    height: 95%;
+}
+
+.thumbnail-view-02 {
+    height: 100%;
+}
+
+.project-thumbnail-01,
+.project-thumbnail-02 {
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 5px solid white;
+    display: flex;
+}
+
+.project-thumbnail-01 {
+    height: 92%;
+}
+.project-thumbnail-02 {
+    height: 100%;
+}
+
+.thumbnail-container {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-subproject {
+    width: 50%;
+    height: 8%;
+    background-color: white;
+    text-align: center;
+}
+
+.thumbnail-01,
+.thumbnail-02 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.fcc-style,
+.my-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+
+.project-description {
+    width: 20%;
+    height: 27vw;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-01 {
+    width: 100%;
+    background-color: black;
+    margin-top: 2vw;
+    position: relative;
+}
+
+.project-title {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 20%;
+    width: 40%;
+    height: 3vw;
+}
+
+.project-filters-list {
+    height: 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+.project-filter-tag {
+    width: 25%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 11px;
+}
+
+.project-text-description-01,
+.project-text-description-02 {
+    background-color: black;
+    color: white;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.project-text-description-01 {
+    height: 30%;
+}
+.project-text-description-02 {
+    height: 60%;
+}
+
+.project-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 48%;
+    max-height: 48%;
+    width: 100%;
+}
+
+.project-description ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 110, 110);
+    font-size: 12px;
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+}
+
+.project-type {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: darkslategray;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ACCORDION*/
+
+.accordion {
+    cursor: pointer;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+}
+
+/* BUTTONS */
+
+.menu {
+    filter: url('#shadowed-goo');
+
+}
+.menu-item, .menu-open-button {
+    background: beige;
+    border-radius: 100%;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: -40px;
+    position: absolute;
+    top: 0.5vw;
+    color: black;
+    text-align: center;
+    transform: translate3d(0, 0, 0);
+    transition: transform ease-out 200ms;
+}
+.menu-open {
+    display: none;
+}
+.hamburger {
+   width: 0.5vw;
+   height: 0.1vw;
+   background: black;
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 33%;
+   margin-top: -1.5px;
+   transition: transform 200ms;
+}
+.hamburger-1 {
+    transform: translate3d(0, -4px, 0);
+}
+.hamburger-2 {
+    transform: translate3d(0, 0, 0);
+}
+.hamburger-3 {
+    transform: translate3d(0, 4px, 0);
+}
+.menu-open:checked + .menu-open-button .hamburger-1 {
+    transform: translate3d(0, 0, 0) rotate(45deg);
+}
+.menu-open:checked + .menu-open-button .hamburger-2 {
+    transform: translate3d(0, 0, 0) scale(0.1, 1);
+}
+.menu-open:checked + .menu-open-button .hamburger-3 {
+    transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+.menu {
+    position: absolute;
+    font-size: 1vw;
+    text-align: left;
+    top: 0.2vw;
+    right: 11vw;
+}
+.menu-item:hover {
+    background: white;
+    color: #ff4081;
+}
+.menu-item:nth-child(3) {
+    transition-duration: 70ms;
+}
+.menu-item:nth-child(4) {
+    transition-duration: 130ms;
+}
+.menu-item:nth-child(5) {
+    transition-duration: 190ms;
+}
+.menu-item:nth-child(6) {
+    transition-duration: 250ms;
+}
+.menu-item:nth-child(7) {
+    transition-duration: 310ms;
+}
+.menu-open-button {
+    z-index: 2;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 400ms;
+    transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    cursor: pointer;
+}
+.menu-open-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+.menu-open:checked + .menu-open-button {
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+}
+.menu-open:checked ~ .menu-item {
+    transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+}
+.menu-open:checked ~ .menu-item:nth-child(3) {
+    --offset: 45px;
+    transition-duration: 160ms;
+    transform: translate3d(calc(0.995*var(--offset)), calc(0.0998*var(--offset)), 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(4) {
+   --offset: 45px;
+    transition-duration: 240ms;
+    transform: translate3d(calc(0.6711*var(--offset)), calc(0.7412*var(--offset)), 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(5) {
+   --offset: 45px;
+    transition-duration: 320ms;
+    transform: translate3d(calc(-0.0007*var(--offset)), calc(0.9999*var(--offset)), 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(6) {
+   --offset: 45px;
+    transition-duration: 400ms;
+    transform: translate3d(calc(-0.6699*var(--offset)), calc(0.7423*var(--offset)), 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(7) {
+   --offset: 45px;
+    transition-duration: 480ms;
+    transform: translate3d(calc(-0.9948*var(--offset)), calc(0.1014179863166*var(--offset)), 0);
+}
