@@ -128,9 +128,10 @@ i:hover {
 .banner {
     height: 32vw;
     margin-top: 0px;
-    background-image: url(Assets/Images/Background.jfif);
-    background-size: cover;
-    position: relative;
+    background-image: url("https://anonsharing.com/cache/plugins/filepreviewer/16209/cf59288f185170f259432f1d2178abbc4ef21ea6a55ba607ccc285a27027797b/1100x800_cropped.jpg");
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .about-info .edit{
@@ -571,7 +572,7 @@ i:hover {
 /* START Curtains */
 
 :root {
-    --curtain:url('https://www.linkpicture.com/q/Curtains_1.jpg') ;
+    --curtain:url('https://anonsharing.com/cache/plugins/filepreviewer/16210/fdb88794c39af1d01cde9b09f19b6d676280a953440a1bbd7904d040e7a954d6/1100x800_cropped.jpg') ;
   }
   
   #left_side,
@@ -606,8 +607,8 @@ i:hover {
     height: 70vh;
     top: 10vh;
     background:
-      linear-gradient(to bottom right, transparent, sienna, transparent),
-      goldenrod;
+      linear-gradient(to bottom right, transparent, rgb(24, 23, 23), transparent),
+      rgb(206, 211, 186);
     background-size:10px 5px;
     position:absolute;
     left:calc(50% - 5px);
@@ -620,19 +621,19 @@ i:hover {
     width:50px;
     height:150px;
     background:
-      linear-gradient(to bottom, transparent 20%, sienna 20%, saddlebrown, sienna 30%, transparent 30%),
-      linear-gradient(to right, goldenrod 50%, sienna 50%);
+      linear-gradient(to bottom, transparent 20%, rgb(198, 209, 190) 20%, rgb(109, 109, 104), rgb(202, 204, 199) 30%, transparent 30%),
+      linear-gradient(to right, rgb(168, 170, 161) 50%, rgb(129, 128, 108) 50%);
     background-size:10% 100%;
     top: 10vh;
     left:0;
     border-radius:25px 25px 5px 5px;
     cursor:grab;
     box-shadow:
-      0 5px 10px rgba(0,0,0,.5);
+      0 5px 10px rgba(255, 255, 255, 0.5);
     font-size:28px;
     text-align:center;
     line-height:150px;
-    color:white;
+    color:rgb(255, 255, 255);
     font-weight:900;
     text-shadow:2px 1px black;
     clip-path:polygon(0% 0%, 100% 0%, 100% 15%, 90% 20%, 90% 30%, 100% 35%, 100% 100%, 0% 100%, 0% 35%, 10% 30%, 10% 20%, 0% 15%);
