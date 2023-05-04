@@ -394,7 +394,6 @@ i:hover {
 
 .openers {
     border-radius: 50%;
-    background-color: antiquewhite;
     margin: 0px 10px;
 }
 
@@ -431,7 +430,6 @@ i:hover {
 
 .about-left {
     height: 100%;
-    background-color: burlywood;
     padding: 30px;
     padding-right: 60px;
     position: relative;
@@ -444,7 +442,6 @@ i:hover {
 
 .about-right {
     height: 100%;
-    background-color: brown;
     padding: 30px;
     padding-left: 80px;
     position: relative;
