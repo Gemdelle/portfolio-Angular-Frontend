@@ -746,7 +746,7 @@ i:hover {
     justify-content: center;
     align-items: flex-end;
     background-image: linear-gradient(to right, #5f5f5f, #989b93, #5f5f5f);
-    background-image: url(assets/Images/velvet-01.png);
+    background-image: url(assets/Images/velvet-06.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1038,6 +1038,12 @@ i:hover {
     align-items: center;
     text-align: center;
     padding: 1%;
+}
+
+.skills-summary h2 {
+    height: 2vw;
+    width: 5vw;
+    background-image: url(assets/Images/skill-background-title.png);
 }
 
 /* Internal */
