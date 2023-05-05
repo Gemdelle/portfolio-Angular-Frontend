@@ -1,20 +1,120 @@
 {
+    "general": {
+        "cursor": "",
+        "cursor-pointer":"",
+        "divider": "https://gcdnb.pbrd.co/images/Oxovnjgncq4z.png?o=1"
+    },
+
+    "header": {
+        "nav-background": "",
+        "about-neutral": "",
+        "about-selected": "",
+        "experience-neutral": "",
+        "experience-selected": "",
+        "education-neutral": "",
+        "education-selected": "",
+        "courses-neutral": "",
+        "courses-selected": "",
+        "skills-neutral": "",
+        "skills-selected": "",
+        "projects-neutral": "",
+        "projects-selected": ""
+    },
+
     "about": {
-        "banner_url": ""// CARGAR LA FOTO A INTERNET
+        "curtains": "",
+        "banner_url": "https://anonsharing.com/cache/plugins/filepreviewer/16209/cf59288f185170f259432f1d2178abbc4ef21ea6a55ba607ccc285a27027797b/1100x800_cropped.jpg",
+        "portrait": "",
+        "sparkles": "",
+        "hanger": "",
+        "logic-trinket": "",
+        "creativity-trinket": "",
+        "logic-background": "",
+        "fade-in-trinket": "",
+        "portfolio-border": "",
+        "creativity-background": "",
+        "about-background": ""
     },
     "experience": {
+        "experience-title": "https://gcdnb.pbrd.co/images/w1Cd7gnBxOx9.png?o=1",
+        "studio-name": "Surprised Monkey Studio",
+        "year-01": "2023",
+        "year-02": "2023",
+        "logo": "URL",
+        "description": "",
+        "role-01": "Environmental Designer",
+        "role-02": "Game Designer"
         
     },
     "education": {
+        "education-title": "URL", //La imagen del título
 
+        "school-logo": "URL",
+        "school-title": "Saint Luke's College",
+        "school-start-year": "2004",
+        "school-end-year": "2017",
+        "school-certificate": "URL",
+        "college-01-logo": "URL",
+        "college-01-name": "Universidad Torcuato Di Tella",
+        "college-01-start-year": "2018",
+        "college-01-end-year": "2022",
+        "college-01-certificate": "URL",
+        "college-02-logo": "URL",
+        "college-02-name": "Universidad de Belgrano",
+        "college-02-start-year": "2023",
+        "college-02-end-year": "2028 (estimated)",
+        "college-02-certificate": "Not obtained",
+
+        "language-01": "Spanish",
+        "language-01-logo":"URL",
+        "language-01-certificate": "Native",
+        "language-02": "English",
+        "language-02-logo":"URL",
+        "language-02-title": "Cambridge Examens with Merit",
+        "language-02-certificate": "URL",
+        "language-03": "French",
+        "language-03-logo":"URL",
+        "language-03-title": "DELF-A2",
+        "language-04": "Russian",
+        "language-04-logo":"URL",
+        "language-title": "Not obtained",
+        "language-certificate": "Not obtained"
+
+        // CÓMO MARCO EN QUÉ NIVEL ESTOY? SERÍA OTRA PROPIEDAD?
     },
     "courses": {
-
+        "courses-title": "URL",
+        "course-academy-shield-01": "URL",
+        "course-academy-shield-02": "URL",
+        "course-academy-shield-03": "URL",
+        "course-academy-shield-05": "URL",
+        "course-academy-shield-06": "URL",
+        "course-academy-shield-04": "URL",
+        "course-academy-shield-07": "URL",
+        "course-academy-shield-08": "URL",
+        "course-academy-bar": "https://gcdnb.pbrd.co/images/tN6sr9MABqsR.png?o=1",
+        "course-certificate-frame": "https://gcdnb.pbrd.co/images/aHzz8kzcc0yW.png?o=1",
+        "course-academy-logo-01": "URL",
+        "course-academy-name-01": "Argentina Programa",
+        "course-academy-logo-02": "URL",
+        "course-academy-name-02": "UTN",
+        "course-academy-logo-03": "URL",
+        "course-academy-name-03": "freeCodeCamp",
+        "course-academy-logo-04": "URL",
+        "course-academy-name-04": "Grasshopper",
+        "course-academy-logo-05": "URL",
+        "course-academy-name-05": "Sololearn",
+        "course-academy-logo-06": "URL",
+        "course-academy-name-06": "HackerRank",
+        "course-academy-logo-07": "URL",
+        "course-academy-name-07": "Challenges + Katas",
+        "course-academy-logo-08": "URL",
+        "course-academy-name-08": "Surprised Monkey Studio",
     },
     "skills": {
-
+        "skills-title": ""
     },
     "projects": {
-
+        "projects-title": ""
     }
 }
