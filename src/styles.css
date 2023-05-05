@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
+    z-index: 999;
     top: 0;
 }
 
@@ -87,20 +87,6 @@ nav ul li a:hover {
     height: 100%;
 }
 
-/* ID dividers */
-#experience-id,
-#education-id,
-#courses-id,
-#skills-id,
-#projects-id {
-    background-image: url(https://gcdnb.pbrd.co/images/Oxovnjgncq4z.png?o=1);
-    background-size: 100% 100%;
-    background-repeat: repeat;
-    background-position: center center;
-    height: 90px;
-    margin: 0 auto;
-}
-
 /*BOOSTRAP MODAL OVERRIDE*/
 .modal-backdrop {
     z-index: 0!important; 
@@ -140,7 +126,7 @@ i:hover {
 }
 
 .banner {
-    height: 26.5vw;
+    height: 27vw;
     margin-top: 0px;
     background-image: url("https://anonsharing.com/cache/plugins/filepreviewer/16209/cf59288f185170f259432f1d2178abbc4ef21ea6a55ba607ccc285a27027797b/1100x800_cropped.jpg");
     background-size: 75%;
@@ -157,6 +143,65 @@ i:hover {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+/* TITLES */
+
+.experience-title,
+.education-title,
+.courses-title,
+.skills-title,
+.projects-title {
+    height: 8vw;
+    width: 100%;
+    background-image: url(assets/Images/experience-title.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 50; 
+    margin-top: -1.2vw;
+    margin-bottom: -0.8vw;
+}
+
+.experience-title {
+    background-image: url(assets/Images/experience-title.png);
+}
+
+.education-title {
+    background-image: url(assets/Images/education-title.png);
+}
+
+.courses-title {
+    background-image: url(assets/Images/courses-title.png);
+}
+
+.skills-title {
+    background-image: url(assets/Images/skills-title.png);
+}
+
+.projects-title {
+    background-image: url(assets/Images/projects-title.png);
+}
+
+/* ID dividers */
+#experience-id,
+#education-id,
+#courses-id,
+#skills-id,
+#projects-id {
+    background-image: url(https://gcdnb.pbrd.co/images/Oxovnjgncq4z.png?o=1);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* ABOUT */
 
 .about-info .edit{
     height: 3vw;
@@ -475,29 +520,14 @@ i:hover {
 /* 03. EXPERIENCE */
 
 .experience-container {
-    height: 20vw;
+    height: auto;
     margin: 0 auto;
-    position:relative;
-}
-
-.experience-title {
-    height: 7vw;
-    width: 100%;
-    background-image: url(https://gcdnb.pbrd.co/images/w1Cd7gnBxOx9.png?o=1);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
-    z-index: 5;
 }
 
 .job-name {
     width: 100%;
-    height: 9%;
+    height: 5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -510,30 +540,32 @@ i:hover {
 }
 
 .job01 {
-    height: 100%;
+    height: 20vw;
     display: flex;
     align-items: center;
 }
 
 .studio {
     height: 100%;
-    width: 12%;
+    width: 13%;
     display: flex;
     flex-direction: column;
 }
 
 .monkey-studio {
     height: 35%;
-    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .monkey-studio .logo {
-    background-color: bisque;
-    width: 70%;
-    height: 70%;
+    background-image: url(assets/Images/job-logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -542,23 +574,26 @@ i:hover {
 }
 
 .role-list {
-    height: 60%;
-    background-color: gray;
+    height: 65%;
+    background-image: url(assets/Images/job-description-background.png);
+    background-size: 60% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0.5vw;
+    padding: 1vw;
 }
 
 .role-list p {
     text-align: center;
+    font-size: small;
 }
 
 .roles {
-    background-color: black;
-    height: 60%;
-    width: 30%;
+    height: 100%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -566,15 +601,18 @@ i:hover {
 }
 
 .role-description {
-    background-color: blanchedalmond;
-    border-radius: 20px;
-    height: 40%;
-    width: 90%;
+    background-image: url(assets/Images/job-role-description.png);
+    background-size: 85% 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     text-indent: 20px;
+    padding: 2vw 3vw;
 }
 
 .role-description h4 {
@@ -588,7 +626,7 @@ i:hover {
 .video-container {
     background-color: beige;
     height: 100%;
-    width: 58%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -681,16 +719,6 @@ i:hover {
     height: auto;
     border: 1px solid black;
     margin: 0 auto;
-}
-
-.education-title {
-    height: 5vw;
-    width: 100%;
-    background-color: lightslategray;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #curtains-container {
@@ -941,16 +969,6 @@ i:hover {
     margin: 0 auto;
 }
 
-.skills-title {
-    height: 6%;
-    width: 100%;
-    background-color: lightslategray;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .skills {
     height: 94%;
     display: flex;
@@ -1077,33 +1095,24 @@ i:hover {
     width: 100%;
 }
 
-/*     background-color: darkmagenta; */
-
 /* 06. COURSES */
 
 .courses-container {
-    background-color: rgb(160, 160, 134);
+    background-color: rgb(215, 215, 188);
     margin: 0 auto;
 }
 
-.courses-title {
-    height: 6%;
-    width: 100%;
-    background-color: lightslategray;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #courses-logos {
-    width: 60%;
-    height: 4vw;
-    background-color: aliceblue;
+    width: 55%;
+    height: 6vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 2vw auto;
+}
+
+#courses-logos a {
+    color: transparent;
 }
 
 #course-logo-01,
@@ -1114,15 +1123,38 @@ i:hover {
 #course-logo-06,
 #course-logo-07,
 #course-logo-08 {
-    background-color: black;
-    height: 80%;
+    height: 100%;
     width: 8%;
     border-radius: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
     cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#course-logo-01:hover {
+    text-decoration: none;
+    filter: scale(150%); /* NO FUNCIONA */
+}
+
+.baroque-symbol-open,
+.baroque-symbol-close {
+    height: 100%;
+    width: 5%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.baroque-symbol-open {
+    background-image: url(assets/Images/baroque-symbol-01-open.png);
+}
+
+.baroque-symbol-close {
+    background-image: url(assets/Images/baroque-symbol-01-close.png);
 }
 
 .courses {
@@ -1154,16 +1186,6 @@ i:hover {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-}
-
-#courses-logos a {
-    text-decoration: none;
-    color: white;
-}
-
-#courses-logos a:hover {
-    text-decoration: none;
-    color: gray;
 }
 
 .academy-logo,
@@ -1226,7 +1248,7 @@ i:hover {
 
 .course-content {
     height: 8vw;
-    background-color: rgb(165, 152, 135);
+    background-color: rgb(223, 223, 216);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1234,14 +1256,31 @@ i:hover {
 
 .course-description {
     width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.course-description-text {
+    width: 100%;
     height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: white;
     font-size: small;
     margin: 0;
+}
+
+.baroque-close {
+    height: 1.1vw;
+    width: 40%;
+    margin-top: 0.6vw;
+    background-image: url(assets/Images/baroque-symbol-02.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .course-certificate {
@@ -1295,16 +1334,6 @@ i:hover {
     align-items: center;
     cursor: pointer;
     font-size: small;
-}
-
-.projects-title {
-    height: 6%;
-    width: 100%;
-    background-color: lightslategray;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .project-container {
