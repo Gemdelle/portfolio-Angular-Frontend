@@ -1267,10 +1267,11 @@ i:hover {
 
 .course-content {
     height: 8vw;
-    background-color: rgb(223, 223, 216);
+    background-color: rgba(221, 227, 236, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 5px rgb(238, 238, 215) ridge;
 }
 
 .course-description {
