@@ -6,8 +6,8 @@
     <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
     <div class="experience-title"></div>
     <div class="job-name">
-        <span>Studio Name</span>
-        <span>Year 01 - Year 02</span>
+        <span>{{experience.studio_name}}</span>
+        <span>{{experience.from}} - {{experience.to}}</span>
     </div>
     <div class="job01 col-12">
         <div class="studio">
@@ -15,21 +15,13 @@
                 <div class="logo">Logo</div>
             </div>
             <div class="role-list">
-                <p>Indie videogame studio that has developed “Surviving the Humans”, a classic 2D point-and-click adventure. Currently involved in the development of a new 3D adventure game, I am part of the team working on this project.</p>
+                <p>{{experience.description}}</p>
             </div>
         </div>
         <div class="roles">
-            <div class="role-description">
-                <h4>Environmental Designer</h4>
-                <p>I created the preliminary architecture design in Blender and material design in Quixel Mixer to explore the style that the game will have.</p>
-            </div>
-            <div class="role-description">
-                <h4>Game Designer</h4>
-                <p>Along with the team, I developed the structure and pillars of the game based on the player's experience, the variables that define it, gameplay concepts and replayability.</p>
-            </div>
-            <div class="role-description">
-                <h4>Basic BP Developer</h4>
-                <p>Using basic blueprint development (block programming in Unreal Engine), I designed mechanics on a prototyping level that were adapted to the culture on which the game is based, iterating on gameplay.</p>
+            <div class="role-description" *ngFor="let role of experience.roles">
+                <h4>{{role.name}}</h4>
+                <p>{{role.description}}</p>
             </div>
         </div>
         <div class="video-container">
