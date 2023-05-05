@@ -12,16 +12,21 @@
         "to": "2023",
         "logo": "URL",
         "description": "Indie videogame studio that has developed “Surviving the Humans”, a classic 2D point-and-click adventure. Currently involved in the development of a new 3D adventure game, I am part of the team working on this project.",
-        "roles": [
+        "roles": 
+        [
             {
                 "name": "Environmental Designer",
-                "description": ""
+                "description": "I created the preliminary architecture design in Blender and material design in Quixel Mixer to explore the style that the game will have."
             },
             {
-                "name": "Game Designer",,
-                "description": ""
+                "name": "Game Designer",
+                "description": "Along with the team, I developed the structure and pillars of the game based on the player's experience, the variables that define it, gameplay concepts and replayability."
+            },
+            {
+                "name": "Basic BP Developer",
+                "description": "Using basic blueprint development (block programming in Unreal Engine), I designed mechanics on a prototyping level that were adapted to the culture on which the game is based, iterating on gameplay."
             }
-        "role-03": "BP Developer"]
+        ]
     },
     "education": {
         "title": "URL", 

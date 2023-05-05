@@ -540,13 +540,15 @@ i:hover {
 }
 
 .job01 {
-    height: 20vw;
+    background-image: url(assets/Images/velvet-02.png);
+    background-size: 100% 250%;
+    height: 26vw;
     display: flex;
     align-items: center;
 }
 
 .studio {
-    height: 100%;
+    height: 90%;
     width: 13%;
     display: flex;
     flex-direction: column;
@@ -592,7 +594,7 @@ i:hover {
 }
 
 .roles {
-    height: 100%;
+    height: 85%;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -602,31 +604,32 @@ i:hover {
 
 .role-description {
     background-image: url(assets/Images/job-role-description.png);
-    background-size: 85% 80%;
+    background-size: 100% 90%;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    text-indent: 20px;
-    padding: 2vw 3vw;
 }
 
 .role-description h4 {
-    margin: 15px 0px 0px 15px;
+    margin: 1.6vw 0px 0px 1.5vw;
+    font-size: large;
 }
 
 .role-description p {
-    margin-left: 15px;
+    font-size: 0.7vw;
+    margin: 0 1vw 0 2.5vw;
 }
+
 
 .video-container {
     background-color: beige;
-    height: 100%;
-    width: 45%;
+    height: 90%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -727,7 +730,6 @@ i:hover {
 }
 
 #curtains {
-    background-image: url(Assets/Images/Curtains.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 85%;
@@ -746,7 +748,7 @@ i:hover {
 }
 
 #education {
-    height: 25vw;
+    height: 22vw;
     width: 100%;
     background-color: bisque;
     display: flex;
@@ -757,7 +759,7 @@ i:hover {
 
 #languages {
     margin: 0 auto;
-    height: 30vw;
+    height: 25vw;
     width: 100%;
     background-image: url(https://gcdnb.pbrd.co/images/1DR8qimRK3bY.jpg?o=1);
     display: flex;
@@ -765,18 +767,16 @@ i:hover {
     align-items: center;
 }
 
-#education-title {
-    margin: 1vw;
-    background-color: gray;
-    width: 40%;
-    height: 10%;
-}
-
+#education-title,
 #languages-title {
     margin: 1vw;
-    background-color: gray;
     width: 40%;
-    height: 8%;
+    height: 5%;
+    margin-top: 2vw;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #timeline {
@@ -817,7 +817,7 @@ i:hover {
 
 #phases-container {
     width: 80%;
-    height: 60%;
+    height: 55%;
     display: flex;
     justify-content: space-between;
     background-color: lightgray;
@@ -826,15 +826,15 @@ i:hover {
 .phase-data {
     background-color: rgb(149, 156, 140);
     width: 100%;
-    height: 30%;
-    justify-content: space-between;
+    height: 25%;
 }
 
 .phase-logo {
     width: 25%;
     height: 90%;
-    background-color: gray;
-    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -877,7 +877,7 @@ i:hover {
 #phase-02,
 #phase-03 {
     height: 100%;
-    width: 25%;
+    width: 20%;
     background-color: black;
     display: flex;
     flex-direction: column;
