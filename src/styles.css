@@ -1173,14 +1173,13 @@ i:hover {
 }
 
 .courses {
-    background-color: darkviolet;
     height: auto;
     width: 90%;
 }
 
 .academy-container {
-    background-image: url(Assets/Images/velvet-04.png);
-    background-size: contain;
+    background-image: url(Assets/Images/velvet-05.png);
+    background-size: 100% 100%;
     background-position: top;
     background-repeat: no-repeat;
     width: 100%;
@@ -1238,31 +1237,18 @@ i:hover {
 
 #course-name-01 {
     width: 100%;
-    height: 3vw;
+    height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.academy-arrow {
-    width: 2%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 50%;
-    font-size: small;
 }
 
 .course-name {
-    width: 15%;
+    width: 7%;
     height: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 1%;
-    margin-right: 4%;
 }
 
 .course-content {
@@ -1271,7 +1257,7 @@ i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 5px rgb(238, 238, 215) ridge;
+    border-top: 4px rgb(238, 238, 215) ridge;
 }
 
 .course-description {
