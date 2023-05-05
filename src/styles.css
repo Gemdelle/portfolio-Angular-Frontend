@@ -125,15 +125,6 @@ i:hover {
     color: white;
 }
 
-.banner {
-    height: 27vw;
-    margin-top: 0px;
-    background-image: url("https://anonsharing.com/cache/plugins/filepreviewer/16209/cf59288f185170f259432f1d2178abbc4ef21ea6a55ba607ccc285a27027797b/1100x800_cropped.jpg");
-    background-size: 75%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .hanger {
     height: 80px;
     z-index: 1;
@@ -1531,14 +1522,6 @@ i:hover {
     height: 10%;
     width: 100%;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer {
-    background-color: darkslategray;
-    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;

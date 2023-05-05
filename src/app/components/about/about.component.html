@@ -1,7 +1,7 @@
     <!-- 02. ABOUT -->
 
     <div class="about col-10" id="about-container">
-        <div class="banner col-12">
+        <div class="banner col-12 banner-container" [ngStyle]="{ 'background-image': 'url(' + about.banner_url + ')'}">
             <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
         </div>
         <!-- CURTAINS -->
@@ -21,7 +21,8 @@
                     <div class="left-portrait openers">
                         <div class="fade-in-trinket"></div>
                     </div>
-                    <div class="portrait openers">
+                    <div class="portrait openers portrait-container">
+                        <img class="portrait openers" [src]="about.profile_picture_url" />
                         <div class="photo-sparkles"></div>
                     </div>
                     <div class="right-portrait openers">
@@ -32,14 +33,13 @@
             <div class="about-left">
                 <div class="about-left-text">
                     <h2>LOGIC</h2>
-                    <p>Architect with a strong base in system design and diagramming, eager to learn. Currently studying computer engineering along with courses to
-                        expand my knowledge in the world of programming.</p>
+                    <p>{{about.logic_description}}</p>
                 </div>
             </div>
             <div class="about-right">
                 <div class="about-right-text">
                     <h2>Creativity</h2>
-                    <p>The functioning of a page is as important as its aesthetics. Details and interactivity are my 2 pillars to try and make users feel that when browsing the page they are not reading a book, but playing a game.</p>
+                    <p>{{about.creativity_description}}</p>
                 </div>
             </div>
             <div class="about-right-side-decoration"></div>

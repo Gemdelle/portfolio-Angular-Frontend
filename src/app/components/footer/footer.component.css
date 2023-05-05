@@ -1,0 +1,12 @@
+footer{
+    background-image: url(https://gcdnb.pbrd.co/images/Oxovnjgncq4z.png?o=1);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    margin: 0 auto;
+    position: relative;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
