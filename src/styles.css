@@ -986,6 +986,7 @@ i:hover {
     height: 45vw;
     background-color: rgb(165, 152, 135);
     margin: 0 auto;
+    margin-bottom: 4.5vw;
 }
 
 .skills {
@@ -1002,13 +1003,69 @@ i:hover {
     left: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-image: url(https://gcdnb.pbrd.co/images/KTm77xYhEucs.png?o=1);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.soft-skills-drawing {
+    height: 20vw;
+    width: 20vw;
+    background-image: url(assets/Images/soft-skills-drawing.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 14.5vw;
+    transition: all 500ms ease-in-out;
+}
+
+.hard-skills-drawing {
+    height: 23vw;
+    width: 20vw;
+    background-image: url(assets/Images/hard-skills-drawing.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 12.5vw;
+    transition: all 500ms ease-in-out;
+}
+
+/* Hover */
+
+.soft-skills-drawing:hover {
+    transform: scale(110%);
+    background-image: url(assets/Images/soft-skills-drawing-hover.png);
+    animation: beat 2s ease-in-out infinite;
+}
+
+.hard-skills-drawing:hover {
+    transform: scale(110%);
+    background-image: url(assets/Images/hard-skills-drawing-hover.png);
+    animation: beat 2s ease-in-out infinite;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+      }
+      25% {
+        transform: scale(1.05);
+      }
+      35% {
+        transform: scale(1);
+      }
+      45% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+  }
 
 .skills-icons-container {
     background-color: black;
@@ -1044,16 +1101,47 @@ i:hover {
     width: 18%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
     padding: 1%;
 }
 
-.skills-summary h2 {
-    height: 2vw;
-    width: 5vw;
+.skills-summary-title {
     background-image: url(assets/Images/skill-background-title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+}
+
+.skills ul {
+    background-color: red;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+    height: 7%;
+    background-image: url(assets/Images/small-bar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.skills p {
+    height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Internal */
