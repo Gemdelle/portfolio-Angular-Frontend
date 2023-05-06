@@ -752,11 +752,10 @@ i:hover {
 }
 
 #education {
-    height: 22vw;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -785,14 +784,15 @@ i:hover {
 
 #timeline {
     width: 90%;
-    height: 25%;
-    margin-bottom: 2%;
+    height: 5vw;
     display: flex;
     justify-content: space-between;
     background-image: url(assets/Images/timeline.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
+    margin-bottom: -1.5vw;
+    margin-top: -3vw;
 }
 
 .year-container {
@@ -828,11 +828,11 @@ i:hover {
 }
 
 #phases-container {
-    width: 80%;
-    height: 55%;
+    width: 70%;
+    height: 15vw;
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
+    
 }
 
 .phase-data {
@@ -885,10 +885,13 @@ i:hover {
     align-items: center;
 }
 
-#phase-01-container,
-#phase-02-container,
-#phase-03-container {
-
+.arrow {
+    height: 3.5vw;
+    width: 100%;
+    background-image: url(assets/Images/arrow.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .phase-01 {
@@ -1267,6 +1270,7 @@ i:hover {
     justify-content: center;
     align-items: center;
     border-top: 4px rgb(238, 238, 215) ridge;
+    font-style: italic;
 }
 
 .course-description {
