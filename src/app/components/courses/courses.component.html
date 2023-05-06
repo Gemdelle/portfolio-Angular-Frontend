@@ -5,329 +5,37 @@
     <div class="courses-title"></div>
     <div id="courses-logos">
         <div class="baroque-symbol-open"></div>
-        <div id="course-logo-01" style="background-image: url('assets/Images/academy-shield-01.png');"><a href="javascript: scrolltoId('academy-title-01')">01</a></div>
-        <div id="course-logo-02" style="background-image: url('assets/Images/academy-shield-02.png');"><a href="javascript: scrolltoId('academy-title-02')">02</a></div>
-        <div id="course-logo-03" style="background-image: url('assets/Images/academy-shield-03.png');"><a href="javascript: scrolltoId('academy-title-03')">03</a></div>
-        <div id="course-logo-04" style="background-image: url('assets/Images/academy-shield-04.png');"><a href="javascript: scrolltoId('academy-title-04')">04</a></div>
-        <div id="course-logo-05" style="background-image: url('assets/Images/academy-shield-05.png');"><a href="javascript: scrolltoId('academy-title-05')">05</a></div>
-        <div id="course-logo-06" style="background-image: url('assets/Images/academy-shield-06.png');"><a href="javascript: scrolltoId('academy-title-06')">06</a></div>
-        <div id="course-logo-07" style="background-image: url('assets/Images/academy-shield-07.png');"><a href="javascript: scrolltoId('academy-title-07')">07</a></div>
-        <div id="course-logo-08" style="background-image: url('assets/Images/academy-shield-08.png');"><a href="javascript: scrolltoId('academy-title-08')">08</a></div>
+        <div *ngFor="let academy of academies; index as i;">
+            <div id="course-logo-01" [ngStyle]="{ 'background-image': 'url(' + academy.shield + ')'}" ><a [href]="'javascript: scrolltoId(\'academy-title-0'+ (i+1) +'\')'">0{{i+1}}</a></div>
+        </div>
         <div class="baroque-symbol-close"></div>
     </div>
     <div class="courses col-12">
         <div class="academy-container">
-
-            <!-- ACADEMY 01 -->
-            <div id="academy-title-01">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Argentina Programa</div>
-            </div>
-            <div class="academy-content">
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow"></div>
-                    <div class="course-name">Course name</div>
+            <div *ngFor="let academy of academies">
+                <div id="academy-title-01">
+                    <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
+                    <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
+                    <div class="academy-logo"></div>
+                    <div class="academy-name">{{academy.name}}</div>
                 </div>
-                <div class="course-content accordion-content">
-                    <div class="course-description">
-                    <p class="course-description-text">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="baroque-close"></div>
-                </div>
-                    <div class="course-certificate">CERTIFICATE</div>
+                <div class="academy-content" *ngFor="let course of academy.courses">
+                    <div id="course-name-01" (click)="onAccordionClick($event)" class="accordion">
+                        <div class="academy-arrow"></div>
+                        <div class="course-name">{{course.name}}</div>
+                    </div>
+                    <div class="course-content accordion-content">
+                        <div class="course-description">
+                        <p class="course-description-text">{{course.description}}</p>
+                        <div class="baroque-close"></div>
+                    </div>
+                    <div class="certificate-container">
+                        <div class="course-certificate"></div>
+                        <img [src]="course.certificate">
+                    </div>
+                    </div>
                 </div>
             </div>
-
-            <!-- ACADEMY 02 -->
-            <div id="academy-title-02">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Academy name 02</div>
-            </div>
-            <div class="academy-content">
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-            </div>
-
-            <!-- ACADEMY 03 -->
-            <div id="academy-title-03">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Academy name 03</div>
-            </div>
-            <div class="academy-content">
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-            </div>
-
-            <!-- ACADEMY 04 -->
-            <div id="academy-title-04">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Academy name 04</div>
-            </div>
-            <div class="academy-content">
-                <!-- Course 01 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 02 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 03 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 04 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 05 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 06 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 07 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 08 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-                <!-- Course 09 -->
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-
-            </div>
-
-            <!-- ACADEMY 05 -->
-            <div id="academy-title-05">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Academy name 05</div>
-            </div>
-            <div class="academy-content">
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-            </div>
-
-
-            <!-- ACADEMY 06 -->
-            <div id="academy-title-06">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Academy name 06</div>
-            </div>
-            <div class="academy-content">
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-            </div>
-
-            <!-- ACADEMY 07 -->
-            <div id="academy-title-07">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Academy name 07</div>
-            </div>
-            <div class="academy-content">
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-            </div>
-
-            <!-- ACADEMY 08 -->
-            <div id="academy-title-08">
-                <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                <div class="academy-logo"></div>
-                <div class="academy-name">Academy name 08</div>
-            </div>
-            <div class="academy-content">
-                <div id="course-name-01" class="accordion">
-                    <div class="academy-arrow">A</div>
-                    <div class="course-name">Course name</div>
-                </div>
-                <div class="course-content accordion-content">
-                    <p class="course-description">Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description. Course information and description. Course information and description. Course
-                        information and description. Course information and description. Course information and
-                        description.</p>
-                    <div class="course-certificate">CERTIFICATE</div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
