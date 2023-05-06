@@ -30,26 +30,7 @@ function onPlayerReady(event) {
     player.unMute();
 }
 
-function handleAccordions() {
-    const accordionBtns = document.querySelectorAll(".accordion");
 
-    accordionBtns.forEach((accordion) => {
-        accordion.onclick = function () {
-            this.classList.toggle("is-open");
-            let content = this.nextElementSibling;
-            console.log(content);
-
-            if (content.style.maxHeight) {
-                //this is if the accordion is open
-                content.style.maxHeight = null;
-            } else {
-                //if the accordion is currently closed
-                content.style.maxHeight = "8vw";
-                console.log(content.style.maxHeight);
-            }
-        };
-    });
-}
 
 function scrolltoId(id) {
     var bwidth = window.innerWidth;
@@ -334,7 +315,6 @@ function start() {
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-    handleAccordions();
     bindTechnology();
     setupCourtains();
     bindLoginButton();

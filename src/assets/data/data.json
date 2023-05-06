@@ -82,35 +82,114 @@
 			}
 		]
 	},
-	"courses": {
-		"courses-title": "URL",
-		"course-academy-shield-01": "URL",
-		"course-academy-shield-02": "URL",
-		"course-academy-shield-03": "URL",
-		"course-academy-shield-05": "URL",
-		"course-academy-shield-06": "URL",
-		"course-academy-shield-04": "URL",
-		"course-academy-shield-07": "URL",
-		"course-academy-shield-08": "URL",
-		"course-academy-bar": "https://gcdnb.pbrd.co/images/tN6sr9MABqsR.png?o=1",
-		"course-certificate-frame": "https://gcdnb.pbrd.co/images/aHzz8kzcc0yW.png?o=1",
-		"course-academy-logo-01": "URL",
-		"course-academy-name-01": "Argentina Programa",
-		"course-academy-logo-02": "URL",
-		"course-academy-name-02": "UTN",
-		"course-academy-logo-03": "URL",
-		"course-academy-name-03": "freeCodeCamp",
-		"course-academy-logo-04": "URL",
-		"course-academy-name-04": "Grasshopper",
-		"course-academy-logo-05": "URL",
-		"course-academy-name-05": "Sololearn",
-		"course-academy-logo-06": "URL",
-		"course-academy-name-06": "HackerRank",
-		"course-academy-logo-07": "URL",
-		"course-academy-name-07": "Challenges + Katas",
-		"course-academy-logo-08": "URL",
-		"course-academy-name-08": "Surprised Monkey Studio"
-	},
+	"academies": [
+        {
+            "name": "Argentina Programa",
+            "shield": "URL",
+            "logo": "URL",
+            "courses": [
+                {
+                    "name": "#YoProgramo",
+                    "description": "The first phase of the programming and computational thinking training program, offered by the government of Argentina. It covers the fundamentals of programming through the use of Gobstones, Java, and Ruby.",
+                    "certificate": "https://www.linkpicture.com/q/YoProgramo_page-0001.jpg"
+                },
+                {
+                    "name": "#SeProgramar",
+                    "description": "The second phase of the programming and computational thinking training program, offered by the government of Argentina. It covers different tools related to agile methodologies such as Scrum, and develops a full-stack profile through the creation of a portfolio. To carry out the project, participants deepen their knowledge in HTML and CSS, Angular, Java, MySQL, and Springboot.",
+                    "certificate": "URL"
+                }
+            ]
+        },
+        {
+            "name": "freeCodeCamp",
+            "shield": "URL",
+            "logo": "URL",
+            "courses": [
+                {
+                    "name": "Responsive Web Design",
+                    "description": "balblalbla bla bla",
+                    "certificate": "https://gcdnb.pbrd.co/images/G6faIjOdb2fz.png?o=1"
+                }
+            ]
+        },
+        {
+            "name": "Grasshopper",
+            "shield": "URL",
+            "logo": "URL",
+            "courses": [
+                {
+                    "name": "Fundamentals",
+                    "description": "Functions, creating variables, control code flow. This course uses JavaScript, but the concepts can be applied to any coding language.",
+                    "certificate": "https://gcdnb.pbrd.co/images/tnn0oAYF6cvx.jpg?o=1"
+                },
+                {
+                    "name": "Fundamentals II",
+                    "description": "Building on the knowledge you gained in Fundamentals; learn how to manipulate string and arrays, use alternative approaches to similar problems and create your own functions.",
+                    "certificate": "https://gcdnb.pbrd.co/images/P3L8zAxELIOr.jpg?o=1"
+                },
+                {
+                    "name": "Animations",
+                    "description": "Create, manipulate, and animate shapes. This course uses the D3 library, Scalable Vector Graphics (SVG), and JavaScript.",
+                    "certificate": "https://gcdnb.pbrd.co/images/ExA7cYZrCXTn.jpg?o=1"
+                },
+                {
+                    "name": "Animations II",
+                    "description": "Create interactive, manipulatable animations. Use of Arrow functions.",
+                    "certificate": "https://gcdnb.pbrd.co/images/pIAeJ6dqn1nP.jpg?o=1"
+                },
+                {
+                    "name": "Array Methods",
+                    "description": "Different ways to search arrays, combine elements, and transform elements using arrow functions.",
+                    "certificate": "https://gcdnb.pbrd.co/images/bw8gvTNl0BCz.jpg?o=1"
+                },
+                {
+                    "name": "Automation",
+                    "description": "Automate tasks using Apps Script, a Google product powered by JavaScript.",
+                    "certificate": "https://gcdnb.pbrd.co/images/FrSNIQ4XTEni.jpg?o=1"
+                },
+                {
+                    "name": "Debugging Code",
+                    "description": "Spot errors of different types and use coding tools such as try catch statements and the console for debugging.",
+                    "certificate": "https://gcdnb.pbrd.co/images/KoNgf50piNSi.jpg?o=1"
+                },
+                {
+                    "name": "Intro to Webpages",
+                    "description": "HTML, CSS, and how JavaScript can interact with them.",
+                    "certificate": "https://gcdnb.pbrd.co/images/PrWW1g0lWoIO.jpg?o=1"
+                }
+            ]
+        },
+        {
+            "name": "Sololearn",
+            "shield": "URL",
+            "logo": "URL",
+            "courses": []
+        },
+        {
+            "name": "HackerRank",
+            "shield": "URL",
+            "logo": "URL",
+            "courses": []
+        },
+        {
+            "name": "Challenges + Katas",
+            "shield": "URL",
+            "logo": "URL",
+            "courses": []
+        },
+        {
+            "name": "Surprised Monkey Studio",
+            "shield": "URL",
+            "logo": "URL",
+            "courses": [
+                {
+                    "name": "Desarrollador Generalista de Unreal Engine 5",
+                    "description": "balblalbla bla bla",
+                    "certificate": "https://gcdnb.pbrd.co/images/3xLWayQIQOJg.jpg?o=1"
+                }
+            ]
+        }
+    ],
 	"skills": {
 		"skills-title": ""
 	},
