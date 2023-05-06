@@ -12,7 +12,7 @@
     <div class="job01 col-12">
         <div class="studio">
             <div class="monkey-studio">
-                <div class="logo">Logo</div>
+                <div class="logo" [ngStyle]="{ 'background-image': 'url(' + experience.logo + ')'}"></div>
             </div>
             <div class="role-list">
                 <p>{{experience.description}}</p>

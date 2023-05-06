@@ -3,46 +3,84 @@
 
 <!-- SUBSECTION Education -->
 <div class="education-container col-10">
-    <div class="education-title"></div>
-    <div id="elements-container">
-        <div id="education">
-            <div id="education-title">Academic Training</div>
-            <div id="timeline">
-                <div *ngFor="let institution of education.institutions; index as i;" class="year-container">
-                    <div [id]="(i+1)"></div>
-                </div>
-            </div>
-            <div id="phases-container">
-                <div id="phase-01" *ngFor="let institution of education.institutions">
-                    <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                    <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                    <div class="arrow"></div>
-                    <div class="flex phase-data">
-                        <div class="phase-logo" [ngStyle]="{ 'background-image': 'url(' + institution.logo + ')'}" ></div>
-                        <div class="phase-info"><span class="phase-title flex">{{institution.name}}</span> <span class="phase-year">{{institution.from}} - {{institution.to}}</span></div>
-                    </div>
-                    <div class="phase-certificate" [ngStyle]="{ 'background-image': 'url(' + institution.certificate + ')'}">CERTIFICATE</div>
-                </div>
-            </div>
-        </div>
+  <div class="education-title"></div>
 
-        <div id="languages">
-            <div id="languages-title">Languages</div>
-            <div id="languages-container">
-                <div id="language-01" *ngFor="let language of education.languages">
-                    <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                    <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                    <div class="language-title">{{language.name}}</div>
-                    <div class="estandarte-container">
-                        <div class="language-logo">{{language.logo}}</div>
-                        <div class="language-points">
-                            <div class="point"*ngFor="let level of [].constructor(language.level); let i = index">0{{i+1}}</div>
-                        </div>
-                        <div class="language-certificate-title">{{language.title}}</div>
-                        <div class="language-certificate">{{language.certificate}}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div id="elements-container">
+    <div class="education-titles">
+      <div id="education-title">Academic Training</div>
+      <div id="languages-title">Languages</div>
     </div>
+
+    <div id="timeline"></div>
+    <div class="education-and-languages">
+      <div id="education">
+        
+
+        
+          <div id="phase" *ngFor="let institution of education.institutions">
+            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
+            <div class="delete hidden">
+              <i class="fa-solid fa-subscript"></i>
+            </div>
+            <div class="arrow"></div>
+            <span class="phase-year"
+              >{{ institution.from }} - {{ institution.to }}</span
+            >
+            <span class="title">{{ institution.title }}</span>
+            <div class="vertical-bar"></div>
+            <div
+              class="phase-logo"
+              [ngStyle]="{
+                'background-image': 'url(' + institution.logo + ')'
+              }"
+            ></div>
+            <span class="phase-title flex">{{ institution.name }}</span>
+            <div
+              class="phase-certificate"
+              [ngStyle]="{
+                'background-image': 'url(' + institution.certificate + ')'
+              }"
+            ></div>
+          </div>
+      
+      </div>
+
+      <div id="languages">
+        <div id="languages-container">
+          <div id="language" *ngFor="let language of education.languages">
+            <div
+              class="language"
+              [ngStyle]="{
+                'background-image': 'url(' + language.background + ')'
+              }"
+            >
+              <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
+              <div class="delete hidden">
+                <i class="fa-solid fa-subscript"></i>
+              </div>
+              <div class="language-title">{{ language.name }}</div>
+              <div class="language-points">
+                <div
+                  class="point"
+                  *ngFor="
+                    let level of [].constructor(language.level);
+                    let i = index
+                  "
+                  [ngStyle]="{
+                    'background-image': 'url(' + language.full + ')'
+                  }"
+                ></div>
+              </div>
+            </div>
+            <div class="language-certificate-title">{{ language.title }}</div>
+            <div class="language-certificate">
+              <!-- <img [src]="language.certificate" alt=""> -->
+              <!-- Las imágenes quedan
+                          ENORMES y no sé por qué -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

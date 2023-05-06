@@ -9,7 +9,7 @@
 		"studio_name": "Surprised Monkey Studio",
 		"from": "2023",
 		"to": "2023",
-		"logo": "URL",
+		"logo": "https://gcdnb.pbrd.co/images/zfCxAjbMCXJb.png?o=1",
 		"description": "Indie videogame studio that has developed “Surviving the Humans”, a classic 2D point-and-click adventure. Currently involved in the development of a new 3D adventure game, I am part of the team working on this project.",
 		"roles": [{
 				"name": "Environmental Designer",
@@ -26,67 +26,75 @@
 		]
 	},
 	"education": {
-		"title": "URL",
 		"institutions": [{
-				"logo": "URL",
+				"logo": "https://gcdnb.pbrd.co/images/meKUfmT7t8m9.png?o=1",
 				"name": "Saint Luke's College",
 				"from": "2004",
 				"to": "2017",
 				"title": "",
-				"certificate": "URL"
+				"certificate": "https://gcdnb.pbrd.co/images/i1yL5hJpgwYY.png?o=1"
 			},
 			{
-				"logo": "URL",
+				"logo": "https://gcdnb.pbrd.co/images/eRLLy2oJatVN.png?o=1",
 				"name": "Universidad Torcuato Di Tella",
 				"from": "2018",
 				"to": "2022",
-				"title": "Architect",
-				"certificate": "URL"
+				"title": "ARCHITECT",
+				"certificate": "https://gcdnb.pbrd.co/images/afeO0CFTV4bI.png?o=1"
 			},
 			{
-				"logo": "URL",
+				"logo": "https://gcdnb.pbrd.co/images/YGy53EeatI0N.png?o=1",
 				"name": "Universidad de Belgrano",
 				"from": "2023",
-				"to": "2028 (estimated)",
-				"title": "Informatic Engineer",
-				"certificate": "Not obtained"
+				"to": "2028",
+				"title": "INFORMATIC ENGINEER",
+				"certificate": "https://gcdnb.pbrd.co/images/a0e7UlAQMYfG.png?o=1"
 			}
 		],
-		"languages": [{
+		"languages": 
+        [{
 				"name": "Spanish",
-				"logo": "URL",
+				"background": "https://gcdnb.pbrd.co/images/2qSQZznnITMe.png?o=1",
 				"level": 5,
 				"title": "Native",
-				"certificate": null
+				"certificate": null,
+                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
 			},
 			{
 				"name": "English",
-				"logo": "URL",
+				"background": "https://gcdnb.pbrd.co/images/hM4WUoH2TuLq.png?o=1",
 				"level": 4,
 				"title": "Cambridge Exams with Merit",
-				"certificate": "URL"
+				"certificate": "https://gcdnb.pbrd.co/images/BiYdu7y06vWZ.png?o=1",
+                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
 			},
 			{
 				"name": "French",
-				"logo": "URL",
+				"background": "https://gcdnb.pbrd.co/images/iPtEuCzNyzFV.png?o=1",
 				"level": 2,
 				"title": "DELF-A2",
-				"certificate": "URL"
+				"certificate": "https://gcdnb.pbrd.co/images/dmN2twNOhyNN.png?o=1",
+                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
 			},
 			{
 				"name": "Russian",
-				"logo": "URL",
+				"background": "https://gcdnb.pbrd.co/images/R0Q3LKX8xIkK.png?o=1",
 				"level": 1,
 				"title": null,
-				"certificate": null
+				"certificate": "https://gcdnb.pbrd.co/images/gagFeYYCaHDM.png?o=1",
+                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
 			}
 		]
 	},
 	"academies": [
         {
             "name": "Argentina Programa",
-            "shield": "URL",
-            "logo": "URL",
+            "shield": "https://gcdnb.pbrd.co/images/BaXJkRkn7Xjb.png?o=1",
+            "logo": "https://gcdnb.pbrd.co/images/6KsQr7UGgSrb.png?o=1",
             "courses": [
                 {
                     "name": "#YoProgramo",
@@ -101,9 +109,21 @@
             ]
         },
         {
+            "name": "UTN",
+            "shield": "https://gcdnb.pbrd.co/images/4krEmqQFYLfD.png?o=1",
+            "logo": "https://gcdnb.pbrd.co/images/heUenhrAQnVE.png?o=1",
+            "courses": [
+                {
+                    "name": "Diplomatura en Professional Front End Developer",
+                    "description": "The training program covers the development of flexible and adaptable websites that can adjust to any screen size, use of JQuery libraries to add interactivity to websites without having to write all the code from scratch and fundamental knowledge of Javascript. The training emphasizes the use of semantic elements, optimized design techniques in website layout, as well as HTML5 and CSS3 usage.",
+                    "certificate": "https://www.linkpicture.com/q/UTN_Professional_Web_Developer_page-0001.jpg"
+                }
+            ]
+        },
+        {
             "name": "freeCodeCamp",
-            "shield": "URL",
-            "logo": "URL",
+            "shield": "https://i.imgur.com/NiUEMCX.png",
+            "logo": "https://gcdnb.pbrd.co/images/xedC8AChak6l.png?o=1",
             "courses": [
                 {
                     "name": "Responsive Web Design",
@@ -114,8 +134,8 @@
         },
         {
             "name": "Grasshopper",
-            "shield": "URL",
-            "logo": "URL",
+            "shield": "https://i.imgur.com/9E0KOus.png",
+            "logo": "https://gcdnb.pbrd.co/images/F8hW26HC5Jrk.png?o=1",
             "courses": [
                 {
                     "name": "Fundamentals",
@@ -161,26 +181,26 @@
         },
         {
             "name": "Sololearn",
-            "shield": "URL",
-            "logo": "URL",
+            "shield": "https://i.imgur.com/gib7py4.png",
+            "logo": "https://gcdnb.pbrd.co/images/K7iMdeUQXiHE.png?o=1",
             "courses": []
         },
         {
             "name": "HackerRank",
-            "shield": "URL",
-            "logo": "URL",
+            "shield": "https://i.imgur.com/LOxqOrp.png",
+            "logo": "https://gcdnb.pbrd.co/images/w6eIpcmQpVoP.png?o=1",
             "courses": []
         },
         {
             "name": "Challenges + Katas",
-            "shield": "URL",
-            "logo": "URL",
+            "shield": "https://i.imgur.com/rhbC3Rw.png",
+            "logo": "https://gcdnb.pbrd.co/images/4l3Lhrf0H2dk.png?o=1",
             "courses": []
         },
         {
             "name": "Surprised Monkey Studio",
-            "shield": "URL",
-            "logo": "URL",
+            "shield": "https://i.imgur.com/XjASlqx.png",
+            "logo": "https://gcdnb.pbrd.co/images/DJjPuN89zPlF.png?o=1",
             "courses": [
                 {
                     "name": "Desarrollador Generalista de Unreal Engine 5",
