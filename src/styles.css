@@ -784,12 +784,15 @@ i:hover {
 }
 
 #timeline {
-    width: 65%;
-    height: 5%;
+    width: 90%;
+    height: 25%;
     margin-bottom: 2%;
-    background-color: black;
     display: flex;
     justify-content: space-between;
+    background-image: url(assets/Images/timeline.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 #year-01,
@@ -877,9 +880,13 @@ i:hover {
     align-items: center;
 }
 
-#phase-01,
-#phase-02,
-#phase-03 {
+#phase-01-container,
+#phase-02-container,
+#phase-03-container {
+
+}
+
+.phase-01 {
     height: 100%;
     width: 20%;
     background-color: black;
