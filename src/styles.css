@@ -203,17 +203,6 @@ i:hover {
     width: 100%;
 }
 
-.project-divider {
-    background-image: url(assets/Images/project-divider.png);
-    background-size: 100% 100%;
-    background-repeat: repeat;
-    background-position: center center;
-    margin: 0 auto;
-    position: relative;
-    height: 2vw;
-    width: 100%;
-}
-
 /* ABOUT */
 
 .about-info .edit{
@@ -1121,7 +1110,7 @@ width: 2vw;
 }
 
 .skills-summary {
-    background-image: linear-gradient(to right, #a9b2c5 , #ced4e3 10%, #ced4e3 90%,#a9b2c5);
+    background-image: linear-gradient(to right, #a9b2c5 , #c3c9d7 10%, #c3c9d7 90%,#a9b2c5);
     height: 100%;
     width: 18%;
     display: flex;
@@ -1498,14 +1487,15 @@ width: 2vw;
 }
 
 .project-filters {
-    width: 70%;
-    height: 3vw;
-    margin-top: 2vw;
-    background-color: white;
+    width: 100%;
+    height: 6vw;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url(assets/Images/divider-projects.png);
+    background-size: 100% 100%;
+    background-repeat: repeat;
 }
 
 .project-filter {
@@ -1517,6 +1507,18 @@ width: 2vw;
     align-items: center;
     cursor: pointer;
     font-size: small;
+}
+
+
+.project-divider {
+    background-image: url(assets/Images/project-divider.png);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    margin: 0 auto;
+    position: relative;
+    height: 4vw;
+    width: 100%;
 }
 
 .project-container {
@@ -1623,7 +1625,7 @@ width: 2vw;
 .project-01 {
     width: 100%;
     position: relative;
-    background-image: url(assets/Images/velvet-02.png);
+    background-image: url(assets/Images/velvet-01.png);
     background-size: 100% 100%;
 }
 
