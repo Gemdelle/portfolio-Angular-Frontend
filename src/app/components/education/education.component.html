@@ -37,6 +37,7 @@
             <span class="phase-title flex">{{ institution.name }}</span>
             <div class="phase-certificate-container">
               <div class="phase-certificate"></div>
+              <a [href]="institution.certificate" target="_blank"></a>
               <img [src]="institution.certificate" alt="">
             </div>
           </div>
@@ -72,7 +73,7 @@
             </div>
             <div class="language-certificate-title">{{ language.title }}</div>
             <div class="language-certificate-container">
-              <div class="language-certificate"></div>
+              <a [href]="language.certificate" target="_blank"><div class="language-certificate"></div></a>
               <img [src]="language.certificate" alt="">
             </div>
           </div>
