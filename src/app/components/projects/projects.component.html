@@ -22,7 +22,7 @@
         <span>{{ project.title }}</span>
       </div>
       <div class="project-container" *ngIf="project.type == 'HISTORY'">
-        <div class="project-content">
+        <div class="project-content-fcc">
           <div class="thumbnail-container">
             <div class="styles-container">
               <div class="style-box"><span>fCC Style</span></div>
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="project-description">
-          <div class="project-filters-list">
+          <div class="project-filters-list-default">
             <div
               class="project-filter-tag"
               [class.ai]="tag === 'AI'"
