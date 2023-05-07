@@ -1033,6 +1033,19 @@ width: 2vw;
     background-repeat: no-repeat;
 }
 
+.hard-skills-drawing {
+    height: 24vw;
+    width: 21vw;
+    background-image: url(assets/Images/hard-skills-drawing.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 11.5vw;
+    transition: all 500ms ease-in-out;
+    z-index: 2;
+}
+
 .soft-skills-drawing {
     height: 20vw;
     width: 20vw;
@@ -1041,21 +1054,9 @@ width: 2vw;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: 14.5vw;
+    top: 14.8vw;
     transition: all 500ms ease-in-out;
-    z-index: 10;
-}
-
-.hard-skills-drawing {
-    height: 23vw;
-    width: 20vw;
-    background-image: url(assets/Images/hard-skills-drawing.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 12.5vw;
-    transition: all 500ms ease-in-out;
+    z-index: 2;
 }
 
 /* Hover */
@@ -1179,8 +1180,8 @@ width: 2vw;
     justify-content: space-between;
 }
 
-.soft-blood {
-    background-image: url(Assets/Images/soft-dormant-veins.png);
+.hard-blood {
+    background-image: url(Assets/Images/hard-dormant-veins.png);
     background-size: 95% 90%;
     background-repeat: no-repeat;
     height: 10vw;
@@ -1192,8 +1193,8 @@ width: 2vw;
     transition: all 500ms ease-in-out;
 }
 
-.hard-blood {
-    background-image: url(Assets/Images/hard-dormant-veins.png);
+.soft-blood {
+    background-image: url(Assets/Images/soft-dormant-veins.png);
     background-size: 95% 90%;
     background-repeat: no-repeat;
     height: 10vw;
@@ -1655,16 +1656,15 @@ width: 2vw;
 }
 
 .project-subproject {
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 15%;
     background-image: url(assets/Images/subproject-background.png);
     background-size: contain;
-    background-position: bottom;
-    background-position-y: 0.6vw;
+    background-position: center;
+    background-position-y: -1vw;
     background-repeat: no-repeat;
     text-align: center;
     margin-top: 1vw;
-    background-color: rgba(97, 122, 172, 0.6);
 }
 
 .project-subproject span {
