@@ -182,12 +182,6 @@
       ]
     },
     {
-      "name": "Sololearn",
-      "shield": "https://i.imgur.com/gib7py4.png",
-      "logo": "https://gcdnb.pbrd.co/images/K7iMdeUQXiHE.png?o=1",
-      "courses": []
-    },
-    {
       "name": "HackerRank",
       "shield": "https://i.imgur.com/LOxqOrp.png",
       "logo": "https://gcdnb.pbrd.co/images/w6eIpcmQpVoP.png?o=1",
@@ -203,12 +197,6 @@
             "certificate": "https://gcdnb.pbrd.co/images/lo16O6E1EYmC.png?o=1"
           }
       ]
-    },
-    {
-      "name": "Challenges + Katas",
-      "shield": "https://i.imgur.com/rhbC3Rw.png",
-      "logo": "https://gcdnb.pbrd.co/images/4l3Lhrf0H2dk.png?o=1",
-      "courses": []
     },
     {
       "name": "Surprised Monkey Studio",

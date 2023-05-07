@@ -1284,7 +1284,7 @@ width: 2vw;
 }
 
 .skill-level {
-    background-image: url(assets/Images/skill-full.png);
+    background-image: url(assets/Images/skill-empty.png);
 }
 
 .hard-skill-level {
