@@ -211,73 +211,143 @@
       ]
     }
   ],
-  "skills": [
+  "skills": {
+    "soft": [{
+      "name": "Full-Stack Developer",
+      "background": "https://i.postimg.cc/mDj03pgY/hard-skill-01.png",
+      "level": "3",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
     {
-      "soft": [{
-        "name": "Full-Stack Developer",
-        "background": "https://i.postimg.cc/mDj03pgY/hard-skill-01.png",
-        "level": "3"
-      },
-      {
-        "name": "Software knowledge",
-        "background": "https://gcdnb.pbrd.co/images/iXHmGf1AeQ8g.png?o=1",
-        "level": "2"
-      },
-      {
-        "name": "Agile methodologies",
-        "background": "https://gcdnb.pbrd.co/images/DZScPo41BGNg.png?o=1",
-        "level": "3"
-      },
-      {
-        "name": "UI design",
-        "background": "https://gcdnb.pbrd.co/images/JKGIxKqNXdJe.png?o=1",
-        "level": "5"
-      },
-      {
-        "name": "Database management",
-        "background": "https://gcdnb.pbrd.co/images/koQrBpfdQ9a3.png?o=1",
-        "level": "3"
-      },
-      {
-        "name": "Multilingual",
-        "background": "https://gcdnb.pbrd.co/images/HcLoERsS2GkK.png?o=1",
-        "level": "5"
-      }
-    
-    ],
-      "hard": [{
-        "name": "Willingness to learn",
-        "background": "https://www.linkpicture.com/q/hard-skill-01_1.png",
-        "level": "5"
-      },
-      {
-        "name": "Teamwork",
-        "background": "https://i.postimg.cc/nrMLbDsD/hard-skill-01.png",
-        "level": "3"
-      },
-      {
-        "name": "Creativity",
-        "background": "https://i.postimg.cc/HsqbzpK2/hard-skill-01.png",
-        "level": "5"
-      },
-      {
-        "name": "Organization",
-        "background": "https://i.postimg.cc/bwP98yTv/hard-skill-01.png",
-        "level": "4"
-      },
-      {
-        "name": "Problem solving",
-        "background": "https://i.postimg.cc/85xLYNcN/hard-skill-01.png",
-        "level": "3"
-      },
-      {
-        "name": "Critical thinking ",
-        "background": "https://i.postimg.cc/hPW9bDN0/hard-skill-01.png",
-        "level": "4"
-      }
-    ] 
+      "name": "Software knowledge",
+      "background": "https://gcdnb.pbrd.co/images/iXHmGf1AeQ8g.png?o=1",
+      "level": "2",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Agile methodologies",
+      "background": "https://gcdnb.pbrd.co/images/DZScPo41BGNg.png?o=1",
+      "level": "3",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "UI design",
+      "background": "https://gcdnb.pbrd.co/images/JKGIxKqNXdJe.png?o=1",
+      "level": "5",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Database management",
+      "background": "https://gcdnb.pbrd.co/images/koQrBpfdQ9a3.png?o=1",
+      "level": "3",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Multilingual",
+      "background": "https://gcdnb.pbrd.co/images/HcLoERsS2GkK.png?o=1",
+      "level": "5",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
     }
+
   ],
+    "hard": [{
+      "name": "Willingness to learn",
+      "background": "https://www.linkpicture.com/q/hard-skill-01_1.png",
+      "level": "5",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Teamwork",
+      "background": "https://i.postimg.cc/nrMLbDsD/hard-skill-01.png",
+      "level": "3",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Creativity",
+      "background": "https://i.postimg.cc/HsqbzpK2/hard-skill-01.png",
+      "level": "5",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Organization",
+      "background": "https://i.postimg.cc/bwP98yTv/hard-skill-01.png",
+      "level": "4",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Problem solving",
+      "background": "https://i.postimg.cc/85xLYNcN/hard-skill-01.png",
+      "level": "3",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    },
+    {
+      "name": "Critical thinking ",
+      "background": "https://i.postimg.cc/hPW9bDN0/hard-skill-01.png",
+      "level": "4",
+      "abilities": [
+        "Ability 01",
+        "Ability 02",
+        "Ability 03"
+      ],
+      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+    }
+  ]
+  },
   "projects": [
     {
       "type": "HISTORY",
