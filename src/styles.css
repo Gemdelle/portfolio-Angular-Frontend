@@ -1707,6 +1707,33 @@ width: 2vw;
     align-items: center;
 }
 
+/* FOOTER */
+
+.footer-name {
+    background-image: url(assets/Images/footer-name.png);
+    background-position-y: 35%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 13%;
+}
+
+.footer-name .name {
+    margin-top: 0.5vw;
+    letter-spacing: 0.02vw;
+}
+
+.footer-name .year {
+    margin-top: -0.3vw;
+    font-size: small;
+    font-style: italic;
+    letter-spacing: 0.05vw;
+}
+
 /*ACCORDION*/
 
 .accordion {
