@@ -376,6 +376,7 @@ i:hover {
 
 .banner-container {
     background-image: url(assets/Images/banner.png);
+    background-position-x: 0.5vw;
 }
 
 .a-skill-container .edit{
@@ -904,6 +905,12 @@ width: 2vw;
     position: relative;
 }
 
+.phase-certificate-container a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 .phase-certificate {
     background-image: url(assets/Images/certificate-frame.png);
     background-size: contain;
@@ -977,15 +984,23 @@ width: 2vw;
     margin-top: 3.5vw;
 }
 
-.point {
+.point, 
+.point-empty {
     height: 23%;
     width: 35%;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(assets/Images/full-level.png);
     margin-bottom: -0.9vw;
     filter: saturate(50%) contrast(130%);
+}
+
+.point {
+    background-image: url(assets/Images/full-level.png);
+}
+
+.point-empty {
+    background-image: url(assets/Images/empty-level.png);
 }
 
 .language-certificate-title {
@@ -1003,6 +1018,12 @@ width: 2vw;
     align-items: center;
     margin-top: 0.3vw;
     position: relative;
+}
+
+.language-certificate-container a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .language-certificate {
@@ -1308,6 +1329,11 @@ width: 2vw;
 
 .hard-skill-level {
     background-image: url(assets/Images/skill-full-hard.png);
+    transition: all 500ms ease-in-out;
+}
+
+.empty-skill-level {
+    background-image: url(assets/Images/skill-empty.png);
     transition: all 500ms ease-in-out;
 }
 
@@ -1697,7 +1723,6 @@ width: 2vw;
     height: 100%;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
 }
 
 .thumbnail:hover {
