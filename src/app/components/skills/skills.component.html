@@ -9,158 +9,74 @@
       <div class="soft-skills-drawing"></div>
       <div class="hard-skills-drawing"></div>
     </div>
+
+    <!-- Soft Skills -->
     <div class="skills-icons-container">
+
+      <div class="soft-blood"></div>
+      <div class="hard-blood"></div>
+
       <div class="soft-skills">
-        <div class="skills-icons">
-          <!-- Skill 01 -->
-          <div class="a-skill-container">
-            <div class="a-skill">
-              <span><i>Full-stack Developer</i></span>
+        <div class="skills-icons end">
+            <div class="a-skill end" *ngFor="let skill of skills[0].soft; index as i" [ngStyle]="{ 'background-image': 'url(' + skill.background + ')'}">
+              <div class="skill-name-and-levels">
+              <div class="skill-levels">
+                <div class="skill-level"></div>
+                <div class="skill-level"></div>
+                <div class="skill-level"></div>
+                <div class="skill-level"></div>
+                <div class="skill-level"></div>
+              </div>
+              <div class="skill-name">{{skill.name}}</div>
+            </div>
             </div>
             <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
             <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
+            <i class="fa-solid fa-subscript"></i>
             </div>
-          </div>
-          <!-- Skill 02 -->
-          <div class="a-skill-container">
-            <div class="a-skill">
-              <span><i>Full-stack Developer</i></span>
-            </div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 03 -->
-          <div class="a-skill-container">
-            <div class="a-skill">
-              <span><i>Full-stack Developer</i></span>
-            </div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 04 -->
-          <div class="a-skill-container">
-            <div class="a-skill">
-              <span><i>Full-stack Developer</i></span>
-            </div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 05 -->
-          <div class="a-skill-container">
-            <div class="a-skill">
-              <span><i>Full-stack Developer</i></span>
-            </div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 06 -->
-          <div class="a-skill-container">
-            <div class="a-skill">
-              <span><i>Full-stack Developer</i></span>
-            </div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
         </div>
       </div>
+
+      <!-- Hard Skills -->
       <div class="hard-skills">
         <div class="skills-icons">
-          <!-- Skill 01 -->
-          <div class="a-skill-container">
-            <div>
-              <span><i>Skill name</i></span>
+            <div class="a-skill" *ngFor="let skill of skills[0].hard; index as i" [ngStyle]="{ 'background-image': 'url(' + skill.background + ')'}">
+              <div class="skill-name-and-levels">
+                <div class="skill-name">{{skill.name}}</div>
+                <div class="skill-levels">
+                  <div class="hard-skill-level"></div>
+                  <div class="hard-skill-level"></div>
+                  <div class="hard-skill-level"></div>
+                  <div class="hard-skill-level"></div>
+                  <div class="hard-skill-level"></div>
+                </div>
+              </div>
             </div>
-            <div class="a-skill-02"></div>
             <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
             <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
+            <i class="fa-solid fa-subscript"></i>
             </div>
-          </div>
-          <!-- Skill 02 -->
-          <div class="a-skill-container">
-            <div>
-              <span><i>Skill name</i></span>
-            </div>
-            <div class="a-skill-02"></div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 03 -->
-          <div class="a-skill-container">
-            <div>
-              <span><i>Skill name</i></span>
-            </div>
-            <div class="a-skill-02"></div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 04 -->
-          <div class="a-skill-container">
-            <div>
-              <span><i>Skill name</i></span>
-            </div>
-            <div class="a-skill-02"></div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 05 -->
-          <div class="a-skill-container">
-            <div>
-              <span><i>Skill name</i></span>
-            </div>
-            <div class="a-skill-02"></div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
-          <!-- Skill 06 -->
-          <div class="a-skill-container">
-            <div>
-              <span><i>Skill name</i></span>
-            </div>
-            <div class="a-skill-02"></div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-              <i class="fa-solid fa-subscript"></i>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
-    <div class="skills-summary">
-      <div class="skills-summary-title">
-        <h2>Skill</h2>
       </div>
-      <ul>
-        <li>Ability 01</li>
-        <li>Ability 02</li>
-        <li>Ability 03</li>
-      </ul>
-      <div class="bar"></div>
-      <p>
-        Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur
-        debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate
-        odio. Doloremque, cupiditate nostrum.
-      </p>
+
+      <div class="skills-summary">
+        <div class="skills-summary-title">
+          <h2>Skill</h2>
+        </div>
+        <ul>
+          <li>Ability 01</li>
+          <li>Ability 02</li>
+          <li>Ability 03</li>
+        </ul>
+        <div class="bar"></div>
+        <p>
+          Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur
+          debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate
+          odio. Doloremque, cupiditate nostrum.
+        </p>
+      </div>
     </div>
   </div>
-</div>
+  

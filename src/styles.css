@@ -983,6 +983,7 @@ width: 2vw;
     background-repeat: no-repeat;
     background-image: url(assets/Images/full-level.png);
     margin-bottom: -0.9vw;
+    filter: saturate(50%) contrast(130%);
 }
 
 .language-certificate-title {
@@ -1031,7 +1032,7 @@ width: 2vw;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url(https://gcdnb.pbrd.co/images/KTm77xYhEucs.png?o=1);
+    background-image: url(assets/Images/skills-presentation.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1047,6 +1048,7 @@ width: 2vw;
     position: absolute;
     bottom: 14.5vw;
     transition: all 500ms ease-in-out;
+    z-index: 10;
 }
 
 .hard-skills-drawing {
@@ -1119,7 +1121,7 @@ width: 2vw;
 }
 
 .skills-summary {
-    background-color: #5f5f5f;
+    background-image: linear-gradient(to right, #a9b2c5 , #ced4e3 10%, #ced4e3 90%,#a9b2c5);
     height: 100%;
     width: 18%;
     display: flex;
@@ -1142,7 +1144,6 @@ width: 2vw;
 }
 
 .skills ul {
-    background-color: red;
     height: 15%;
     display: flex;
     flex-direction: column;
@@ -1172,14 +1173,53 @@ width: 2vw;
 
 .skills-icons {
     width: 73%;
-    height: 100%;
-    /* background-image: url(Assets/Images/Blood.png); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 90%;
-    background-position-x: -30%;
+    height: 90%;
     display: flex;
     justify-content: space-between;
+}
+
+.soft-blood {
+    background-image: url(Assets/Images/soft-dormant-veins.png);
+    background-size: 95% 90%;
+    background-repeat: no-repeat;
+    height: 10vw;
+    width: 51vw;
+    position: absolute;
+    margin-right: 0.7vw;
+    margin-bottom: 33vw;
+    z-index: 1;
+    transition: all 500ms ease-in-out;
+}
+
+.hard-blood {
+    background-image: url(Assets/Images/hard-dormant-veins.png);
+    background-size: 95% 90%;
+    background-repeat: no-repeat;
+    height: 10vw;
+    width: 51vw;
+    position: absolute;
+    margin-right: 0.7vw;
+    margin-top: 36vw;
+    z-index: 1;
+    transition: all 500ms ease-in-out;
+}
+
+/* ESTE HOVER DEBERÍA SER SOBRE EL DIBUJO DE HARD SKILLS */
+.hard-blood:hover {
+    background-image: url(Assets/Images/hard-active-veins.png);
+}
+
+.soft-blood:hover {
+    background-image: url(Assets/Images/soft-active-veins.png);
+}
+/* FIN HOVER */
+
+.end {
+    align-items: flex-end;
+}
+
+.end .skill-name {
+    margin-bottom: 0.4vw;
 }
 
 .a-skill-container {
@@ -1194,24 +1234,69 @@ width: 2vw;
 }
 
 .a-skill {
-    background-image: url(Assets/Images/skill.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
 }
 
-.a-skill-02 {
-    background-image: url(Assets/Images/Skill-02.png);
-    background-size: cover;
-    background-position: center;
+.skill-name-and-levels {
     height: 100%;
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.skill-name {
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    margin-top: 0.5vw;
+}
+
+.skill-levels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6vw;
+    width: 1.2vw;
+    margin-top: 0.3vw;
+}
+
+.skill-level,
+.hard-skill-level {
+    height: 19.2%;
+    width: 100%;
+    background-size: 55% 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill-level {
+    background-image: url(assets/Images/skill-full.png);
+}
+
+.hard-skill-level {
+    background-image: url(assets/Images/skill-full-hard.png);
+}
+
+
+
+/* COURSES */
 
 .courses-container {
-    background-image: url(Assets/Images/velvet-04.png);
+    background-image: url(Assets/Images/velvet-03.png);
     background-size: contain;
     background-position: top;
     margin: 0 auto;
@@ -1346,12 +1431,12 @@ width: 2vw;
 
 .course-content {
     height: 8vw;
-    background-color: rgba(221, 227, 236, 0.6);
+    background-color: rgba(236, 235, 221, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 4px rgb(238, 238, 215) ridge;
-    border-bottom: 2px rgb(202, 202, 188) solid;
+    border-bottom: 2px rgb(220, 220, 208) solid;
     font-style: italic;
 }
 

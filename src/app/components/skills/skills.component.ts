@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-skills',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
+  skills: any;
 
+  constructor(private service: DataService){}
+
+  ngOnInit(): void {
+    this.service.obtainData().subscribe((data) => {
+      this.skills = data.skills;
+    })
+  }
 }

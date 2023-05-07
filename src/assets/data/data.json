@@ -1,269 +1,346 @@
 {
-	"about": {
-		"banner_url": "https://anonsharing.com/cache/plugins/filepreviewer/16209/cf59288f185170f259432f1d2178abbc4ef21ea6a55ba607ccc285a27027797b/1100x800_cropped.jpg",
-		"creativity_description": "The functioning of a page is as important as its aesthetics. Details and interactivity are my 2 pillars to try and make users feel that when browsing the page they are not reading a book, but playing a game.",
-		"logic_description": "Architect with a strong base in system design and diagramming, eager to learn. Currently studying computer engineering along with courses to expand my knowledge in the world of programming.",
-		"profile_picture_url": "https://www.linkpicture.com/q/Portrait_1.png"
-	},
-	"experience": {
-		"studio_name": "Surprised Monkey Studio",
-		"from": "2023",
-		"to": "2023",
-		"logo": "https://gcdnb.pbrd.co/images/zfCxAjbMCXJb.png?o=1",
-		"description": "Indie videogame studio that has developed “Surviving the Humans”, a classic 2D point-and-click adventure. Currently involved in the development of a new 3D adventure game, I am part of the team working on this project.",
-		"roles": [{
-				"name": "Environmental Designer",
-				"description": "I created the preliminary architecture design in Blender and material design in Quixel Mixer to explore the style that the game will have."
-			},
-			{
-				"name": "Game Designer",
-				"description": "Along with the team, I developed the structure and pillars of the game based on the player's experience, the variables that define it, gameplay concepts and replayability."
-			},
-			{
-				"name": "Basic BP Developer",
-				"description": "Using basic blueprint development (block programming in Unreal Engine), I designed mechanics on a prototyping level that were adapted to the culture on which the game is based, iterating on gameplay."
-			}
-		]
-	},
-	"education": {
-		"institutions": [{
-				"logo": "https://gcdnb.pbrd.co/images/meKUfmT7t8m9.png?o=1",
-				"name": "Saint Luke's College",
-				"from": "2004",
-				"to": "2017",
-				"title": "",
-				"certificate": "https://gcdnb.pbrd.co/images/i1yL5hJpgwYY.png?o=1"
-			},
-			{
-				"logo": "https://gcdnb.pbrd.co/images/eRLLy2oJatVN.png?o=1",
-				"name": "Universidad Torcuato Di Tella",
-				"from": "2018",
-				"to": "2022",
-				"title": "ARCHITECT",
-				"certificate": "https://gcdnb.pbrd.co/images/afeO0CFTV4bI.png?o=1"
-			},
-			{
-				"logo": "https://gcdnb.pbrd.co/images/YGy53EeatI0N.png?o=1",
-				"name": "Universidad de Belgrano",
-				"from": "2023",
-				"to": "2028",
-				"title": "INFORMATIC ENGINEER",
-				"certificate": "https://gcdnb.pbrd.co/images/a0e7UlAQMYfG.png?o=1"
-			}
-		],
-		"languages": 
-        [{
-				"name": "Spanish",
-				"background": "https://gcdnb.pbrd.co/images/2qSQZznnITMe.png?o=1",
-				"level": 5,
-				"title": "Native",
-				"certificate": null,
-                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
-                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
-			},
-			{
-				"name": "English",
-				"background": "https://gcdnb.pbrd.co/images/hM4WUoH2TuLq.png?o=1",
-				"level": 4,
-				"title": "Cambridge Exams with Merit",
-				"certificate": "https://gcdnb.pbrd.co/images/BiYdu7y06vWZ.png?o=1",
-                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
-                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
-			},
-			{
-				"name": "French",
-				"background": "https://gcdnb.pbrd.co/images/iPtEuCzNyzFV.png?o=1",
-				"level": 2,
-				"title": "DELF-A2",
-				"certificate": "https://gcdnb.pbrd.co/images/dmN2twNOhyNN.png?o=1",
-                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
-                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
-			},
-			{
-				"name": "Russian",
-				"background": "https://gcdnb.pbrd.co/images/R0Q3LKX8xIkK.png?o=1",
-				"level": 1,
-				"title": null,
-				"certificate": "https://gcdnb.pbrd.co/images/gagFeYYCaHDM.png?o=1",
-                "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
-                "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
-			}
-		]
-	},
-	"academies": [
-        {
-            "name": "Argentina Programa",
-            "shield": "https://gcdnb.pbrd.co/images/BaXJkRkn7Xjb.png?o=1",
-            "logo": "https://gcdnb.pbrd.co/images/6KsQr7UGgSrb.png?o=1",
-            "courses": [
-                {
-                    "name": "#YoProgramo",
-                    "description": "The first phase of the programming and computational thinking training program, offered by the government of Argentina. It covers the fundamentals of programming through the use of Gobstones, Java, and Ruby.",
-                    "certificate": "https://www.linkpicture.com/q/YoProgramo_page-0001.jpg"
-                },
-                {
-                    "name": "#SeProgramar",
-                    "description": "The second phase of the programming and computational thinking training program, offered by the government of Argentina. It covers different tools related to agile methodologies such as Scrum, and develops a full-stack profile through the creation of a portfolio. To carry out the project, participants deepen their knowledge in HTML and CSS, Angular, Java, MySQL, and Springboot.",
-                    "certificate": "URL"
-                }
-            ]
-        },
-        {
-            "name": "UTN",
-            "shield": "https://gcdnb.pbrd.co/images/4krEmqQFYLfD.png?o=1",
-            "logo": "https://gcdnb.pbrd.co/images/heUenhrAQnVE.png?o=1",
-            "courses": [
-                {
-                    "name": "Diplomatura en Professional Front End Developer",
-                    "description": "The training program covers the development of flexible and adaptable websites that can adjust to any screen size, use of JQuery libraries to add interactivity to websites without having to write all the code from scratch and fundamental knowledge of Javascript. The training emphasizes the use of semantic elements, optimized design techniques in website layout, as well as HTML5 and CSS3 usage.",
-                    "certificate": "https://www.linkpicture.com/q/UTN_Professional_Web_Developer_page-0001.jpg"
-                }
-            ]
-        },
-        {
-            "name": "freeCodeCamp",
-            "shield": "https://i.imgur.com/NiUEMCX.png",
-            "logo": "https://gcdnb.pbrd.co/images/xedC8AChak6l.png?o=1",
-            "courses": [
-                {
-                    "name": "Responsive Web Design",
-                    "description": "balblalbla bla bla",
-                    "certificate": "https://gcdnb.pbrd.co/images/G6faIjOdb2fz.png?o=1"
-                }
-            ]
-        },
-        {
-            "name": "Grasshopper",
-            "shield": "https://i.imgur.com/9E0KOus.png",
-            "logo": "https://gcdnb.pbrd.co/images/F8hW26HC5Jrk.png?o=1",
-            "courses": [
-                {
-                    "name": "Fundamentals",
-                    "description": "Functions, creating variables, control code flow. This course uses JavaScript, but the concepts can be applied to any coding language.",
-                    "certificate": "https://gcdnb.pbrd.co/images/tnn0oAYF6cvx.jpg?o=1"
-                },
-                {
-                    "name": "Fundamentals II",
-                    "description": "Building on the knowledge you gained in Fundamentals; learn how to manipulate string and arrays, use alternative approaches to similar problems and create your own functions.",
-                    "certificate": "https://gcdnb.pbrd.co/images/P3L8zAxELIOr.jpg?o=1"
-                },
-                {
-                    "name": "Animations",
-                    "description": "Create, manipulate, and animate shapes. This course uses the D3 library, Scalable Vector Graphics (SVG), and JavaScript.",
-                    "certificate": "https://gcdnb.pbrd.co/images/ExA7cYZrCXTn.jpg?o=1"
-                },
-                {
-                    "name": "Animations II",
-                    "description": "Create interactive, manipulatable animations. Use of Arrow functions.",
-                    "certificate": "https://gcdnb.pbrd.co/images/pIAeJ6dqn1nP.jpg?o=1"
-                },
-                {
-                    "name": "Array Methods",
-                    "description": "Different ways to search arrays, combine elements, and transform elements using arrow functions.",
-                    "certificate": "https://gcdnb.pbrd.co/images/bw8gvTNl0BCz.jpg?o=1"
-                },
-                {
-                    "name": "Automation",
-                    "description": "Automate tasks using Apps Script, a Google product powered by JavaScript.",
-                    "certificate": "https://gcdnb.pbrd.co/images/FrSNIQ4XTEni.jpg?o=1"
-                },
-                {
-                    "name": "Debugging Code",
-                    "description": "Spot errors of different types and use coding tools such as try catch statements and the console for debugging.",
-                    "certificate": "https://gcdnb.pbrd.co/images/KoNgf50piNSi.jpg?o=1"
-                },
-                {
-                    "name": "Intro to Webpages",
-                    "description": "HTML, CSS, and how JavaScript can interact with them.",
-                    "certificate": "https://gcdnb.pbrd.co/images/PrWW1g0lWoIO.jpg?o=1"
-                }
-            ]
-        },
-        {
-            "name": "Sololearn",
-            "shield": "https://i.imgur.com/gib7py4.png",
-            "logo": "https://gcdnb.pbrd.co/images/K7iMdeUQXiHE.png?o=1",
-            "courses": []
-        },
-        {
-            "name": "HackerRank",
-            "shield": "https://i.imgur.com/LOxqOrp.png",
-            "logo": "https://gcdnb.pbrd.co/images/w6eIpcmQpVoP.png?o=1",
-            "courses": []
-        },
-        {
-            "name": "Challenges + Katas",
-            "shield": "https://i.imgur.com/rhbC3Rw.png",
-            "logo": "https://gcdnb.pbrd.co/images/4l3Lhrf0H2dk.png?o=1",
-            "courses": []
-        },
-        {
-            "name": "Surprised Monkey Studio",
-            "shield": "https://i.imgur.com/XjASlqx.png",
-            "logo": "https://gcdnb.pbrd.co/images/DJjPuN89zPlF.png?o=1",
-            "courses": [
-                {
-                    "name": "Desarrollador Generalista de Unreal Engine 5",
-                    "description": "balblalbla bla bla",
-                    "certificate": "https://gcdnb.pbrd.co/images/3xLWayQIQOJg.jpg?o=1"
-                }
-            ]
-        }
-    ],
-	"skills": {
-		"skills-title": ""
-	},
-	"projects": [
-        {
-            "type": "HISTORY",
-            "title": "Project Title 01",
-            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
-            "tags": ["HTML_CSS", "JS"],
-            "data": {
-                "subprojects": [
-                    {
-                        "fcc_style_url": "URL",
-                        "my_style_url": "URL" ,
-                        "name": "Subproject Name"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "SIMPLE",
-            "title": "Project Title 02",
-            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
-            "tags": ["HTML_CSS", "JS", "ReactJS"],
-            "data": {
-                "project_url": "URL"
-            }
-        },
-        {
-            "type": "SIMPLE",
-            "title": "Project Title 03",
-            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
-            "tags": ["HTML_CSS", "JS", "Angular"],
-            "data": {
-                "project_url": "URL"
-            }
-        },
-        {
-            "type": "SIMPLE",
-            "title": "Project Title 04",
-            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
-            "tags": ["UE5"],
-            "data": {
-                "project_url": "URL"
-            }
-        },
-        {
-            "type": "SIMPLE",
-            "title": "Project Title 05",
-            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
-            "tags": ["AI"],
-            "data": {
-                "project_url": "URL"
-            }
-        }
+  "about": {
+    "banner_url": "https://anonsharing.com/cache/plugins/filepreviewer/16209/cf59288f185170f259432f1d2178abbc4ef21ea6a55ba607ccc285a27027797b/1100x800_cropped.jpg",
+    "creativity_description": "The functioning of a page is as important as its aesthetics. Details and interactivity are my 2 pillars to try and make users feel that when browsing the page they are not reading a book, but playing a game.",
+    "logic_description": "Architect with a strong base in system design and diagramming, eager to learn. Currently studying computer engineering along with courses to expand my knowledge in the world of programming.",
+    "profile_picture_url": "https://www.linkpicture.com/q/Portrait_1.png"
+  },
+  "experience": {
+    "studio_name": "Surprised Monkey Studio",
+    "from": "2023",
+    "to": "2023",
+    "logo": "https://gcdnb.pbrd.co/images/zfCxAjbMCXJb.png?o=1",
+    "description": "Indie videogame studio that has developed “Surviving the Humans”, a classic 2D point-and-click adventure. Currently involved in the development of a new 3D adventure game, I am part of the team working on this project.",
+    "roles": [
+      {
+        "name": "Environmental Designer",
+        "description": "I created the preliminary architecture design in Blender and material design in Quixel Mixer to explore the style that the game will have."
+      },
+      {
+        "name": "Game Designer",
+        "description": "Along with the team, I developed the structure and pillars of the game based on the player's experience, the variables that define it, gameplay concepts and replayability."
+      },
+      {
+        "name": "Basic BP Developer",
+        "description": "Using basic blueprint development (block programming in Unreal Engine), I designed mechanics on a prototyping level that were adapted to the culture on which the game is based, iterating on gameplay."
+      }
     ]
+  },
+  "education": {
+    "institutions": [
+      {
+        "logo": "https://gcdnb.pbrd.co/images/meKUfmT7t8m9.png?o=1",
+        "name": "Saint Luke's College",
+        "from": "2004",
+        "to": "2017",
+        "title": "",
+        "certificate": "https://gcdnb.pbrd.co/images/i1yL5hJpgwYY.png?o=1"
+      },
+      {
+        "logo": "https://gcdnb.pbrd.co/images/eRLLy2oJatVN.png?o=1",
+        "name": "Universidad Torcuato Di Tella",
+        "from": "2018",
+        "to": "2022",
+        "title": "ARCHITECT",
+        "certificate": "https://gcdnb.pbrd.co/images/afeO0CFTV4bI.png?o=1"
+      },
+      {
+        "logo": "https://gcdnb.pbrd.co/images/YGy53EeatI0N.png?o=1",
+        "name": "Universidad de Belgrano",
+        "from": "2023",
+        "to": "2028",
+        "title": "INFORMATIC ENGINEER",
+        "certificate": "https://gcdnb.pbrd.co/images/a0e7UlAQMYfG.png?o=1"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "background": "https://gcdnb.pbrd.co/images/2qSQZznnITMe.png?o=1",
+        "level": 5,
+        "title": "Native",
+        "certificate": null,
+        "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+        "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
+      },
+      {
+        "name": "English",
+        "background": "https://gcdnb.pbrd.co/images/hM4WUoH2TuLq.png?o=1",
+        "level": 4,
+        "title": "Cambridge Exams with Merit",
+        "certificate": "https://gcdnb.pbrd.co/images/BiYdu7y06vWZ.png?o=1",
+        "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+        "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
+      },
+      {
+        "name": "French",
+        "background": "https://gcdnb.pbrd.co/images/iPtEuCzNyzFV.png?o=1",
+        "level": 2,
+        "title": "DELF-A2",
+        "certificate": "https://gcdnb.pbrd.co/images/dmN2twNOhyNN.png?o=1",
+        "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+        "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
+      },
+      {
+        "name": "Russian",
+        "background": "https://gcdnb.pbrd.co/images/R0Q3LKX8xIkK.png?o=1",
+        "level": 1,
+        "title": null,
+        "certificate": "https://gcdnb.pbrd.co/images/gagFeYYCaHDM.png?o=1",
+        "full": "https://gcdnb.pbrd.co/images/xj23A9q9zJH4.png?o=1",
+        "empty": "https://gcdnb.pbrd.co/images/qkkDLlXkNb7S.png?o=1"
+      }
+    ]
+  },
+  "academies": [
+    {
+      "name": "Argentina Programa",
+      "shield": "https://gcdnb.pbrd.co/images/BaXJkRkn7Xjb.png?o=1",
+      "logo": "https://gcdnb.pbrd.co/images/6KsQr7UGgSrb.png?o=1",
+      "courses": [
+        {
+          "name": "#YoProgramo",
+          "description": "The first phase of the programming and computational thinking training program, offered by the government of Argentina. It covers the fundamentals of programming through the use of Gobstones, Java, and Ruby.",
+          "certificate": "https://www.linkpicture.com/q/YoProgramo_page-0001.jpg"
+        },
+        {
+          "name": "#SeProgramar",
+          "description": "The second phase of the programming and computational thinking training program, offered by the government of Argentina. It covers different tools related to agile methodologies such as Scrum, and develops a full-stack profile through the creation of a portfolio. To carry out the project, participants deepen their knowledge in HTML and CSS, Angular, Java, MySQL, and Springboot.",
+          "certificate": "URL"
+        }
+      ]
+    },
+    {
+      "name": "UTN",
+      "shield": "https://gcdnb.pbrd.co/images/4krEmqQFYLfD.png?o=1",
+      "logo": "https://gcdnb.pbrd.co/images/heUenhrAQnVE.png?o=1",
+      "courses": [
+        {
+          "name": "Diplomatura en Professional Front End Developer",
+          "description": "The training program covers the development of flexible and adaptable websites that can adjust to any screen size, use of JQuery libraries to add interactivity to websites without having to write all the code from scratch and fundamental knowledge of Javascript. The training emphasizes the use of semantic elements, optimized design techniques in website layout, as well as HTML5 and CSS3 usage.",
+          "certificate": "https://www.linkpicture.com/q/UTN_Professional_Web_Developer_page-0001.jpg"
+        }
+      ]
+    },
+    {
+      "name": "freeCodeCamp",
+      "shield": "https://i.imgur.com/NiUEMCX.png",
+      "logo": "https://gcdnb.pbrd.co/images/xedC8AChak6l.png?o=1",
+      "courses": [
+        {
+          "name": "Responsive Web Design",
+          "description": "Basics of HTML and CSS through the development of 19 web pages and a personal portfolio, including modern techniques such as CSS variables and best practices for accessibility. Master responsive design with Flexbox and CSS Grid.",
+          "certificate": "https://gcdnb.pbrd.co/images/G6faIjOdb2fz.png?o=1"
+        }
+      ]
+    },
+    {
+      "name": "Grasshopper",
+      "shield": "https://i.imgur.com/9E0KOus.png",
+      "logo": "https://gcdnb.pbrd.co/images/F8hW26HC5Jrk.png?o=1",
+      "courses": [
+        {
+          "name": "Fundamentals",
+          "description": "Functions, creating variables, control code flow. This course uses JavaScript, but the concepts can be applied to any coding language.",
+          "certificate": "https://gcdnb.pbrd.co/images/tnn0oAYF6cvx.jpg?o=1"
+        },
+        {
+          "name": "Fundamentals II",
+          "description": "Building on the knowledge you gained in Fundamentals; learn how to manipulate string and arrays, use alternative approaches to similar problems and create your own functions.",
+          "certificate": "https://gcdnb.pbrd.co/images/P3L8zAxELIOr.jpg?o=1"
+        },
+        {
+          "name": "Animations",
+          "description": "Create, manipulate, and animate shapes. This course uses the D3 library, Scalable Vector Graphics (SVG), and JavaScript.",
+          "certificate": "https://gcdnb.pbrd.co/images/ExA7cYZrCXTn.jpg?o=1"
+        },
+        {
+          "name": "Animations II",
+          "description": "Create interactive, manipulatable animations. Use of Arrow functions.",
+          "certificate": "https://gcdnb.pbrd.co/images/pIAeJ6dqn1nP.jpg?o=1"
+        },
+        {
+          "name": "Array Methods",
+          "description": "Different ways to search arrays, combine elements, and transform elements using arrow functions.",
+          "certificate": "https://gcdnb.pbrd.co/images/bw8gvTNl0BCz.jpg?o=1"
+        },
+        {
+          "name": "Automation",
+          "description": "Automate tasks using Apps Script, a Google product powered by JavaScript.",
+          "certificate": "https://gcdnb.pbrd.co/images/FrSNIQ4XTEni.jpg?o=1"
+        },
+        {
+          "name": "Debugging Code",
+          "description": "Spot errors of different types and use coding tools such as try catch statements and the console for debugging.",
+          "certificate": "https://gcdnb.pbrd.co/images/KoNgf50piNSi.jpg?o=1"
+        },
+        {
+          "name": "Intro to Webpages",
+          "description": "HTML, CSS, and how JavaScript can interact with them.",
+          "certificate": "https://gcdnb.pbrd.co/images/PrWW1g0lWoIO.jpg?o=1"
+        }
+      ]
+    },
+    {
+      "name": "Sololearn",
+      "shield": "https://i.imgur.com/gib7py4.png",
+      "logo": "https://gcdnb.pbrd.co/images/K7iMdeUQXiHE.png?o=1",
+      "courses": []
+    },
+    {
+      "name": "HackerRank",
+      "shield": "https://i.imgur.com/LOxqOrp.png",
+      "logo": "https://gcdnb.pbrd.co/images/w6eIpcmQpVoP.png?o=1",
+      "courses": [
+        {
+            "name": "30 Days of Code",
+            "description": "Basic problem solving challenges, such as Conditional Statements, Class vs. Instante, Data Types, etc.. Earned 2 stars having solved the challenges that correspond to days 0-6.",
+            "certificate": "https://gcdnb.pbrd.co/images/AuuDi9GPjdzB.png?o=1"
+          },
+          {
+            "name": "10 Days of JS",
+            "description": "Basic problem solving challenges, such as Conditional Statements, Loops, Arrays, etc. Earned 3 stars having solved the challenges that correspond to days 0-3.",
+            "certificate": "https://gcdnb.pbrd.co/images/lo16O6E1EYmC.png?o=1"
+          }
+      ]
+    },
+    {
+      "name": "Challenges + Katas",
+      "shield": "https://i.imgur.com/rhbC3Rw.png",
+      "logo": "https://gcdnb.pbrd.co/images/4l3Lhrf0H2dk.png?o=1",
+      "courses": []
+    },
+    {
+      "name": "Surprised Monkey Studio",
+      "shield": "https://i.imgur.com/XjASlqx.png",
+      "logo": "https://gcdnb.pbrd.co/images/DJjPuN89zPlF.png?o=1",
+      "courses": [
+        {
+          "name": "Desarrollador Generalista de Unreal Engine 5",
+          "description": "balblalbla bla bla",
+          "certificate": "https://gcdnb.pbrd.co/images/3xLWayQIQOJg.jpg?o=1"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "soft": [{
+        "name": "Full-Stack Developer",
+        "background": "https://gcdnb.pbrd.co/images/Vyz7eG04wf4u.png?o=1",
+        "level": "3"
+      },
+      {
+        "name": "Software knowledge",
+        "background": "https://gcdnb.pbrd.co/images/iXHmGf1AeQ8g.png?o=1",
+        "level": "2"
+      },
+      {
+        "name": "Agile methodologies",
+        "background": "https://gcdnb.pbrd.co/images/DZScPo41BGNg.png?o=1",
+        "level": "3"
+      },
+      {
+        "name": "UI design",
+        "background": "https://gcdnb.pbrd.co/images/JKGIxKqNXdJe.png?o=1",
+        "level": "5"
+      },
+      {
+        "name": "Database management",
+        "background": "https://gcdnb.pbrd.co/images/fnpVc036Ahdf.png?o=1",
+        "level": "3"
+      },
+      {
+        "name": "Multilingual",
+        "background": "https://gcdnb.pbrd.co/images/HcLoERsS2GkK.png?o=1",
+        "level": "5"
+      }
+    
+    ],
+      "hard": [{
+        "name": "Willingness to learn",
+        "background": "https://i.imgur.com/I9gnuhy.png",
+        "level": "5"
+      },
+      {
+        "name": "Teamwork",
+        "background": "https://i.imgur.com/8Qf9AFH.png",
+        "level": "3"
+      },
+      {
+        "name": "Creativity",
+        "background": "https://i.imgur.com/LbLcHgg.png",
+        "level": "5"
+      },
+      {
+        "name": "Organization",
+        "background": "https://i.imgur.com/ESX3K5H.png",
+        "level": "4"
+      },
+      {
+        "name": "Problem solving",
+        "background": "https://i.imgur.com/g10c9Zp.png",
+        "level": "3"
+      },
+      {
+        "name": "Critical thinking ",
+        "background": "https://i.imgur.com/78GZWyB.png",
+        "level": "4"
+      }
+    ] 
+    }
+  ],
+  "projects": [
+    {
+      "type": "HISTORY",
+      "title": "Project Title 01",
+      "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+      "tags": ["HTML_CSS", "JS"],
+      "data": {
+        "subprojects": [
+          {
+            "fcc_style_url": "URL",
+            "my_style_url": "URL",
+            "name": "Subproject Name"
+          }
+        ]
+      }
+    },
+    {
+      "type": "SIMPLE",
+      "title": "Project Title 02",
+      "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+      "tags": ["HTML_CSS", "JS", "ReactJS"],
+      "data": {
+        "project_url": "URL"
+      }
+    },
+    {
+      "type": "SIMPLE",
+      "title": "Project Title 03",
+      "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+      "tags": ["HTML_CSS", "JS", "Angular"],
+      "data": {
+        "project_url": "URL"
+      }
+    },
+    {
+      "type": "SIMPLE",
+      "title": "Project Title 04",
+      "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+      "tags": ["UE5"],
+      "data": {
+        "project_url": "URL"
+      }
+    },
+    {
+      "type": "SIMPLE",
+      "title": "Project Title 05",
+      "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+      "tags": ["AI"],
+      "data": {
+        "project_url": "URL"
+      }
+    }
+  ]
 }
