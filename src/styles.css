@@ -372,6 +372,10 @@ i:hover {
     cursor: pointer;
 }
 
+.banner-container {
+    background-image: url(assets/Images/banner.png);
+}
+
 .a-skill-container .edit{
     height: 1.2vw;
     width: 1.2vw;
