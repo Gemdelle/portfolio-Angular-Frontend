@@ -376,6 +376,7 @@ i:hover {
 
 .banner-container {
     background-image: url(assets/Images/banner.png);
+    background-position-x: 0.5vw;
 }
 
 .a-skill-container .edit{
@@ -1682,7 +1683,6 @@ width: 2vw;
     height: 100%;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
 }
 
 .thumbnail:hover {
