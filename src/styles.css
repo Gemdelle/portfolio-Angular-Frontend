@@ -128,11 +128,13 @@ i:hover {
 .hanger {
     height: 80px;
     z-index: 1;
-    position: relative;
     background-image: url(https://gcdnb.pbrd.co/images/9U3p90fC4rl2.png?o=1);
     background-position: center 1vw;
     background-repeat: no-repeat;
     background-size: 100%;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-4vw);
 }
 
 /* TITLES */
