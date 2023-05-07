@@ -3,72 +3,100 @@
 
 <!-- SUBSECTION Projects -->
 <div class="projects-container col-10">
-    <div class="projects-title"></div>
-    <div class="projects col-12" id="projects">
-        <div class="project-filters">
-            <div class="project-filter" id="tech-01">HTML + CSS</div>
-            <div class="project-filter" id="tech-02">JS</div>
-            <div class="project-filter" id="tech-03">React</div>
-            <div class="project-filter" id="tech-04">Angular</div>
-            <div class="project-filter" id="tech-05">UE5</div>
-            <div class="project-filter" id="tech-06">AI</div>
-        </div>
-
-        <!-- Project TYPE 01 (there is only one) -->
-        <div class="project-01" *ngFor="let project of projects; index as i;">
-            <div class="project-divider"></div>
-            <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-            <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-            <div class="project-title">{{project.title}}</div>
-            <div class="project-container" *ngIf="project.type == 'HISTORY'">
-                <div class="project-content">
-                    <div class="thumbnail-container">
-                        <div class="project-left-arrow">A</div>
-                        <div class="thumbnail-view-01">
-                            <div class="project-thumbnail-01">
-                                <div class="thumbnail-01">
-                                    <div class="fcc-style">fCC Style</div>
-                                </div>
-                                <div class="thumbnail-02">
-                                    <div class="my-style">My Style</div>
-                                </div>
-                            </div>
-                            <div class="project-subproject">{{getActiveSubProject(i).name}}</div>
-                        </div>
-                        <div class="project-right-arrow">A</div>
-                    </div>
-
-
-                </div>
-                <div class="project-description">
-                    <div class="project-filters-list">
-                        <div class="project-filter-tag" [class.ai] = "tag === 'AI'" [class.ue05] = "tag === 'UE5'" [class.angular] = "tag === 'Angular'" [class.react] = "tag === 'ReactJS'" [class.js] = "tag === 'JS'" [class.htmlcss] = "tag === 'HTML_CSS'" *ngFor="let tag of project.tags">{{tag}}</div>
-                    </div>
-                    <!-- <div class="project-type"></div> -->
-                    <div class="project-text-description-01">{{project.description}}</div>
-                    <div class="project-lists">
-                        <ol>
-                            <li *ngFor="let subproject of project.data.subprojects">{{subproject.name}}</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            <div class="project-container" *ngIf="project.type != 'HISTORY'">
-                <div class="project-content">
-                    <div class="thumbnail-container">
-                        <div class="thumbnail-view-02">
-                            <div class="project-thumbnail-02"></div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="project-description">
-                    <div class="project-filters-list">
-                        <div class="project-filter-tag" [class.ai] = "tag === 'AI'" [class.ue05] = "tag === 'UE5'" [class.angular] = "tag === 'Angular'" [class.react] = "tag === 'ReactJS'" [class.js] = "tag === 'JS'" [class.htmlcss] = "tag === 'HTML_CSS'" *ngFor="let tag of project.tags">{{tag}}</div>
-                    </div>
-                    <div class="project-text-description-02">{{project.description}}</div>
-                </div>
-            </div>
-        </div>
+  <div class="projects-title"></div>
+  <div class="projects col-12" id="projects">
+    <div class="project-filters">
+      <div class="project-filter" id="tech-01"><span>HTML + CSS</span></div>
+      <div class="project-filter" id="tech-02"><span>JS</span></div>
+      <div class="project-filter" id="tech-03"><span>React</span></div>
+      <div class="project-filter" id="tech-04"><span>Angular</span></div>
+      <div class="project-filter" id="tech-05"><span>UE5</span></div>
+      <div class="project-filter" id="tech-06"><span>AI</span></div>
     </div>
+
+    <!-- Project TYPE 01 (there is only one) -->
+    <div class="project-01" *ngFor="let project of projects; index as i">
+      <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
+      <div class="delete hidden"><i class="fa-solid fa-subscript"></i></div>
+      <div class="project-title">
+        <span>{{ project.title }}</span>
+      </div>
+      <div class="project-container" *ngIf="project.type == 'HISTORY'">
+        <div class="project-content">
+          <div class="thumbnail-container">
+            <div class="styles-container">
+              <div class="style-box"><span>fCC Style</span></div>
+              <div class="style-box"><span>My Style</span></div>
+            </div>
+
+            <div class="project-box">
+
+                <div class="thumbnail-frame"></div>
+
+              <div class="project-left-arrow"></div>
+              <div class="thumbnail"></div>
+              <div class="thumbnail"></div>
+              <div class="project-right-arrow"></div>
+            </div>
+          </div>
+          <span>{{ getActiveSubProject(i).name }}</span>
+        </div>
+        <div class="project-description">
+          <div class="project-filters-list">
+            <div
+              class="project-filter-tag"
+              [class.ai]="tag === 'AI'"
+              [class.ue05]="tag === 'UE5'"
+              [class.angular]="tag === 'Angular'"
+              [class.react]="tag === 'ReactJS'"
+              [class.js]="tag === 'JS'"
+              [class.htmlcss]="tag === 'HTML_CSS'"
+              *ngFor="let tag of project.tags"
+            >
+              {{ tag }}
+            </div>
+          </div>
+          <!-- <div class="project-type"></div> -->
+          <div class="project-text-description-01">
+            {{ project.description }}
+          </div>
+          <div
+            class="project-lists"
+            *ngFor="let subproject of project.data.subprojects"
+          >
+            {{ subproject.description }}
+          </div>
+        </div>
+      </div>
+      <div class="project-container" *ngIf="project.type != 'HISTORY'">
+        <div class="project-content">
+          <div class="thumbnail-container">
+            <div class="thumbnail-view-02">
+              <div class="project-thumbnail-02"></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-description">
+          <div class="project-filters-list">
+            <div
+              class="project-filter-tag"
+              [class.ai]="tag === 'AI'"
+              [class.ue05]="tag === 'UE5'"
+              [class.angular]="tag === 'Angular'"
+              [class.react]="tag === 'ReactJS'"
+              [class.js]="tag === 'JS'"
+              [class.htmlcss]="tag === 'HTML_CSS'"
+              *ngFor="let tag of project.tags"
+            >
+              {{ tag }}
+            </div>
+          </div>
+          <div class="project-text-description-02">
+            {{ project.description }}
+          </div>
+        </div>
+      </div>
+      <div class="project-divider"></div>
+    </div>
+  </div>
 </div>
