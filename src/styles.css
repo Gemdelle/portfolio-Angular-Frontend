@@ -1539,7 +1539,7 @@ width: 2vw;
     position: relative;
     height: 4vw;
     width: 100%;
-    margin-bottom: 1vw;
+    margin: 1vw 0 1vw 0;
 }
 
 .project-container {
@@ -1580,36 +1580,32 @@ width: 2vw;
     margin-left: -2vw;
 }
 
-.thumbnail-view-01,
-.thumbnail-view-02 {
-    width: 90%;
+.thumbnail-default {
+    height: 100%;
+    width: 92%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.thumbnail-view-01 {
-    height: 95%;
-}
-
-.thumbnail-view-02 {
+.project-thumbnail-default {
+    margin-top: 4vw;
     height: 100%;
-}
-
-.project-thumbnail-01,
-.project-thumbnail-02 {
     width: 100%;
-    background-color: lightgray;
-    border-radius: 20px;
-    border: 5px solid white;
+    border: 0.35vw ridge lightgray;
     display: flex;
+    border-radius: 0.2vw;
 }
 
-.project-thumbnail-01 {
-    height: 92%;
-}
-.project-thumbnail-02 {
-    height: 100%;
+.thumbnail-default-background {
+    position: absolute;
+    z-index: 1;
+    height: 30vw;
+    width: 65vw;
+    background-image: url(assets/Images/thumbnail-default.background.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .thumbnail-container {
@@ -1689,8 +1685,8 @@ width: 2vw;
     z-index: 1;
     background-image: url(assets/Images/project-frame-fcc.png);
     background-position: center;
-    background-position-y: 4vw;
-    background-size: 99% 76%;
+    background-position-y: 3.1vw;
+    background-size: 99% 69%;
     background-repeat: no-repeat;
     bottom: 0.4vw;
 }
