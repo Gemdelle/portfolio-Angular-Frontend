@@ -894,17 +894,24 @@ width: 2vw;
     margin-top: -0.3vw;
 }
 
-.phase-certificate {
+.phase-certificate-container{
     width: 100%;
     height: 5vw;
-    background-image: url(assets/Images/certificate-frame.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0.5vw;
+    position: relative;
+}
+
+.phase-certificate {
+    background-image: url(assets/Images/certificate-frame.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 #phase {
@@ -988,16 +995,24 @@ width: 2vw;
     font-size: 0.7vw;
 }
 
-.language-certificate {
+.language-certificate-container {
     height: 5vw;
     width: 90%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 0.3vw;
+    position: relative;
+}
+
+.language-certificate {
     background-image: url(assets/Images/certificate-frame.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
-    margin-top: 0.3vw;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 /* 05. SKILLS */
