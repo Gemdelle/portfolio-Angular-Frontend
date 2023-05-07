@@ -213,7 +213,57 @@
 	"skills": {
 		"skills-title": ""
 	},
-	"projects": {
-		"projects-title": ""
-	}
+	"projects": [
+        {
+            "type": "HISTORY",
+            "title": "Project Title 01",
+            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+            "tags": ["HTML_CSS", "JS"],
+            "data": {
+                "subprojects": [
+                    {
+                        "fcc_style_url": "URL",
+                        "my_style_url": "URL" ,
+                        "name": "Subproject Name"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SIMPLE",
+            "title": "Project Title 02",
+            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+            "tags": ["HTML_CSS", "JS", "ReactJS"],
+            "data": {
+                "project_url": "URL"
+            }
+        },
+        {
+            "type": "SIMPLE",
+            "title": "Project Title 03",
+            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+            "tags": ["HTML_CSS", "JS", "Angular"],
+            "data": {
+                "project_url": "URL"
+            }
+        },
+        {
+            "type": "SIMPLE",
+            "title": "Project Title 04",
+            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+            "tags": ["UE5"],
+            "data": {
+                "project_url": "URL"
+            }
+        },
+        {
+            "type": "SIMPLE",
+            "title": "Project Title 05",
+            "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
+            "tags": ["AI"],
+            "data": {
+                "project_url": "URL"
+            }
+        }
+    ]
 }
