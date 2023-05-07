@@ -1537,7 +1537,6 @@ width: 2vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    margin: 0 auto;
     position: relative;
     height: 4vw;
     width: 100%;
@@ -1546,11 +1545,21 @@ width: 2vw;
 
 .project-container {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .project-content {
     width: 80%;
     height: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-content-fcc {
+    width: 80%;
+    height: 32vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1687,8 +1696,8 @@ width: 2vw;
     z-index: 1;
     background-image: url(assets/Images/project-frame-fcc.png);
     background-position: center;
-    background-position-y: 3.1vw;
-    background-size: 99% 69%;
+    background-position-y: 3.4vw;
+    background-size: 99% 69.5%;
     background-repeat: no-repeat;
     bottom: 0.4vw;
 }
@@ -1705,12 +1714,13 @@ width: 2vw;
 }
 
 .project-description {
-    width: 20%;
-    height: 27vw;
+    width: 14%;
+    height: 25vw;
     background-color: darkgray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 2vw 0 2vw 0;
 }
 
 .project-01 {
@@ -1728,7 +1738,7 @@ width: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -1vw 0px 0vw 20%;
+    margin: -1vw 0px 0vw 23%;
     width: 40%;
     height: 10vw;
     z-index: 2;
@@ -1740,23 +1750,37 @@ width: 2vw;
 }
 
 .project-filters-list {
-    height: 15%;
-    background-color: black;
-    color: white;
+    height: 30%;
+    background-color: rgba(236, 235, 221, 0.6);
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+.project-filters-list-default {
+    height: 40%;
+    background-color: rgba(236, 235, 221, 0.6);
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     font-size: small;
 }
 
 .project-filter-tag {
-    width: 25%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid white;
     font-size: 11px;
+    background-image: url(assets/Images/project-filter.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project-text-description-01,
@@ -1767,7 +1791,7 @@ width: 2vw;
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 5%;
+    padding: 1vw;
 }
 
 .project-text-description-01 {
@@ -1782,8 +1806,7 @@ width: 2vw;
     justify-content: center;
     align-items: center;
     background-color: gray;
-    height: 20%;
-    max-height: 48%;
+    height: 40%;
     width: 100%;
 }
 
