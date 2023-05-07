@@ -212,7 +212,7 @@
     }
   ],
   "skills": {
-    "soft": [{
+    "hard": [{
       "name": "Full-Stack Developer",
       "background": "https://i.postimg.cc/mDj03pgY/hard-skill-01.png",
       "level": "3",
@@ -280,7 +280,7 @@
     }
 
   ],
-    "hard": [{
+    "soft": [{
       "name": "Willingness to learn",
       "background": "https://www.linkpicture.com/q/hard-skill-01_1.png",
       "level": "5",

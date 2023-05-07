@@ -1100,7 +1100,7 @@ width: 2vw;
     align-items: flex-end;
 }
 
-.soft-skills {
+.hard-skills {
     height: 45%;
     width: 90%;
     display: flex;
@@ -1108,7 +1108,7 @@ width: 2vw;
     align-items: center;
 }
 
-.hard-skills {
+.soft-skills {
     height: 45%;
     width: 90%;
     display: flex;
@@ -1207,11 +1207,11 @@ width: 2vw;
 }
 
 /* ESTE HOVER DEBERÍA SER SOBRE EL DIBUJO DE HARD SKILLS */
-.hard-blood:hover {
+.hard-blood.active {
     background-image: url(Assets/Images/hard-active-veins.png);
 }
 
-.soft-blood:hover {
+.soft-blood.active {
     background-image: url(Assets/Images/soft-active-veins.png);
 }
 /* FIN HOVER */
