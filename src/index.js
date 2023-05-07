@@ -31,21 +31,6 @@ function onPlayerReady(event) {
 }
 
 
-
-function scrolltoId(id) {
-    var bwidth = window.innerWidth;
-    var percent = 0.027;
-    var wpercent = bwidth * percent;
-
-    var access = document.getElementById(id);
-    const offsetPosition = access.offsetTop - wpercent
-
-    window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-    });
-}
-
 /*CURTAINS*/
 function setupCourtains() {
     const open_string = document.querySelector('#open_string')

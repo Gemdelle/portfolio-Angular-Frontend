@@ -30,4 +30,18 @@ export class CoursesComponent {
       console.log(content.style.maxHeight);
     }
   }
+
+  scrolltoId(id: string) {
+    var bwidth = window.innerWidth;
+    var percent = 0.027;
+    var wpercent = bwidth * percent;
+
+    var access = document.getElementById(id)!;
+    const offsetPosition = access.offsetTop - wpercent
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+    });
+  }
 }
