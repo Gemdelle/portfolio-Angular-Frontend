@@ -15,11 +15,12 @@
         </div>
 
         <!-- Project TYPE 01 (there is only one) -->
-        <div class="project-01">
+        <div class="project-01" *ngFor="let project of projects; index as i;">
+            <div class="project-divider"></div>
             <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
             <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-            <div class="project-title">Project Title 01</div>
-            <div class="project-container">
+            <div class="project-title">{{project.title}}</div>
+            <div class="project-container" *ngIf="project.type == 'HISTORY'">
                 <div class="project-content">
                     <div class="thumbnail-container">
                         <div class="project-left-arrow">A</div>
@@ -32,7 +33,7 @@
                                     <div class="my-style">My Style</div>
                                 </div>
                             </div>
-                            <div class="project-subproject">Subproject Name</div>
+                            <div class="project-subproject">{{getActiveSubProject(i).name}}</div>
                         </div>
                         <div class="project-right-arrow">A</div>
                     </div>
@@ -41,167 +42,33 @@
                 </div>
                 <div class="project-description">
                     <div class="project-filters-list">
-                        <div class="project-filter-tag htmlcss">HTML + CSS</div>
-                        <div class="project-filter-tag js">JS</div>
+                        <div class="project-filter-tag" [class.ai] = "tag === 'AI'" [class.ue05] = "tag === 'UE5'" [class.angular] = "tag === 'Angular'" [class.react] = "tag === 'ReactJS'" [class.js] = "tag === 'JS'" [class.htmlcss] = "tag === 'HTML_CSS'" *ngFor="let tag of project.tags">{{tag}}</div>
                     </div>
                     <!-- <div class="project-type"></div> -->
-                    <div class="project-text-description-01">The objective of this project is to compare the outcome
-                        of
-                        the original exercise provided by fCC (fCC style) and my personal approach based on this
-                        original exercise (My Style).</div>
+                    <div class="project-text-description-01">{{project.description}}</div>
                     <div class="project-lists">
                         <ol>
-                            <li>Page 01</li>
-                            <li>Page 02</li>
-                            <li>Page 03</li>
-                            <li>Page 04</li>
-                            <li>Page 05</li>
-                            <li>Page 06</li>
-                            <li>Page 07</li>
-                            <li>Page 08</li>
-                            <li>Page 09</li>
-                        </ol>
-                        <ol start="10">
-                            <li>Page 10</li>
-                            <li>Page 11</li>
-                            <li>Page 12</li>
-                            <li>Page 13</li>
-                            <li>Page 14</li>
-                            <li>Page 15</li>
-                            <li>Page 16</li>
-                            <li>Page 17</li>
-                            <li>Page 18</li>
+                            <li *ngFor="let subproject of project.data.subprojects">{{subproject.name}}</li>
                         </ol>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="project-divider"></div>
-
-        <!-- Project 02 (all of the rest) -->
-        <div class="project-01">
-            <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-            <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-            <div class="project-title">Project Title 02</div>
-            <div class="project-container">
+            <div class="project-container" *ngIf="project.type != 'HISTORY'">
                 <div class="project-content">
                     <div class="thumbnail-container">
-                        <div class="project-left-arrow">A</div>
                         <div class="thumbnail-view-02">
                             <div class="project-thumbnail-02"></div>
                         </div>
-                        <div class="project-right-arrow">A</div>
                     </div>
-
 
                 </div>
                 <div class="project-description">
                     <div class="project-filters-list">
-                        <div class="project-filter-tag htmlcss">HTML + CSS</div>
-                        <div class="project-filter-tag js">JS</div>
-                        <div class="project-filter-tag react">React</div>
+                        <div class="project-filter-tag" [class.ai] = "tag === 'AI'" [class.ue05] = "tag === 'UE5'" [class.angular] = "tag === 'Angular'" [class.react] = "tag === 'ReactJS'" [class.js] = "tag === 'JS'" [class.htmlcss] = "tag === 'HTML_CSS'" *ngFor="let tag of project.tags">{{tag}}</div>
                     </div>
-                    <div class="project-type">Project Type</div>
-                    <div class="project-text-description-02">The objective of this project is to compare the outcome
-                        of
-                        the original exercise provided by fCC (fCC style) and my personal approach based on this
-                        original exercise (My Style).</div>
+                    <div class="project-text-description-02">{{project.description}}</div>
                 </div>
             </div>
         </div>
-
-        <!-- Project 03 -->
-        <div class="project-01">
-            <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-            <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-            <div class="project-title">Project Title 03</div>
-            <div class="project-container">
-                <div class="project-content">
-                    <div class="thumbnail-container">
-                        <div class="project-left-arrow">A</div>
-                        <div class="thumbnail-view-02">
-                            <div class="project-thumbnail-02"></div>
-                        </div>
-                        <div class="project-right-arrow">A</div>
-                    </div>
-
-
-                </div>
-                <div class="project-description">
-                    <div class="project-filters-list">
-                        <div class="project-filter-tag htmlcss">HTML + CSS</div>
-                        <div class="project-filter-tag js">JS</div>
-                        <div class="project-filter-tag angular">Angular</div>
-                    </div>
-                    <div class="project-type">Project Type</div>
-                    <div class="project-text-description-02">The objective of this project is to compare the outcome
-                        of
-                        the original exercise provided by fCC (fCC style) and my personal approach based on this
-                        original exercise (My Style).</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project 04 -->
-        <div class="project-01">
-            <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-            <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-            <div class="project-title">Project Title 04</div>
-            <div class="project-container">
-                <div class="project-content">
-                    <div class="thumbnail-container">
-                        <div class="project-left-arrow">A</div>
-                        <div class="thumbnail-view-02">
-                            <div class="project-thumbnail-02"></div>
-                        </div>
-                        <div class="project-right-arrow">A</div>
-                    </div>
-
-
-                </div>
-                <div class="project-description">
-                    <div class="project-filters-list">
-                        <div class="project-filter-tag ue05">UE05</div>
-                    </div>
-                    <div class="project-type">Project Type</div>
-                    <div class="project-text-description-02">The objective of this project is to compare the outcome
-                        of
-                        the original exercise provided by fCC (fCC style) and my personal approach based on this
-                        original exercise (My Style).</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project 05 -->
-        <div class="project-01">
-            <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-            <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-            <div class="project-title">Project Title 05</div>
-            <div class="project-container">
-                <div class="project-content">
-                    <div class="thumbnail-container">
-                        <div class="project-left-arrow">A</div>
-                        <div class="thumbnail-view-02">
-                            <div class="project-thumbnail-02"></div>
-                        </div>
-                        <div class="project-right-arrow">A</div>
-                    </div>
-
-
-                </div>
-                <div class="project-description">
-                    <div class="project-filters-list">
-                        <div class="project-filter-tag ai">AI</div>
-                    </div>
-                    <div class="project-type">Project Type</div>
-                    <div class="project-text-description-02">The objective of this project is to compare the outcome
-                        of
-                        the original exercise provided by fCC (fCC style) and my personal approach based on this
-                        original exercise (My Style).</div>
-                </div>
-            </div>
-        </div>
-
     </div>
 </div>
