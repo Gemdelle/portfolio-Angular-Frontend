@@ -1373,7 +1373,7 @@ width: 2vw;
     height: 35%;
 }
 
-#academy-title-01 {
+.academy-title {
     width: 100%;
     height: 4vw;
     display: flex;
