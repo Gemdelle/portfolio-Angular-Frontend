@@ -1181,7 +1181,7 @@ width: 2vw;
     width: 100%;
 }
 
-.skills ul {
+.abilities-container {
     height: 15%;
     display: flex;
     flex-direction: column;

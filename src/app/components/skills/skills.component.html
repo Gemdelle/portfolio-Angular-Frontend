@@ -64,13 +64,15 @@
       </div>
 
       <div class="skills-summary">
-        <div class="skills-summary-title" *ngIf="activeSkill">
-          <h2>{{activeSkill.name}}</h2>
+        <div class="skills-summary-title">
+          <h2 *ngIf="activeSkill">{{activeSkill.name}}</h2>
         </div>
-        <ul *ngIf="activeSkill">
-          <li *ngFor="let ability of activeSkill.abilities; index as i">{{ability}}</li>
-        </ul>
-        <div class="bar" *ngIf="activeSkill"></div>
+        <div class="abilities-container" *ngIf="activeSkill">
+          <ul >
+            <li *ngFor="let ability of activeSkill.abilities; index as i">{{ability}}</li>
+          </ul>
+        </div>
+        <div class="bar" ></div>
         <p *ngIf="activeSkill">{{activeSkill.description}}</p>
       </div>
     </div>
