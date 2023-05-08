@@ -66,6 +66,7 @@
       <div class="skills-summary">
         <div class="skills-summary-title">
           <h2 *ngIf="activeSkill">{{activeSkill.name}}</h2>
+          <h2 *ngIf="!activeSkill">Skill</h2>
         </div>
         <div class="abilities-container" *ngIf="activeSkill">
           <ul >
@@ -74,6 +75,7 @@
         </div>
         <div class="bar" ></div>
         <p *ngIf="activeSkill">{{activeSkill.description}}</p>
+        <p *ngIf="!activeSkill">Hover through the skills for more information</p>
       </div>
     </div>
   </div>
