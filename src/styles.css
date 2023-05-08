@@ -1,4 +1,4 @@
-/* 
+/*
 
 
 
@@ -1324,13 +1324,12 @@ i:hover {
 }
 
 .skills p {
-  height: 50%;
-  width: 80%;
-  margin: 0 auto;
-  background-color: lightcoral;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Internal */

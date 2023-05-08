@@ -59,16 +59,11 @@
               </div>
               <div class="language-title">{{ language.name }}</div>
               <div class="language-points">
-                <div
-                  class="point"
-                  *ngFor="
-                    let level of [].constructor(language.level);
-                    let i = index
-                  "
-                  [ngStyle]="{
-                    'background-image': 'url(' + language.full + ')'
-                  }"
-                ></div>
+                <div [class.point] = "language.level >= '5'" [class.point-empty] = "language.level < '5'" ></div>
+                <div [class.point] = "language.level >= '4'" [class.point-empty] = "language.level < '4'" ></div>
+                <div [class.point] = "language.level >= '3'" [class.point-empty] = "language.level < '3'" ></div>
+                <div [class.point] = "language.level >= '2'" [class.point-empty] = "language.level < '2'" ></div>
+                <div [class.point] = "language.level >= '1'" [class.point-empty] = "language.level < '1'" ></div>
               </div>
             </div>
             <div class="language-certificate-title">{{ language.title }}</div>
