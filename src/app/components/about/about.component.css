@@ -236,22 +236,30 @@
     color: rgb(44, 32, 19);
 }
 
-.about-left-text {
+.about-left-text,
+.about-right-text {
     font-family: 'Old Standard TT', serif;
+    font-size: 1vw;
+}
+
+.about-left-text {
+    margin-left: 2vw;
 }
 
 .about-right-text {
-    font-family: 'Pinyon Script', cursive;
+    margin-right: 2vw;
 }
 
 .about-left-text h2 {
     font-size: 1.5vw;
-    text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53)
+    text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53);
+    font-family: 'Old Standard TT', serif;
 }
 
 .about-right-text h2 {
     font-size: 2vw;
-    text-shadow: 0vw 0.5vw 0.5vw rgb(139, 126, 105);
+    text-shadow: 0vw 0.5vw 0.5vw rgb(85, 78, 66);
+    font-family: 'Pinyon Script', cursive;
 }
 
 /*END ABOUT*/
