@@ -68,8 +68,8 @@
           <h2 *ngIf="activeSkill">{{activeSkill.name}}</h2>
           <h2 *ngIf="!activeSkill">Skill</h2>
         </div>
-        <div class="abilities-container" *ngIf="activeSkill">
-          <ul >
+        <div class="abilities-container">
+          <ul *ngIf="activeSkill">
             <li *ngFor="let ability of activeSkill.abilities; index as i">{{ability}}</li>
           </ul>
         </div>
