@@ -1298,7 +1298,7 @@ i:hover {
   width: 100%;
 }
 
-.skills ul {
+.abilities-container {
   height: 15%;
   display: flex;
   flex-direction: column;
