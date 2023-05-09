@@ -378,7 +378,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-02-CafeMenu/",
             "name": "Cafe Menu",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/0yt2PYTN/project-fcc-02.png"
           },
           {"number": "3",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-03-Markers/original",
@@ -393,7 +393,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-04-RegistrationForm/",
             "name": "Registration Form",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/QNnb9wcg/project-fcc-04.png"
           },
           {
             "number": "5",
@@ -425,7 +425,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-08-NutritionLabel",
             "name": "Nutrition Label",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/NLqby2Z9/project-fcc-08.png"
           },
           {
             "number": "9",
@@ -433,7 +433,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-09-Quiz",
             "name": "Quiz",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/0y3Grwm8/project-fcc-09.png"
           },
           {
             "number": "10",
@@ -548,7 +548,7 @@
       "tags": ["HTML_CSS", "JS", "React"],
       "data": {
         "project_url": "https://majesties.vercel.app/heavenorhellpage",
-        "background": ""
+        "background": "https://i.postimg.cc/nhqCx9Hj/project-Majesties.png"
       }
     },
     {
