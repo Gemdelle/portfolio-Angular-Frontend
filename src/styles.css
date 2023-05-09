@@ -1912,6 +1912,9 @@ i:hover {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  border: 0.35vw ridge rgb(209, 209, 200);
+  border-radius: 0.2vw;
+  box-shadow: 0 0.5vw 0.6vw #888888;
 }
 
 .thumbnail:hover {

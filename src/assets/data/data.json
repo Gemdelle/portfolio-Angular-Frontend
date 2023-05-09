@@ -536,7 +536,7 @@
       "description": "I used an old toy collection as an excuse to develop an inventory. As a collector of various objects, creating catalogue-type pages is one of the things I enjoy doing the most because it involves storing and filtering large amounts of data, as well as exposing it in a harmonious way. I took advantage of the excess information to create a questionnaire about the inventory information.",
       "tags": ["HTML_CSS", "JS", "React"],
       "data": {
-        "project_url": "URL",
+        "project_url": "https://lps-album.vercel.app",
         "background": "https://i.postimg.cc/XqKNKjMX/project-lps.png"
       }
     },
@@ -547,7 +547,7 @@
       "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
       "tags": ["HTML_CSS", "JS", "React"],
       "data": {
-        "project_url": "URL",
+        "project_url": "https://majesties.vercel.app/heavenorhellpage",
         "background": ""
       }
     },
