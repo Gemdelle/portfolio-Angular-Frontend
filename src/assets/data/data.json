@@ -525,7 +525,7 @@
       "description": "The first group of applications I developed using JavaScript is called that way because it consists of 3 very basic games. The first one is creating a birthday card, the second is a memory game, and the third is adopting a random fish.",
       "tags": ["HTML_CSS", "JS"],
       "data": {
-        "project_url": "URL",
+        "project_url": "https://gemdelle.github.io/Games-HalloweenMemotest/",
         "background": "https://i.postimg.cc/gc5hSnb6/project-01.png"
       }
     },
