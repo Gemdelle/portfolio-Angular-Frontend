@@ -296,16 +296,16 @@
         "Empathy",
         "Flexibility"
       ],
-      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+      "description": "As someone who values collaboration and teamwork, I understand the importance of taking initiative, being accountable, and supporting others. Even though I may not hold a formal leadership position, I still strive to make a positive impact by actively listening, effectively communicating, and helping my team stay motivated and focused."
     },
     {
       "name": "Creativity",
       "background": "https://i.postimg.cc/HsqbzpK2/hard-skill-01.png",
-      "level": "5",
+      "level": "4",
       "abilities": [
-        "Ability 01",
-        "Ability 02",
-        "Ability 03"
+        "Imagination",
+        "Playfulness",
+        "Risk-taking"
       ],
       "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
     },
@@ -449,14 +449,14 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-11-BalanceSheet",
             "name": "Balance Sheet",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/Y07gFctR/project-fcc-11.png"
           },
           {
             "number": "12",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-12-Piano/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-12-Piano/",
-            "name": "Nutrition Label",
-            "description": "Piano",
+            "name": "Piano",
+            "description": "Description",
             "background": ""
           },
           {
@@ -465,7 +465,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-13-DocumentationPage/",
             "name": "Documentation Page",
             "description": "First fcc project",
-            "background": "https://i.postimg.cc/02drDfxZ/project-fcc-13.png"
+            "background": "https://i.postimg.cc/RCfxCk38/project-fcc-13.png"
           },
           {
             "number": "14",
@@ -473,7 +473,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-14-CitySkyline/",
             "name": "City Skyline",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/sxhRW8Dn/project-fcc-14.png"
           },
           {
             "number": "15",
@@ -481,7 +481,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-15-Magazine",
             "name": "Magazine",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/TYvVB4Wf/project-fcc-15.png"
           },
           {
             "number": "16",
@@ -489,7 +489,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-16-ProductLanding/",
             "name": "Product Landing",
             "description": "First fcc project",
-            "background": "https://i.postimg.cc/wjwvbj1m/project-fcc-16.png"
+            "background": "https://i.postimg.cc/bNPnmSKv/project-fcc-16.png"
           },
           {
             "number": "17",
@@ -497,7 +497,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-17-FerrisWheel/",
             "name": "Ferris Wheel",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/x1J9HttN/project-fcc-17.png"
           },
           {
             "number": "18",
@@ -505,7 +505,7 @@
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-18-Penguin/",
             "name": "Penguin",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/YCnbcxHR/project-fcc-18.png"
           },
           {
             "number": "19",
@@ -513,7 +513,7 @@
             "my_style_url": "https://gemdelle.github.io/#welcome",
             "name": "Portfolio",
             "description": "First fcc project",
-            "background": ""
+            "background": "https://i.postimg.cc/cCzLyjFZ/project-fcc-18.png"
           }
         ]
       }
