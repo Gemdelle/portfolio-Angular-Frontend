@@ -30,18 +30,20 @@
             </div>
 
             <div class="project-box">
-
-                <div class="thumbnail-frame"></div>
+              <div class="thumbnail-frame"></div>
 
               <div class="project-left-arrow"></div>
-              <div class="thumbnail"></div>
-              <div class="thumbnail"></div>
+              <div class="thumbnail">
+                <img [src]="project.data.subprojects[0].background" alt="" />
+              </div>
               <div class="project-right-arrow"></div>
             </div>
           </div>
-          <div class="project-subproject"><span>{{ getActiveSubProject(i).name }}</span></div>
+          <div class="project-subproject">
+            <span>{{ getActiveSubProject(i).name }}</span>
+          </div>
         </div>
-        
+
         <div class="project-description-fcc">
           <div class="project-filters-list">
             <div
@@ -73,9 +75,11 @@
         <div class="project-content">
           <div class="thumbnail-container">
             <div class="thumbnail-default">
-                <div class="thumbnail-default-background"></div>
+              <div class="thumbnail-default-background"></div>
               <div class="project-thumbnail-default">
-                
+                <img [src]="project.data.background" alt="" />
+                <a [href]="project.data.project_url" target="_blank"></a>
+               
               </div>
             </div>
           </div>
