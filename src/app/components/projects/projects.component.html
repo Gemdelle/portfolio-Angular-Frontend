@@ -32,11 +32,13 @@
             <div class="project-box">
               <div class="thumbnail-frame"></div>
 
-              <div class="project-left-arrow"></div>
+              <div class="project-left-arrow" (click)="goPreviousSubProject(i)"></div>
               <div class="thumbnail">
-                <img [src]="project.data.subprojects[0].background" alt="" />
+                <a class="fcc-style-url" [href]="getActiveSubProject(i).fcc_style_url" target="_blank"></a>
+                <a class="my-style-url" [href]="getActiveSubProject(i).my_style_url" target="_blank"></a>
+                <img [src]="getActiveSubProject(i).background" alt="" />
               </div>
-              <div class="project-right-arrow"></div>
+              <div class="project-right-arrow" (click)="goNextSubProject(i)"></div>
             </div>
           </div>
           <div class="project-subproject">
@@ -63,11 +65,8 @@
           <div class="project-text-description-01">
             {{ project.description }}
           </div>
-          <div
-            class="project-lists"
-            *ngFor="let subproject of project.data.subprojects"
-          >
-            {{ subproject.description }}
+          <div class="project-lists">
+            {{ getActiveSubProject(i).description }}
           </div>
         </div>
       </div>
