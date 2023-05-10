@@ -92,4 +92,9 @@ export class ProjectsComponent {
     });
     return subproject;
   }
+
+  isUniqueSubProject(index: number): boolean {
+    let subproject = this.getActiveSubProject(index);
+    return subproject.fcc_style_url == null;
+  }
 }

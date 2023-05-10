@@ -2013,6 +2013,20 @@ i:hover {
   bottom: 0.4vw;
 }
 
+
+.thumbnail-frame-unique {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  z-index: 1;
+  background-image: url(assets/Images/project-frame-unique-fcc.png);
+  background-position: center;
+  background-position-y: 3.4vw;
+  background-size: 99% 69.5%;
+  background-repeat: no-repeat;
+  bottom: 0.4vw;
+}
+
 .fcc-style,
 .my-style {
   display: flex;
