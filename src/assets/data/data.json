@@ -217,11 +217,11 @@
       "background": "https://i.postimg.cc/mDj03pgY/hard-skill-01.png",
       "level": "3",
       "abilities": [
-        "Ability 01",
-        "Ability 02",
-        "Ability 03"
+        "Balanced Skillset",
+        "Independence",
+        "Collaboration"
       ],
-      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+      "description": "As stated in the initial description, I believe there is a balance between my logical and creative abilities that fits the full-stack profile. I have a strong ability to work independently once a clear path is determined, and I have also completed projects as part of a team."
     },
     {
       "name": "Software knowledge",
@@ -232,7 +232,7 @@
         "Excel",
         "Power BI"
       ],
-      "description": "I have a good proficiency in Excel programming, graphs and data analysis in Power BI."
+      "description": "Good proficiency in Excel programming, graphs and data analysis in Power BI."
     },
     {
       "name": "Agile methodologies",
@@ -255,7 +255,7 @@
         "Blender",
         "Rhinoceros"
       ],
-      "description": "I have basic knowledge of Photoshop and intermediate skills in video editing tools, exemplified in the AI project in the 'Projects' section. Regarding 3D modeling, I have experience in Blender and Rhinoceros, having used the latter during my architecture degree to model different types of structures and generate architectural documentation."
+      "description": "Basic knowledge of Photoshop and intermediate skills in video editing tools, exemplified in the AI project in the 'Projects' section. Regarding 3D modeling, I have experience in Blender and Rhinoceros, having used the latter during my architecture degree to model different types of structures and generate architectural documentation."
     },
     {
       "name": "Database management",
@@ -277,7 +277,7 @@
         "French",
         "Russian"
       ],
-      "description": "I have a high level of proficiency in English, intermediate proficiency in French, and basic proficiency in Russian. I strive to improve my language skills on a daily basis. I am particularly interested in the possibility of working for a foreign company."
+      "description": "High level of proficiency in English, intermediate proficiency in French, and basic proficiency in Russian. I strive to improve my language skills on a daily basis. I am particularly interested in the possibility of working for a foreign company."
     }
 
   ],
@@ -285,6 +285,10 @@
       "name": "Willingness to learn",
       "background": "https://www.linkpicture.com/q/hard-skill-01_1.png",
       "level": "5",
+      "abilities": [
+        "Perfectionism",
+        "Ambition"
+      ],
       "description": "One of the main characteristics that drive me to develop projects is my ambition and perfectionism. I dedicate most of my free time to reinterpreting web pages based on exercises found on the internet or creating my own exercises. I am very interested in learning about programming in general and I am open to all types of knowledge and perfecting specific tools."
     },
     {
@@ -307,40 +311,38 @@
         "Playfulness",
         "Risk-taking"
       ],
-      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+      "description": "I am interested in thinking about how things can relate to each other. I strive to strike a balance between creativity and logic, so that one doesn't compromise the other. While I value my own perspective, I am always open to considering new ideas and perspectives."
     },
     {
       "name": "Organization",
       "background": "https://i.postimg.cc/bwP98yTv/hard-skill-01.png",
       "level": "4",
       "abilities": [
-        "Ability 01",
-        "Ability 02",
-        "Ability 03"
+        "Record-keeping and filing",
+        "Attention to details",
+        "Multitasking"        
       ],
-      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+      "description": "I tend to make lists for all the activities I perform and organize them in a way that is accessible to anyone who reviews them. This type of organization is helpful since task subdivision greatly facilitates multitasking, a strategy that I am familiar with. Additionally, attention to detail is a positive quality, although at times it can lead to excessively meticulous work."
     },
     {
       "name": "Problem solving",
       "background": "https://i.postimg.cc/85xLYNcN/hard-skill-01.png",
       "level": "3",
       "abilities": [
-        "Ability 01",
-        "Ability 02",
-        "Ability 03"
+        "Collaboration",
+        "Communication"
       ],
-      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+      "description": "When approaching problem-solving, I believe it is essential to involve as many perspectives as possible, not only to arrive at the most optimal solution, but also to strengthen relationships with colleagues."
     },
     {
       "name": "Critical thinking ",
       "background": "https://i.postimg.cc/hPW9bDN0/hard-skill-01.png",
       "level": "4",
       "abilities": [
-        "Ability 01",
-        "Ability 02",
-        "Ability 03"
+        "Systematic thinking",
+        "Analytical thinking"
       ],
-      "description": "Skills description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab accusamus fuga magnam, libero inventore dolores tenetur debitis porro ducimus cum quos atque blanditiis, perspiciatis voluptate odio. Doloremque, cupiditate nostrum."
+      "description": "When facing a challenge, I focus on understanding the parts of the system. After finishing specific tasks, I tend to analyze the project as a whole to evaluate the usefulness and effectiveness of each part.  trying to ensure that the polishing of small details makes sense in relation to the overall work."
     }
   ]
   },

@@ -13,6 +13,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DividerComponent } from './components/divider/divider.component';
+import { FrameComponent } from './components/frame/frame.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { DividerComponent } from './components/divider/divider.component';
     ProjectsComponent,
     HeaderComponent,
     FooterComponent,
-    DividerComponent
+    DividerComponent,
+    FrameComponent
   ],
   imports: [
     BrowserModule,
