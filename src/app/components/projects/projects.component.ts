@@ -34,9 +34,62 @@ export class ProjectsComponent {
     });
   }
 
+  goNextSubProject(index: number) {
+    let activeSubproject = this.getActiveSubProject(index);
+    let i = this.projects[index].data.subprojects.findIndex((sub:any)=> {
+      return sub === activeSubproject;
+    });
+
+    this.projects = this.projects.map((project: any, indice: number)=> {
+      if(indice == index) {
+        return {
+          ...project,
+          data: {
+            ...project.data,
+            subprojects: project.data.subprojects.map((subproject:any, subIndex: number) => {
+              return {
+                ...subproject,
+                isActive: subIndex == (i+1)
+              }
+            })
+          }
+        }
+      }
+
+      return project;
+    });
+
+  }
+
+  goPreviousSubProject(index: number) {
+    let activeSubproject = this.getActiveSubProject(index);
+    let i = this.projects[index].data.subprojects.findIndex((sub:any)=> {
+      return sub === activeSubproject;
+    });
+    this.projects = this.projects.map((project: any, indice: number)=> {
+      if(indice == index) {
+        return {
+          ...project,
+          data: {
+            ...project.data,
+            subprojects: project.data.subprojects.map((subproject:any, subIndex: number) => {
+              return {
+                ...subproject,
+                isActive: subIndex == (i-1)
+              }
+            })
+          }
+        }
+      }
+
+      return project;
+    });
+  }
+
   getActiveSubProject(index: number): any {
-    return this.projects[index].data.subprojects.find((subproject: any) => {
-      return subproject.isActive
-  });
+    let subproject = this.projects[index].data.subprojects.find((subproject:any) => {
+        return subproject.isActive
+    });
+    return subproject;
   }
 }

@@ -1856,6 +1856,7 @@ i:hover {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 999;
 }
 
 .project-left-arrow {
@@ -1992,6 +1993,7 @@ i:hover {
   border: 0.35vw ridge rgb(209, 209, 200);
   border-radius: 0.2vw;
   box-shadow: 0 0.5vw 0.6vw #888888;
+  position: relative;
 }
 
 .thumbnail:hover {
