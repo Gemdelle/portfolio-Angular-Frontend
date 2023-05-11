@@ -9,6 +9,7 @@ export class DataService {
 
   constructor(private httpClient: HttpClient) { }
 
+  /* Devuelve todo */
   obtainData(): Observable<any>{
     return this.httpClient.get("./assets/data/data.json");
   }

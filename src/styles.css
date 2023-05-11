@@ -635,6 +635,7 @@ i:hover {
   height: auto;
   margin: 0 auto;
   position: relative;
+  background-image: linear-gradient(to right, #5f5f5f, #989b93, #5f5f5f);
 }
 
 .job-name {
@@ -644,8 +645,8 @@ i:hover {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background-image: linear-gradient(to right, #5f5f5f, #989b93, #5f5f5f);
   border-bottom: 0.2vw double #989b93;
+  margin-bottom: 1.5vw;
 }
 
 .job-box {
@@ -775,12 +776,28 @@ i:hover {
 }
 
 .video-container {
-  background-color: beige;
-  height: 90%;
-  width: 50%;
+  height: 85%;
+  width: 43%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 1vw;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+.video-frame {
+  height: 69%;
+  width: 69%;
+  background-image: url(assets/Images/experience-video-frame.png);
+  background-position: center;
+  background-size: 69.5% 85.2%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 999;
 }
 
 /* 04. EDUCATION */
@@ -1836,10 +1853,9 @@ i:hover {
 
 .project-content-fcc {
   width: 80%;
-  height: 32vw;
+  height: 38vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -1848,6 +1864,7 @@ i:hover {
   background-image: url(assets/Images/project-arrow.png);
   width: 4vw;
   height: 4vw;
+  margin-bottom: 12vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1856,7 +1873,7 @@ i:hover {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 999;
+  z-index: 998;
 }
 
 .project-left-arrow {
@@ -1889,6 +1906,13 @@ i:hover {
 }
 
 .project-thumbnail-default a {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+
+.project-thumbnail a {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1959,27 +1983,78 @@ i:hover {
 }
 
 .project-subproject {
-  width: 25%;
-  height: 15%;
-  background-image: url(assets/Images/subproject-background.png);
-  background-size: contain;
+  height: 12vw;
+  width: 75%;
+  margin-bottom: 0.5vw;
+  background-image: url(assets/Images/fcc-descriptions.png);
   background-position: center;
-  background-position-y: -1vw;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  text-align: center;
-  margin-top: 1vw;
+  position: absolute;
+  z-index: 1;
 }
 
-.project-subproject span {
-  letter-spacing: 0.02vw;
+.subproject-name {
+  width: 20%;
+  height: 25%;
+/*   background-image: url(assets/Images/subproject-background.png);
+  background-size: contain;
+  background-position: center;
+  background-position-y: 1vw;
+  background-repeat: no-repeat; */
+  margin: 0 auto;
+  margin-top: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.subproject-name span {
+  max-width: 5vw;
+  line-height: 1.3;
+  text-align: center;
   letter-spacing: 0.1vw;
-  font-size: 0.8vw;
+  font-size: 0.75vw;
+  margin-right: 0.3vw;
   font-weight: 600;
   font-family: "Old Standard TT", serif !important;
   font-style: italic;
   color: #605e5e;
   text-shadow: 0 0.2vw 0.2vw #7e7c7c;
+}
+
+.particular-descriptions {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  bottom: 1vw;
+  position: absolute;
+}
+
+.a-particular-description-left,
+.a-particular-description-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+
+  margin-top: 1vw;
+  text-align: center;
+  font-size: 0.75vw;
+  font-weight: 600;
+  font-family: "Old Standard TT", serif !important;
+  color: #646161;
+  line-height: 1.1;
+}
+
+.a-particular-description-left {
+  padding-right: 4vw;
+}
+
+.a-particular-description-right {
+  padding-left: 5vw;
 }
 
 .thumbnail {
@@ -1994,6 +2069,8 @@ i:hover {
   border-radius: 0.2vw;
   box-shadow: 0 0.5vw 0.6vw #888888;
   position: relative;
+  margin-bottom: 12vw;
+  z-index: 49;
 }
 
 .thumbnail:hover {
@@ -2001,16 +2078,15 @@ i:hover {
 }
 
 .thumbnail-frame {
-  height: 100%;
-  width: 80%;
+  width: 66vw;
+  height: 26.5vw;
   position: absolute;
-  z-index: 1;
+  z-index: 50;
   background-image: url(assets/Images/project-frame-fcc.png);
   background-position: center;
-  background-position-y: 3.4vw;
-  background-size: 99% 69.5%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  bottom: 0.4vw;
+  bottom: 15.5vw;
 }
 
 
@@ -2042,11 +2118,11 @@ i:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 2vw 0 2vw 0;
   background-image: url(assets/Images/project-description-fcc.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 1vw;
 }
 
 .project-description {
@@ -2080,7 +2156,7 @@ i:hover {
   margin: -1vw 0px 0vw 22%;
   width: 40%;
   height: 10vw;
-  z-index: 2;
+  z-index: 51;
   position: absolute;
 }
 
@@ -2155,7 +2231,7 @@ i:hover {
 }
 
 .project-text-description-01 {
-  height: 30%;
+  height: 75%;
 }
 .project-text-description-02 {
   height: 60%;

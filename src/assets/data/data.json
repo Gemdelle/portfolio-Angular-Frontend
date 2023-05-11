@@ -355,7 +355,7 @@
       "tags": ["HTML_CSS"],
       "data": {
         "project_url": "https://gemdelle.github.io/BeautyMorphosy/caterpillar.html",
-        "background": "https://i.postimg.cc/QCQgp3YM/project-01.png"
+        "background": "https://i.postimg.cc/xd3gFzy3/beautymorphosy-project.png"
       }
     },
     {
@@ -371,78 +371,88 @@
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-01-CatPhotoApp/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-01-CatPhotoApp/",
             "name": "Cat Photo App",
-            "description": "The original course  involves learning the most common HTML tags by building a cat photo app. The personal addition to the project is the interaction with elements on hover, including the revealing of blurry images and a character walking between boxes.",
-            "background": "https://i.postimg.cc/W3MpPGNh/project-fcc-01.png"
+            "fcc_style_description": "The original course  involves learning the most common HTML tags by building a cat photo app.",
+            "my_style_description": "The personal addition to the project is the interaction with elements on hover, including the revealing of blurry images and a character walking between boxes.",
+            "background": "https://i.postimg.cc/sx17VQFS/project-fcc-01.png"
           },
           {
             "number": "2",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-02-CafeMenu/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-02-CafeMenu/",
             "name": "Cafe Menu",
-            "description": "The original course involves learning CSS by designing a menu page for a cafe webpage. The personal addition to the project is the use of a dotted line to indicate prices and some aesthetic changes to the elements.",
+            "fcc_style_description": "The original course involves learning CSS by designing a menu page for a cafe webpage.",
+            "my_style_description": "The personal addition to the project is the use of a dotted line to indicate prices and some aesthetic changes to the elements.",
             "background": "https://i.postimg.cc/0yt2PYTN/project-fcc-02.png"
           },
           {"number": "3",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-03-Markers/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-03-Markers",
             "name": "Markers",
-            "description": "The original course involves building a set of colored markers by exploring different ways to set color values and how to pair colors with each other. The personal addition to the project is using the element to create a dynamic marker sales page. When hovering over marker sets, colors to be purchased are exemplified with a drawing on the left side.",
-            "background": ""
+            "fcc_style_description": "The original course involves building a set of colored markers by exploring different ways to set color values and how to pair colors with each other.",
+            "my_style_description": "The personal addition to the project is using the element to create a dynamic marker sales page. When hovering over marker sets, colors to be purchased are exemplified with a drawing on the left side.",
+            "background": "https://i.postimg.cc/QxTK0rjX/project-fcc-03.png"
           },
           {
             "number": "4",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-04-RegistrationForm/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-04-RegistrationForm/",
             "name": "Registration Form",
-            "description": "The original course involves learning HTML forms by building a signup page, how to control what types of data people can type into a form, and some new CSS tools for styling a page. The personal addition to the project is reorganizing the form to fit on the screen and be in a box format.",
-            "background": "https://i.postimg.cc/QNnb9wcg/project-fcc-04.png"
+            "fcc_style_description": "The original course involves learning HTML forms by building a signup page, how to control what types of data people can type into a form, and some new CSS tools for styling a page.",
+            "my_style_description": "The personal addition to the project is reorganizing the form to fit on the screen and be in a box format.",
+            "background": "https://i.postimg.cc/rpn57C3c/project-fcc-04.png"
           },
           {
             "number": "5",
             "fcc_style_url": null,
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-05-SurveyForm/",
             "name": "Survey Form",
-            "description": "This is one of the required projects to earn the certification. The course involves building a survey form to collect data from users. For this first independently designed project, I created a fictional form with a dark theme and for the first time, incorporated a GIF to make the page more dynamic.",
-            "background": ""
+            "fcc_style_description": "This is one of the required projects to earn the certification, meaning the layout of the project is entirely up to the developer. The course involves building a survey form to collect data from users.",
+            "my_style_description": "For this first independently designed project, I created a fictional form with a dark theme and for the first time, incorporated a GIPH to make the page more dynamic.",
+            "background": "https://i.postimg.cc/k5ptTMRg/project-fcc-05.png"
           },
           {
             "number": "6",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-06-AbstractGallery/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-06-AbstractGallery",
             "name": "Abstract Gallery",
-            "description": "The original course involves using CSS and the Box Model to create Rothko-style rectangular art pieces. The personal addition to the project is adopting the individual element to create an art gallery. To complete the project, I researched three famous painters within the artistic movement. When hovering over each painting, interesting facts about the artists can be read.",
-            "background": ""
+            "fcc_style_description": "The original course involves using CSS and the Box Model to create Rothko-style rectangular art pieces.",
+            "my_style_description": "The personal addition to the project is adopting the individual element to create an art gallery. To complete the project, I researched three of the major exponents of Abstract Art. When hovering over each painting, interesting facts about the artists can be read.",
+            "background": "https://i.postimg.cc/gkHXfHL5/project-fcc-06.png"
           },
           {
             "number": "7",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-07-CatGallery/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-07-CatGallery/",
             "name": "Cat Gallery",
-            "description": "The original course involves using Flexbox to build a responsive photo gallery webpage. The personal addition to the project is the reinterpretation of the original gallery in its mutant form. Clicking on the paintings reveals transmuted feline characters with descriptions.",
-            "background": ""
+            "fcc_style_description": "The original course involves using Flexbox to build a responsive photo gallery webpage.",
+            "my_style_description": "The personal addition to the project is the reinterpretation of the original gallery in its mutant form. Clicking on the paintings reveals transmuted feline characters with descriptions.",
+            "background": "https://i.postimg.cc/VkH68Gf7/project-fcc-07.png"
           },
           {
             "number": "8",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-08-NutritionLabel/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-08-NutritionLabel",
             "name": "Nutrition Label",
-            "description": "The original course involves using typography to build a nutrition label webpage and learning how to style text, adjust line height, and position it using CSS. The personal addition to the project is using the nutrition label to create a candy application. The user can interactively read the information of each type of lollipop by hovering over the cards, which correspond graphically to the selected element.",
-            "background": "https://i.postimg.cc/NLqby2Z9/project-fcc-08.png"
+            "fcc_style_description": "The original course involves using typography to build a nutrition label webpage and learning how to style text, adjust line height, and position it using CSS. ",
+            "my_style_description": "The personal addition to the project is using the nutrition label to create a candy application. The user can interactively read the information of each type of lollipop by hovering over the cards, which correspond graphically to the selected element.",
+            "background": "https://i.postimg.cc/43GTjqjk/project-fcc-08.png"
           },
           {
             "number": "9",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-09-Quiz/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-09-Quiz",
             "name": "Quiz",
-            "description": "The original course involves building a quiz webpage learning accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices. The personal addition to the project is an aesthetic retouch with a technological focus without changing the information, in order to evaluate the adjustments. I am interested in attempting to reflect the content's aesthetic character on the design of the page.",
-            "background": "https://i.postimg.cc/0y3Grwm8/project-fcc-09.png"
+            "fcc_style_description": "The original course involves building a quiz webpage learning accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.",
+            "my_style_description": "The personal addition to the project is an aesthetic retouch with a technological focus without changing the information, in order to evaluate the adjustments. I am interested in attempting to reflect the content's aesthetic character on the design of the page.",
+            "background": "https://i.postimg.cc/sfc3z6Kp/project-fcc-09.png"
           },
           {
             "number": "10",
             "fcc_style_url": null,
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-10-TributePage/",
             "name": "Tribute Page",
-            "description": "This is one of the required projects to earn the certification. The original course involves building a tribute page for a subject that can be either fictional or real. For my second independent project, I designed a tribute page for a fictional character based on a character from my own book. I used color and image definition as resources to highlight the most important part of the image, which corresponds to the character's spine.",
+            "fcc_style_description": "This is one of the required projects to earn the certification, meaning the layout of the project is entirely up to the developer. The original course involves building a tribute page for a subject that can be either fictional or real.",
+            "my_style_description": "For my second independent project, I designed a tribute page for a fictional character based on a character from my own book. I used color and image definition as resources to highlight the most important part of the image, which corresponds to the character's spine.",
             "background": "https://i.postimg.cc/pd1myLxH/project-fcc-10.png"
           },
           {
@@ -450,23 +460,26 @@
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-11-BalanceSheet/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-11-BalanceSheet",
             "name": "Balance Sheet",
-            "description": "The original course involves building a balance sheet using pseudo selectors, how to change the style of an element hovering over it with a mouse, and triggering other events on the webpage. The personal addition to the project is the design contribution and interaction with the form through arrows that rotate in response to user clicks.",
-            "background": "https://i.postimg.cc/Y07gFctR/project-fcc-11.png"
+            "fcc_style_description": "The original course involves building a balance sheet using pseudo selectors, how to change the style of an element hovering over it with a mouse, and triggering other events on the webpage.",
+            "my_style_description": "The personal addition to the project is the design contribution and interaction with the form through arrows that rotate in response to user clicks.",
+            "background": "https://i.postimg.cc/bvHBnMZg/project-fcc-11.png"
           },
           {
             "number": "12",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-12-Piano/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-12-Piano/",
             "name": "Piano",
-            "description": "The original course involves coding a piano, learning more about media queries and pseudo selectors. The personal addition to the project is the design of a functional piano with which the user can interact using the keyboard or mouse. I was interested in designing a children's piano, so I modified the sounds of an original piano to have the effect of a music box.",
-            "background": ""
+            "fcc_style_description": "The original course involves coding a piano, learning more about media queries and pseudo selectors.",
+            "my_style_description": "The personal addition to the project is the design of a functional piano with which the user can interact using the keyboard or mouse. I was interested in designing a children's piano, so I modified the sounds of an original piano to have the effect of a music box.",
+            "background": "https://i.postimg.cc/50yStkL6/project-fcc-12.png"
           },
           {
             "number": "13",
             "fcc_style_url": null,
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-13-DocumentationPage/",
             "name": "Documentation Page",
-            "description": "This is one of the required projects to earn the certification. The third independent project, 'Hellbox' is an application for learning how to use Flexbox. Based on the information from W3Schools, I designed exercises for the user to learn how to use Flexbox rules, accompanied by characters who have come out of hell. Each exercise is based on a box with gems, whose position is affected by the value entered by the user in each rule, which must be interpreted according to the character's instructions.",
+            "fcc_style_description": "This is one of the required projects to earn the certification, meaning the layout of the project is entirely up to the developer. The original course involves building a technical documentation page to serve as instruction or reference for a topic.",
+            "my_style_description": "The third independent project, 'Hellbox' is an application for learning how to use Flexbox. Based on the information from W3Schools, I designed exercises for the user to learn how to use Flexbox rules, accompanied by characters who have come out of hell. Each exercise is based on a box with gems, whose position is affected by the value entered by the user in each rule, which must be interpreted according to the character's instructions.",
             "background": "https://i.postimg.cc/RCfxCk38/project-fcc-13.png"
           },
           {
@@ -474,23 +487,26 @@
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-14-CitySkyline/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-14-CitySkyline/",
             "name": "City Skyline",
-            "description": "The original course involves building a city skyline configuring CSS variables that can be reused. The personal addition to the project is taking the static design of the city to create an interactive stage with animals. The sun can be dragged across the screen, and depending on its position, the animals react differently. When it becomes night, a bat appears and the user can play by turning off the lights of the buildings.",
-            "background": "https://i.postimg.cc/sxhRW8Dn/project-fcc-14.png"
+            "fcc_style_description": "The original course involves building a city skyline configuring CSS variables that can be reused.",
+            "my_style_description": "The personal addition to the project is taking the static design of the city to create an interactive stage with animals. The sun can be dragged across the screen, and depending on its position, the animals react differently. When it becomes night, a bat appears and the user can play by turning off the lights of the buildings.",
+            "background": "https://i.postimg.cc/PJGyFQvJ/project-fcc-14.png"
           },
           {
             "number": "15",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-15-Magazine/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-15-Magazine",
             "name": "Magazine",
-            "description": "The original course involves building a magazine article with CSS Grid, including concepts like grid rows and grid columns. The personal addition to the project is to redesign the page with an old newspaper concept and implement the redirection to contact through social media buttons.",
-            "background": "https://i.postimg.cc/TYvVB4Wf/project-fcc-15.png"
+            "fcc_style_description": "The original course involves building a magazine article with CSS Grid, including concepts like grid rows and grid columns.",
+            "my_style_description": "The personal addition to the project is to redesign the page with an old newspaper concept and implement the redirection to contact through social media buttons.",
+            "background": "https://i.postimg.cc/05h5cW5x/project-fcc-15.png"
           },
           {
             "number": "16",
             "fcc_style_url": null,
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-16-ProductLanding/",
             "name": "Product Landing",
-            "description": "This is one of the required projects to earn the certification. The original course involves building a product landing page to market a product of your choice. For the fourth independent project, “ButterPedya”, I designed a webpage for purchasing caterpillars. I included the silhouette of each of the 3 researched species in their different stages, which are revealed when the user hovers over them with the mouse. Additionally, I included videos extracted from YouTube, and an interactive diagram with additional information about the process of caterpillar evolution.",
+            "fcc_style_description": "This is one of the required projects to earn the certification, meaning the layout of the project is entirely up to the developer. The original course involves building a product landing page to market a product of the developer's choice.",
+            "my_style_description": "For the fourth independent project, “ButterPedya”, I designed a webpage for purchasing caterpillars. I included the silhouette of each of the 3 researched species in their different stages, which are revealed when the user hovers over them with the mouse. Additionally, I included videos extracted from YouTube, and an interactive diagram with additional information about the process of caterpillar evolution.",
             "background": "https://i.postimg.cc/bNPnmSKv/project-fcc-16.png"
           },
           {
@@ -498,24 +514,27 @@
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-17-FerrisWheel/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-17-FerrisWheel/",
             "name": "Ferris Wheel",
-            "description": "The original course involves building a Ferris wheel using CSS to animate elements, transform them, and adjust their speed. The personal addition to the project is creating a quiz application using the original element of a ferris wheel. The user has to collect keys by answering the questions correctly in order to unlock chests and release all the creatures from the cards. The logic of questions and answers is developed with JS, as well as the key counting and the shuffling of questions and answers in each interaction.",
-            "background": "https://i.postimg.cc/x1J9HttN/project-fcc-17.png"
+            "fcc_style_description": "The original course involves building a Ferris wheel using CSS to animate elements, transform them, and adjust their speed.",
+            "my_style_description": "The personal addition to the project is creating a quiz application using the original element of a ferris wheel. The user has to collect keys by answering the questions correctly in order to unlock chests and release all the creatures from the cards. The logic of questions and answers is developed with JS, as well as the key counting and the shuffling of questions and answers in each interaction.",
+            "background": "https://i.postimg.cc/tJpkjtpg/project-fcc-17.png"
           },
           {
             "number": "18",
             "fcc_style_url": "https://gemdelle.github.io/fCC-RWD-18-Penguin/original",
             "my_style_url": "https://gemdelle.github.io/fCC-RWD-18-Penguin/",
             "name": "Penguin",
-            "description": "The original course involves building a penguin using CSS transforms to position and resize the parts of it, create a background, and animate the character. The personal addition to the project is the development of an application based on the original character, a penguin, where the focus is on animations. The user must build objects by clicking on the elements that make up each of the objects of the stations - ice, snow, and wood - to create a castle, a snowman, and a deer, respectively. Once the user finishes building an element, its particular animation is activated.",
-            "background": "https://i.postimg.cc/YCnbcxHR/project-fcc-18.png"
+            "fcc_style_description": "The original course involves building a penguin using CSS transforms to position and resize the parts of it, create a background, and animate the character.",
+            "my_style_description": "The personal addition to the project is the development of an application based on the original character, a penguin, where the focus is on animations. The user must build objects by clicking on the elements that make up each of the objects of the stations - ice, snow, and wood - to create a castle, a snowman, and a deer, respectively. Once the user finishes building an element, its particular animation is activated.",
+            "background": "https://i.postimg.cc/mZzCP9zp/project-fcc-18.png"
           },
           {
             "number": "19",
             "fcc_style_url": null,
             "my_style_url": "https://gemdelle.github.io/#welcome",
             "name": "Portfolio",
-            "description": "This is one of the required projects to earn the certification. The original course involves building a personal portfolio page. The last project is based on the development of a personal portfolio, similar to the current project but much simpler, since it is developed only with HTML, CSS, and JS, unlike this one that has a backend. The project includes the main projects as an interactive map.",
-            "background": "https://i.postimg.cc/cCzLyjFZ/project-fcc-18.png"
+            "fcc_style_description": "This is the final required project to earn the certification, meaning the layout of the project is entirely up to the developer. The original course involves building a personal portfolio page.",
+            "my_style_description": "The last project is based on the development of a personal portfolio, similar to the current project but much simpler, since it is developed only with HTML, CSS, and JS, unlike this one that has a backend. The project includes the main projects as an interactive map.",
+            "background": "https://i.postimg.cc/FKyn5qmc/project-fcc-19.png"
           }
         ]
       }
@@ -528,7 +547,7 @@
       "tags": ["HTML_CSS", "JS"],
       "data": {
         "project_url": "https://gemdelle.github.io/Games-HalloweenMemotest/",
-        "background": "https://i.postimg.cc/gc5hSnb6/project-01.png"
+        "background": "https://i.postimg.cc/VvxjNfWN/js-games-project.png"
       }
     },
     {
@@ -549,8 +568,8 @@
       "description": "The objective of this project is to compare the outcome of the original exercise provided by fCC (fCC style) and my personal approach based on this original exercise (My Style).",
       "tags": ["HTML_CSS", "JS", "React"],
       "data": {
-        "project_url": "https://majesties.vercel.app/heavenorhellpage",
-        "background": "https://i.postimg.cc/nhqCx9Hj/project-Majesties.png"
+        "project_url": "https://majesties.vercel.app",
+        "background": "https://i.postimg.cc/GtrT3wL0/project-Majesties.png"
       }
     },
     {

@@ -6,12 +6,24 @@
   <div class="projects-title"></div>
   <div class="projects col-12" id="projects">
     <div class="project-filters">
-      <div class="project-filter" id="tech-01"><span>HTML + CSS</span></div>
-      <div class="project-filter" id="tech-02"><span>JS</span></div>
-      <div class="project-filter" id="tech-03"><span>React</span></div>
-      <div class="project-filter" id="tech-04"><span>Angular</span></div>
-      <div class="project-filter" id="tech-05"><span>UE5</span></div>
-      <div class="project-filter" id="tech-06"><span>AI</span></div>
+      <div class="project-filter" id="tech-01" (click)="filterTag('HTML')">
+        <span>HTML + CSS</span>
+      </div>
+      <div class="project-filter" id="tech-02" (click)="filterTag('JS')">
+        <span>JS</span>
+      </div>
+      <div class="project-filter" id="tech-03" (click)="filterTag('React')">
+        <span>React</span>
+      </div>
+      <div class="project-filter" id="tech-04" (click)="filterTag('Angular')">
+        <span>Angular</span>
+      </div>
+      <div class="project-filter" id="tech-05" (click)="filterTag('UE5')">
+        <span>UE5</span>
+      </div>
+      <div class="project-filter" id="tech-06" (click)="filterTag('AI')">
+        <span>AI</span>
+      </div>
     </div>
 
     <!-- Project TYPE 01 (there is only one) -->
@@ -30,19 +42,48 @@
             </div>
 
             <div class="project-box">
-              <div [class.thumbnail-frame-unique]="isUniqueSubProject(i)" [class.thumbnail-frame]="!isUniqueSubProject(i)"></div>
+              <div
+                [class.thumbnail-frame-unique]="isUniqueSubProject(i)"
+                [class.thumbnail-frame]="!isUniqueSubProject(i)"
+              ></div>
 
-              <div class="project-left-arrow" (click)="goPreviousSubProject(i)"></div>
+              <div
+                class="project-left-arrow"
+                (click)="goPreviousSubProject(i)"
+              ></div>
               <div class="thumbnail">
-                <a *ngIf="!isUniqueSubProject(i)" class="fcc-style-url" [href]="getActiveSubProject(i).fcc_style_url" target="_blank"></a>
-                <a [class.my-style-url]="!isUniqueSubProject(i)" [class.my-style-full-url]="isUniqueSubProject(i)" [href]="getActiveSubProject(i).my_style_url" target="_blank"></a>
+                <a
+                  *ngIf="!isUniqueSubProject(i)"
+                  class="fcc-style-url"
+                  [href]="getActiveSubProject(i).fcc_style_url"
+                  target="_blank"
+                ></a>
+                <a
+                  [class.my-style-url]="!isUniqueSubProject(i)"
+                  [class.my-style-full-url]="isUniqueSubProject(i)"
+                  [href]="getActiveSubProject(i).my_style_url"
+                  target="_blank"
+                ></a>
                 <img [src]="getActiveSubProject(i).background" alt="" />
               </div>
-              <div class="project-right-arrow" (click)="goNextSubProject(i)"></div>
+              <div
+                class="project-right-arrow"
+                (click)="goNextSubProject(i)"
+              ></div>
             </div>
           </div>
           <div class="project-subproject">
-            <span>{{ getActiveSubProject(i).name }}</span>
+            <div class="subproject-name">
+              <span>{{ getActiveSubProject(i).name }}</span>
+            </div>
+            <div class="particular-descriptions">
+              <div class="a-particular-description-left">
+                {{ getActiveSubProject(i).fcc_style_description }}
+              </div>
+              <div class="a-particular-description-right">
+                {{ getActiveSubProject(i).my_style_description }}
+              </div>
+            </div>
           </div>
         </div>
 
@@ -64,9 +105,6 @@
           <!-- <div class="project-type"></div> -->
           <div class="project-text-description-01">
             {{ project.description }}
-          </div>
-          <div class="project-lists">
-            {{ getActiveSubProject(i).description }}
           </div>
         </div>
       </div>

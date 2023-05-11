@@ -11,6 +11,17 @@ export class ProjectsComponent {
 
   constructor(private service: DataService){}
 
+
+
+  currentFilter!:string; 
+
+  filterTag(filter:string): void {
+    
+    if(this.projects.tags.includes(filter)) {
+      this.currentFilter = filter;
+    }
+  }
+
   ngOnInit(): void {
     this.service.obtainData().subscribe((data) => {
       this.projects = data.projects.map((project: any)=> {
