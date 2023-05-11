@@ -47,9 +47,10 @@ export class ProjectsComponent {
           data: {
             ...project.data,
             subprojects: project.data.subprojects.map((subproject:any, subIndex: number) => {
+              let nextIndex = ((i+1) == project.data.subprojects.length -1) ? 0 : (i+1);
               return {
                 ...subproject,
-                isActive: subIndex == (i+1)
+                isActive: subIndex == nextIndex
               }
             })
           }
@@ -73,9 +74,10 @@ export class ProjectsComponent {
           data: {
             ...project.data,
             subprojects: project.data.subprojects.map((subproject:any, subIndex: number) => {
+              let previousIndex = ((i-1) == 0) ? project.data.subprojects.length -1 : (i-1);
               return {
                 ...subproject,
-                isActive: subIndex == (i-1)
+                isActive: subIndex == previousIndex
               }
             })
           }
