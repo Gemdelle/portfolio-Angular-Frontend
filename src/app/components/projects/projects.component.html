@@ -42,16 +42,16 @@
             </div>
 
             <div class="project-box">
-              <div
-                [class.thumbnail-frame-unique]="isUniqueSubProject()"
-                [class.thumbnail-frame]="!isUniqueSubProject()"
-              ></div>
 
               <div
                 class="project-left-arrow"
                 (click)="goPreviousSubProject()"
               ></div>
               <div class="thumbnail">
+                <div
+                [class.thumbnail-frame-unique]="isUniqueSubProject(i)"
+                [class.thumbnail-frame]="!isUniqueSubProject(i)"
+              ></div>
                 <a
                   *ngIf="!isUniqueSubProject()"
                   class="fcc-style-url"
