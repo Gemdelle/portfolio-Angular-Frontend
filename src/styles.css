@@ -782,23 +782,30 @@ i:hover {
   justify-content: center;
   align-items: center;
   margin-left: 1vw;
+  position: relative;
+}
+
+.video-container a {
+  height: 84%;
+  width: 90%;
+  z-index: 999;
+  position: absolute;
 }
 
 .experience-image {
-  height: 90%;
-  width: 100%;
-  background-image: url(assets/Images/experience-image.png);
+  height: 84%;
+  width: 90%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .video-frame {
-  height: 69%;
-  width: 69%;
+  height: 100%;
+  width: 100%;
   background-image: url(assets/Images/experience-video-frame.png);
   background-position: center;
-  background-size: 69.5% 85.2%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
   z-index: 999;
