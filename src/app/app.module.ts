@@ -14,6 +14,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DividerComponent } from './components/divider/divider.component';
 import { FrameComponent } from './components/frame/frame.component';
+import { FilterPipe } from './pipe/filter.pipe';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { FrameComponent } from './components/frame/frame.component';
     HeaderComponent,
     FooterComponent,
     DividerComponent,
-    FrameComponent
+    FrameComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
