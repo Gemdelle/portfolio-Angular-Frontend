@@ -601,8 +601,8 @@
       "description": "Orbzidyum is a dark-adventure game where the character seeks to restore the ecosystems within the shell its trapped in. Each ecosystem holds a variety of species that can whether be killed or befriended, decisions that will forge a character and have an impact on future games to come. Orbzidyum is just the birth of Bridyam, world full of dark yet beautiful secrets.",
       "tags": ["UE5"],
       "data": {
-        "project_url": "URL",
-        "background": ""
+        "project_url": null,
+        "background": "https://i.postimg.cc/JzNQ6KF0/orbzidyum-background.png"
       }
     }
   ]
