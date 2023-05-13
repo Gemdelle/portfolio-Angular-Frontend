@@ -7,107 +7,57 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  projects: any;
+  projects: any[] = [];
 
+  currentFilter: string[] = [];
+  filteredProjects: any = []
   constructor(private service: DataService){}
-
-
-
-  currentFilter!:string; 
-
-  filterTag(filter:string): void {
-    
-    if(this.projects.tags.includes(filter)) {
-      this.currentFilter = filter;
-    }
-  }
+  
+  activeIndex:number = 0;
+  
+  subprojectIndex!:number;
 
   ngOnInit(): void {
     this.service.obtainData().subscribe((data) => {
-      this.projects = data.projects.map((project: any)=> {
-        if(project.type == "HISTORY") {
-          return {
-            ...project,
-            data: {
-              ...project.data,
-              subprojects: project.data.subprojects.map((subproject:any, index: number) => {
-                return {
-                  ...subproject,
-                  isActive: index == 0
-                }
-              })
-            }
-          }
-        }
-
-        return project;
-      });
+      data.projects.forEach((element: any) => {
+        this.projects.push(element);
+        element.type === "HISTORY" ? this.subprojectIndex = this.projects.indexOf(element) : null;
+      });  
     });
+
+    
+    console.log(this.projects)
+    this.filteredProjects = this.projects;
+    };
+
+  filterTag(tags: string[]): void {
+    console.log(this.subprojectIndex)
+    console.log(this.filteredProjects)
+    this.currentFilter = tags;
+    
   }
 
-  goNextSubProject(index: number) {
-    let activeSubproject = this.getActiveSubProject(index);
-    let i = this.projects[index].data.subprojects.findIndex((sub:any)=> {
-      return sub === activeSubproject;
-    });
+  goNextSubProject() : void{
 
-    this.projects = this.projects.map((project: any, indice: number)=> {
-      if(indice == index) {
-        return {
-          ...project,
-          data: {
-            ...project.data,
-            subprojects: project.data.subprojects.map((subproject:any, subIndex: number) => {
-              let nextIndex = ((i+1) == project.data.subprojects.length -1) ? 0 : (i+1);
-              return {
-                ...subproject,
-                isActive: subIndex == nextIndex
-              }
-            })
-          }
-        }
-      }
-
-      return project;
-    });
-
+    this.activeIndex < this.projects[this.subprojectIndex].data.subprojects.length -1 ? this.activeIndex++ : this.activeIndex = 0;
+    console.log(this.activeIndex)
   }
 
-  goPreviousSubProject(index: number) {
-    let activeSubproject = this.getActiveSubProject(index);
-    let i = this.projects[index].data.subprojects.findIndex((sub:any)=> {
-      return sub === activeSubproject;
-    });
-    this.projects = this.projects.map((project: any, indice: number)=> {
-      if(indice == index) {
-        return {
-          ...project,
-          data: {
-            ...project.data,
-            subprojects: project.data.subprojects.map((subproject:any, subIndex: number) => {
-              let previousIndex = ((i-1) == 0) ? project.data.subprojects.length -1 : (i-1);
-              return {
-                ...subproject,
-                isActive: subIndex == previousIndex
-              }
-            })
-          }
-        }
-      }
-
-      return project;
-    });
+  goPreviousSubProject() : void {
+    this.activeIndex > 0 ? this.activeIndex-- : this.activeIndex = this.projects[1].data.subprojects.length -1; 
+    console.log(this.activeIndex)
+    console.log(this.projects[this.subprojectIndex].data.subprojects[this.activeIndex].fcc_style_url)
   }
 
-  getActiveSubProject(index: number): any {
-    let subproject = this.projects[index].data.subprojects.find((subproject:any) => {
-        return subproject.isActive
-    });
-    return subproject;
+  getActiveSubProject(): any {
+    return this.projects[this.subprojectIndex].data.subprojects[this.activeIndex];
   }
 
-  isUniqueSubProject(index: number): boolean {
-    let subproject = this.getActiveSubProject(index);
-    return subproject.fcc_style_url == null;
+
+  isUniqueSubProject(): boolean {
+    const activeSP = this.getActiveSubProject()
+    return activeSP.fcc_style_url === null;
   }
+
+
 }

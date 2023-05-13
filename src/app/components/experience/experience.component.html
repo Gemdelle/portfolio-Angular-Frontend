@@ -28,7 +28,11 @@
         </div>
         <div class="video-container">
             <div class="video-frame"></div>
-            <div class="experience-image"></div>
+            <img class="experience-image" [src]="experience.thumbnail" alt="" />
+            <a
+                [href]="experience.thumbnail_url"
+                target="_blank"
+            ></a>
         </div>
     </div>
 </div>

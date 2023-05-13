@@ -6,28 +6,28 @@
   <div class="projects-title"></div>
   <div class="projects col-12" id="projects">
     <div class="project-filters">
-      <div class="project-filter" id="tech-01" (click)="filterTag('HTML')">
+      <div class="project-filter" id="tech-01" (click)="filterTag(['HTML_CSS'])">
         <span>HTML + CSS</span>
       </div>
-      <div class="project-filter" id="tech-02" (click)="filterTag('JS')">
+      <div class="project-filter" id="tech-02" (click)="filterTag(['JS'])">
         <span>JS</span>
       </div>
-      <div class="project-filter" id="tech-03" (click)="filterTag('React')">
+      <div class="project-filter" id="tech-03" (click)="filterTag(['React'])">
         <span>React</span>
       </div>
-      <div class="project-filter" id="tech-04" (click)="filterTag('Angular')">
+      <div class="project-filter" id="tech-04" (click)="filterTag(['Angular'])">
         <span>Angular</span>
       </div>
-      <div class="project-filter" id="tech-05" (click)="filterTag('UE5')">
+      <div class="project-filter" id="tech-05" (click)="filterTag(['UE5'])">
         <span>UE5</span>
       </div>
-      <div class="project-filter" id="tech-06" (click)="filterTag('AI')">
+      <div class="project-filter" id="tech-06" (click)="filterTag(['AI'])">
         <span>AI</span>
       </div>
     </div>
 
     <!-- Project TYPE 01 (there is only one) -->
-    <div class="project-01" *ngFor="let project of projects; index as i">
+    <div class="project-01" *ngFor="let project of projects | filter:currentFilter">
       <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
       <div class="delete hidden"><i class="fa-solid fa-subscript"></i></div>
       <div class="project-title">
@@ -45,43 +45,43 @@
 
               <div
                 class="project-left-arrow"
-                (click)="goPreviousSubProject(i)"
+                (click)="goPreviousSubProject()"
               ></div>
               <div class="thumbnail">
                 <div
-                [class.thumbnail-frame-unique]="isUniqueSubProject(i)"
-                [class.thumbnail-frame]="!isUniqueSubProject(i)"
+                [class.thumbnail-frame-unique]="isUniqueSubProject()"
+                [class.thumbnail-frame]="!isUniqueSubProject()"
               ></div>
                 <a
-                  *ngIf="!isUniqueSubProject(i)"
+                  *ngIf="!isUniqueSubProject()"
                   class="fcc-style-url"
-                  [href]="getActiveSubProject(i).fcc_style_url"
+                  [href]="getActiveSubProject().fcc_style_url"
                   target="_blank"
                 ></a>
                 <a
-                  [class.my-style-url]="!isUniqueSubProject(i)"
-                  [class.my-style-full-url]="isUniqueSubProject(i)"
-                  [href]="getActiveSubProject(i).my_style_url"
+                  [class.my-style-url]="!isUniqueSubProject()"
+                  [class.my-style-full-url]="isUniqueSubProject()"
+                  [href]="getActiveSubProject().my_style_url"
                   target="_blank"
                 ></a>
-                <img [src]="getActiveSubProject(i).background" alt="" />
+                <img [src]="getActiveSubProject().background" alt=""/>
               </div>
               <div
                 class="project-right-arrow"
-                (click)="goNextSubProject(i)"
+                (click)="goNextSubProject()"
               ></div>
             </div>
           </div>
           <div class="project-subproject">
             <div class="subproject-name">
-              <span>{{ getActiveSubProject(i).name }}</span>
+              <span>{{ getActiveSubProject().name }}</span>
             </div>
             <div class="particular-descriptions">
               <div class="a-particular-description-left">
-                {{ getActiveSubProject(i).fcc_style_description }}
+                {{ getActiveSubProject().fcc_style_description }}
               </div>
               <div class="a-particular-description-right">
-                {{ getActiveSubProject(i).my_style_description }}
+                {{ getActiveSubProject().my_style_description }}
               </div>
             </div>
           </div>
