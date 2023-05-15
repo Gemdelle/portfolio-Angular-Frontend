@@ -190,6 +190,19 @@ nav ul li a:hover {
   border: none;
 }
 
+.logout {
+  margin-right: 0.5vw;
+}
+
+.logout button {
+  width: 10vw;
+  height: 5vw;
+  background-color: transparent;
+  border: none;
+}
+
+
+
 /*BOOSTRAP MODAL OVERRIDE*/
 .modal-backdrop {
   z-index: 0 !important;
@@ -402,7 +415,6 @@ i:hover {
   position: absolute;
   top: 2%;
   right: 16%;
-  background-color: rgb(113, 224, 174);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,7 +428,6 @@ i:hover {
   position: absolute;
   top: 2%;
   right: 2%;
-  background-color: rgb(111, 34, 34);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -431,13 +442,12 @@ i:hover {
 #academy-title-06 .edit,
 #academy-title-07 .edit,
 #academy-title-08 .edit {
-  height: 2vw;
-  width: 2vw;
+  height: 1.5vw;
+  width: 1.5vw;
   border-radius: 50%;
   position: absolute;
   top: 20%;
   right: 6%;
-  background-color: rgb(113, 224, 174);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,13 +462,32 @@ i:hover {
 #academy-title-06 .delete,
 #academy-title-07 .delete,
 #academy-title-08 .delete {
-  height: 2vw;
-  width: 2vw;
+  height: 1.5vw;
+  width: 1.5vw;
   border-radius: 50%;
   position: absolute;
   top: 20%;
   right: 2%;
-  background-color: rgb(111, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: url(assets/Images/cursor-pointer.png), pointer;
+}
+
+#academy-title-01 .apply,
+#academy-title-02 .apply,
+#academy-title-03 .apply,
+#academy-title-04 .apply,
+#academy-title-05 .apply,
+#academy-title-06 .apply,
+#academy-title-07 .apply,
+#academy-title-08 .apply {
+  height: 1.5vw;
+  width: 1.5vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  right: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -505,7 +534,6 @@ i:hover {
   position: absolute;
   top: 2%;
   right: 4%;
-  background-color: rgb(111, 34, 34);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -533,7 +561,6 @@ i:hover {
   position: absolute;
   top: 2%;
   right: 2%;
-  background-color: rgb(111, 34, 34);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1747,6 +1774,7 @@ i:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 
 .course-description-text {
@@ -2313,6 +2341,7 @@ footer {
 
 .accordion {
   cursor: url(assets/Images/cursor-pointer.png), pointer;
+  position: relative;
 }
 
 .accordion-content {

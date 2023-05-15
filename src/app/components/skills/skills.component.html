@@ -32,10 +32,6 @@
                 <div class="skill-name">{{skill.name}}</div>
               </div>
             </div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-            <i class="fa-solid fa-subscript"></i>
-            </div>
         </div>
       </div>
 
@@ -52,10 +48,6 @@
                 <div [class.skill-level] = "isSoftSkillsActive && skill.level >= '1'" [class.empty-skill-level] = "!isSoftSkillsActive || skill.level < '1'" ></div>
               </div>
             </div>
-            </div>
-            <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-            <div class="delete hidden">
-            <i class="fa-solid fa-subscript"></i>
             </div>
         </div>
       </div>

@@ -20,3 +20,47 @@
     position: absolute;
 }
 
+.edit {
+    background-image: url(../../../assets/Images/edit-button.png);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    top: 0vw;
+    right: 5vw;
+}
+
+.course-description .edit {
+    top: 3vw;
+    right: 20vw;
+}
+
+.certificate-container .edit {
+    top: 0vw;
+    right: 0vw;
+}
+
+.delete {
+    background-image: url(../../../assets/Images/delete-button.png);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    top: 0vw;
+    width: 2vw;
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+.apply {
+    background-image: url(../../../assets/Images/apply-button.png);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    top: 0vw;
+    width: 2vw;
+    height: 1.5vw;
+    width: 1.5vw;
+}
+

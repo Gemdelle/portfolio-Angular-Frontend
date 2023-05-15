@@ -28,8 +28,6 @@
 
     <!-- Project TYPE 01 (there is only one) -->
     <div class="project-01" *ngFor="let project of projects | filter:currentFilter">
-      <div class="edit hidden"><i class="fas fa-pen-nib"></i></div>
-      <div class="delete hidden"><i class="fa-solid fa-subscript"></i></div>
       <div class="project-title">
         <span>{{ project.title }}</span>
       </div>

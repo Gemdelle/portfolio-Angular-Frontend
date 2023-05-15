@@ -79,16 +79,16 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <div class="modal-input"><label for="modal-name"></label><span>Name: </span><input
-                                        type="text" id="modal-name" required /></div>
+                                <div class="modal-input"><label for="modal-name"></label><span>Email: </span><input
+                                        type="text" id="modal-name" required (change)="emailChanged($event)" /></div>
                                 <div class="modal-input"><label for="modal-password"></label><span>Password:
                                     </span><input type="password" id="modal-password" pattern="[a-z0-9]" minlength="8"
-                                        required /></div>
+                                        required (change)="passwordChanged($event)" /></div>
                             </div>
                             <div class="modal-footer login-buttons">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 <button id="login-btn" type="button" class="btn btn-primary"
-                                    data-bs-dismiss="modal">Login</button>
+                                    data-bs-dismiss="modal" (click)="loginUser()">Login</button>
                             </div>
                         </div>
                     </div>
@@ -96,8 +96,10 @@
 
                 <div class="login">
                     <button id="login-trigger-button" type="button" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"></button>
-                    <button id="logout-btn" type="button" class="hidden">Logout</button>
+                        data-bs-target="#staticBackdrop" *ngIf="!isUserLoggedIn"></button>
+                </div>
+                <div class="logout">
+                    <button id="logout-btn" type="button" *ngIf="isUserLoggedIn" (click)="logoutUser()">Logout</button>
                 </div>
 
                 <!-- ----------------------------------------------------------------------------------------------------------->

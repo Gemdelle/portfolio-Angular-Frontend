@@ -14,25 +14,31 @@
         <div class="academy-container">
             <div *ngFor="let academy of academies;  index as i;">
                 <div [id]="'academy-title-0'+ (i+1)" class="academy-title">
-                    <div class="edit hidden"><i class='fas fa-pen-nib'></i></div>
-                    <div class="delete hidden"><i class='fa-solid fa-subscript'></i></div>
-                    <div class="academy-logo" [ngStyle]="{ 'background-image': 'url(' + academy.logo + ')'}"></div>
-                    <div class="academy-name">{{academy.name}}</div>
+                    <div class="edit" *ngIf="isAdminLoggedIn && !isAcademyInEdition(academy.name)" (click)="editAcademy(academy.name)"></div>
+                    <div class="delete" *ngIf="isAdminLoggedIn && !isAcademyInEdition(academy.name)" (click)="deleteAcademy(academy.name)"></div>
+                    <div class="apply" *ngIf="isAdminLoggedIn && isAcademyInEdition(academy.name)" (click)="applyAcademyChanges(academy.name)"></div>
+                    <div class="academy-logo" *ngIf="!isAcademyInEdition(academy.name)" [ngStyle]="{ 'background-image': 'url(' + academy.logo + ')'}"></div>
+                    <div class="academy-name" *ngIf="!isAcademyInEdition(academy.name)">{{academy.name}}</div>
+                    <input class="academy-logo" *ngIf="isAdminLoggedIn && isAcademyInEdition(academy.name)" [value]="academy.logo" (change)="academyLogoChanged($event)"/>
+                    <input class="academy-name" *ngIf="isAdminLoggedIn && isAcademyInEdition(academy.name)" [value]="academy.name" (change)="academyNameChanged($event)"/>
                 </div>
                 <div class="academy-content" *ngFor="let course of academy.courses">
                     <div id="course-name-01" (click)="onAccordionClick($event)" class="accordion">
                         <div class="academy-arrow"></div>
-                        <div class="course-name">{{course.name}}</div>
+                        <div class="course-name" *ngIf="!isAcademyInEdition(academy.name)">{{course.name}}</div>
+                        <input class="course-name" *ngIf="isAdminLoggedIn && isAcademyInEdition(academy.name)" [value]="course.name" (change)="courseNameChanged(course.name,$event)"/>
+                        <div class="delete" *ngIf="isAdminLoggedIn && !isAcademyInEdition(academy.name)" (click)="deleteCourse(course.name)"></div>
                     </div>
                     <div class="course-content accordion-content">
                         <div class="course-description">
-                        <p class="course-description-text">{{course.description}}</p>
+                        <p class="course-description-text" *ngIf="!isAcademyInEdition(academy.name)">{{course.description}}</p>
+                        <input class="course-description-text" *ngIf="isAdminLoggedIn && isAcademyInEdition(academy.name)" [value]="course.description" (change)="courseDescriptionChanged(course.name, $event)"/>
                         <div class="baroque-close"></div>
                     </div>
                     <div class="certificate-container">
-                        <a [href]="course.certificate" target="_blank"><div class="course-certificate"></div></a>
-                        <img [src]="course.certificate">
-                    </div>
+                        <a [href]="course.certificate" target="_blank" *ngIf="!isAcademyInEdition(academy.name)"><div class="course-certificate"></div></a>
+                        <img [src]="course.certificate" *ngIf="!isAcademyInEdition(academy.name)">
+                        <input *ngIf="isAdminLoggedIn && isAcademyInEdition(academy.name)" [value]="course.certificate" (change)="courseCertificateChanged(course.name,$event)"/>
                     </div>
                 </div>
             </div>
