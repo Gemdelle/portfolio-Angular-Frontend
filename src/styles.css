@@ -1494,7 +1494,7 @@ i:hover {
 }
 
 .hard-blood {
-  background-image: url(Assets/Images/hard-dormant-veins.png);
+  background-image: url(assets/Images/hard-dormant-veins.png);
   background-size: 95% 90%;
   background-repeat: no-repeat;
   height: 10vw;
@@ -1507,7 +1507,7 @@ i:hover {
 }
 
 .soft-blood {
-  background-image: url(Assets/Images/soft-dormant-veins.png);
+  background-image: url(assets/Images/soft-dormant-veins.png);
   background-size: 95% 90%;
   background-repeat: no-repeat;
   height: 10vw;
@@ -1521,11 +1521,11 @@ i:hover {
 
 /* ESTE HOVER DEBERÍA SER SOBRE EL DIBUJO DE HARD SKILLS */
 .hard-blood.active {
-  background-image: url(Assets/Images/hard-active-veins.png);
+  background-image: url(assets/Images/hard-active-veins.png);
 }
 
 .soft-blood.active {
-  background-image: url(Assets/Images/soft-active-veins.png);
+  background-image: url(assets/Images/soft-active-veins.png);
 }
 /* FIN HOVER */
 
@@ -1624,7 +1624,7 @@ i:hover {
 /* COURSES */
 
 .courses-container {
-  background-image: url(Assets/Images/velvet-03.png);
+  background-image: url(assets/Images/velvet-03.png);
   background-size: contain;
   background-position: top;
   margin: 0 auto;
@@ -1690,7 +1690,7 @@ i:hover {
 }
 
 .academy-container {
-  background-image: url(Assets/Images/velvet-05.png);
+  background-image: url(assets/Images/velvet-05.png);
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -1705,7 +1705,7 @@ i:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(Assets/Images/academy-name-bar.png);
+  background-image: url(assets/Images/academy-name-bar.png);
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
