@@ -14,7 +14,7 @@ export class DataService {
   /* Devuelve todo */
   obtainData(): Observable<any>{
     return this.httpClient
-      .get("http://localhost:8080/users/1")
+      .get("https://portfolioap-9gj7.onrender.com/users/1")
       .pipe(
         map((portfolio: any) => {
           this.portfolio = portfolio;
@@ -25,7 +25,7 @@ export class DataService {
 
   updateUserPortfolio(): Observable<any> {
     return this.httpClient
-    .post("http://localhost:8080/users/update/1", this.portfolio);
+    .post("https://portfolioap-9gj7.onrender.com/users/update/1", this.portfolio);
   }
 
   

@@ -16,7 +16,7 @@ export class UserService {
 
   loginUser(email: string, password: string): Observable<any>{
     return this.httpClient
-      .post("http://localhost:8080/users/login", {email: email, password: password}).pipe(
+      .post("https://portfolioap-9gj7.onrender.com/users/login", {email: email, password: password}).pipe(
         map(() => {
           this.isLoggedIn = true;
           return true;
