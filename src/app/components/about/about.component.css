@@ -279,9 +279,16 @@
     width: 50%;
     height: 50%;
     margin: 0;
-    font-weight: 600;
+
     text-shadow: 0vw 0.5vw 0.5vw rgb(67, 67, 53);
-    color: #E6E7E1;
+    color: #d1d2cc;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin-top: 2.6vw;
+    margin-right: 0.35vw;
+    /* font-size: ; */
 }
 
 /*END ABOUT*/
