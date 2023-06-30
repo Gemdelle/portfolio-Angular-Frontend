@@ -14,7 +14,7 @@ export class DataService {
   /* Devuelve todo */
   obtainData(): Observable<any>{
     return this.httpClient
-      .get("https://portfolioap-9gj7.onrender.com/users/1")
+      .get("https://ap-portfolio-backend-ab0089fffe52.herokuapp.com/users/4")
       .pipe(
         map((portfolio: any) => {
           this.portfolio = portfolio;
@@ -25,7 +25,7 @@ export class DataService {
 
   updateUserPortfolio(): Observable<any> {
     return this.httpClient
-    .post("https://portfolioap-9gj7.onrender.com/users/update/1", this.portfolio);
+    .post("https://ap-portfolio-backend-ab0089fffe52.herokuapp.com/users/update/1", this.portfolio);
   }
 
   
